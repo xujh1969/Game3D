@@ -1,6 +1,6 @@
 # IMAGE_PROP_REF_001_ArchDoorSong — 宋风木门参考图
 
-- 状态：WAITING_FOR_USER
+- 状态：PASS
 - 用途：ARCH_003 双扇木门建模与门扇拆分参考。
 - 数量与画幅：4 张 1:1；正面、侧面、背面、格心与五金特写。
 - 背景：纯白或浅灰；完整门体、无门洞环境、无地台、无文字水印。
@@ -11,4 +11,6 @@
 - 操作：生成并检查后保存 PNG/JPG；完成后回复“素材已放好，继续”。
 
 ## 2026-10-22 更新
-已由内置图像工具生成正/侧/背/局部同板：handoff/reference/generated/PROP_REF_001_ArchDoorSong_sheet_v001.png。当前只需审核形制，无需重新生成；正背结构细节在正式建模前统一。详见 handoff/approvals/ART_DIRECTION_v001.md。
+已由内置图像工具生成正/侧/背/局部同板：handoff/reference/generated/PROP_REF_001_ArchDoorSong_sheet_v001.png。形制已批准，无需重新生成；正背结构细节在正式建模前统一。详见 handoff/approvals/ART_DIRECTION_v001.md。
+
+2026-10-22：用户明确认可本设计，视觉方向批准记录见 handoff/approvals/USER_APPROVAL_2026-10-22_Qinglan_Door_v001.md。

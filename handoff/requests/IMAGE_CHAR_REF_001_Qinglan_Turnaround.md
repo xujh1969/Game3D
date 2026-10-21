@@ -1,6 +1,6 @@
 # IMAGE_CHAR_REF_001_Qinglan_Turnaround — 青岚角色三视图
 
-- 状态：WAITING_FOR_USER
+- 状态：PASS
 - 用途：CHAR_001 正式建模前统一角色比例、服装、发型与行囊设计。
 - 数量与画幅：4 张，单张 3:4；正面、侧面、背面、3/4 视角。
 - 背景：纯浅灰；全身完整、无遮挡、无文字水印。
@@ -11,4 +11,6 @@
 - 操作：用任意图像工具生成并检查一致性，保存 PNG/JPG 到上述目录。完成后回复“素材已放好，继续”。
 
 ## 2026-10-22 更新
-已由内置图像工具生成四视图同板：handoff/reference/generated/CHAR_REF_001_Qinglan_Turnaround_sheet_v001.png。当前只需审核外观，无需用户重新生成；如需后续独立视图，在批准方向后另行导出/生成。详见 handoff/approvals/ART_DIRECTION_v001.md。
+已由内置图像工具生成四视图同板：handoff/reference/generated/CHAR_REF_001_Qinglan_Turnaround_sheet_v001.png。外观已批准，无需用户重新生成；如需后续独立视图，在批准方向后另行导出/生成。详见 handoff/approvals/ART_DIRECTION_v001.md。
+
+2026-10-22：用户明确认可本设计，视觉方向批准记录见 handoff/approvals/USER_APPROVAL_2026-10-22_Qinglan_Door_v001.md。
