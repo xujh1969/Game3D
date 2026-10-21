@@ -1,0 +1,80 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://scripts/player/proxy_animation.gd" id="1"]
+
+[sub_resource type="StandardMaterial3D" id="Cloth"]
+albedo_color = Color(0.13, 0.36, 0.34, 1)
+roughness = 0.95
+
+[sub_resource type="StandardMaterial3D" id="Head"]
+albedo_color = Color(0.47, 0.5, 0.46, 1)
+roughness = 0.95
+
+[sub_resource type="CapsuleMesh" id="Torso"]
+material = SubResource("Cloth")
+radius = 0.25
+height = 0.70
+
+[sub_resource type="SphereMesh" id="HeadMesh"]
+material = SubResource("Head")
+radius = 0.16
+height = 0.32
+
+[sub_resource type="CapsuleMesh" id="Leg"]
+material = SubResource("Cloth")
+radius = 0.105
+height = 0.78
+
+[sub_resource type="CapsuleMesh" id="Arm"]
+material = SubResource("Cloth")
+radius = 0.075
+height = 0.50
+
+[sub_resource type="BoxMesh" id="Nose"]
+material = SubResource("Head")
+size = Vector3(0.05, 0.04, 0.055)
+
+[node name="Proxy" type="Node3D"]
+script = ExtResource("1")
+
+[node name="Torso" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.12, 0)
+mesh = SubResource("Torso")
+
+[node name="Head" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.55, 0)
+mesh = SubResource("HeadMesh")
+
+[node name="FacingMarker" type="MeshInstance3D" parent="Head"]
+position = Vector3(0, 0, -0.16)
+mesh = SubResource("Nose")
+
+[node name="LeftLeg" type="Node3D" parent="."]
+position = Vector3(-0.135, 0.78, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="LeftLeg"]
+position = Vector3(0, -0.39, 0)
+mesh = SubResource("Leg")
+
+[node name="RightLeg" type="Node3D" parent="."]
+position = Vector3(0.135, 0.78, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="RightLeg"]
+position = Vector3(0, -0.39, 0)
+mesh = SubResource("Leg")
+
+[node name="LeftArm" type="Node3D" parent="."]
+position = Vector3(-0.32, 1.35, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="LeftArm"]
+position = Vector3(0, -0.20, 0)
+mesh = SubResource("Arm")
+
+[node name="RightArm" type="Node3D" parent="."]
+position = Vector3(0.32, 1.35, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="RightArm"]
+position = Vector3(0, -0.20, 0)
+mesh = SubResource("Arm")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]

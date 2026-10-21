@@ -24,6 +24,7 @@ func _physics_process(delta: float) -> void:
 	if direction.length() > 0.1:
 		$Proxy.rotation.y = lerp_angle($Proxy.rotation.y, atan2(-direction.x, -direction.z), minf(turn_speed * delta, 1.0))
 	move_and_slide()
+	$Proxy.update_movement(Vector2(velocity.x, velocity.z).length(), Input.is_action_pressed("run"))
 	_update_focus()
 	if Input.is_action_just_pressed("interact") and is_instance_valid(focus):
 		focus.interact(self)

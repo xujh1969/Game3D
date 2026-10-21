@@ -1,2 +1,3 @@
 timestamp,device,renderer,resolution,quality,scene,avg_fps,min_fps,method,notes
 2026-10-22,AMD Radeon(TM) Graphics,Forward Mobile Vulkan 1.3.260,1280x720,graybox,Courtyard_Blockout,,,GPU startup and automated route,FPS_NOT_MEASURED
+2026-10-22,AMD Radeon(TM) Graphics,Mobile Vulkan 1.3.260,1280x720,development graybox,static spawn TEMP proxy plus door v003,144.021883,100.070049,2s warmup then 10.005424s process_frame wallclock,1441 focused frames; min is reciprocal slowest frame; max 28 draws and 40904 primitives; final art unmeasured

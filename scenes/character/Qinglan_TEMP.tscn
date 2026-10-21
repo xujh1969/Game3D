@@ -1,19 +1,12 @@
-[gd_scene load_steps=6 format=3]
+[gd_scene load_steps=5 format=3]
 
 [ext_resource type="Script" path="res://scripts/player/player_controller.gd" id="1"]
 [ext_resource type="Script" path="res://scripts/player/third_person_camera.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/character/QinglanProxy_TEMP.tscn" id="3"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_player"]
 radius = 0.35
 height = 1.8
-
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_proxy"]
-radius = 0.32
-height = 1.7
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_temp"]
-albedo_color = Color(0.13, 0.45, 0.42, 1)
-roughness = 0.9
 
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1")
@@ -22,10 +15,7 @@ script = ExtResource("1")
 position = Vector3(0, 0.9, 0)
 shape = SubResource("CapsuleShape3D_player")
 
-[node name="Proxy" type="MeshInstance3D" parent="."]
-position = Vector3(0, 0.9, 0)
-mesh = SubResource("CapsuleMesh_proxy")
-material_override = SubResource("StandardMaterial3D_temp")
+[node name="Proxy" parent="." instance=ExtResource("3")]
 
 [node name="SpringArm3D" type="SpringArm3D" parent="."]
 position = Vector3(0, 1.5, 0)

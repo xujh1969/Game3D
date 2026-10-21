@@ -1,0 +1,13 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: TEMP proxy provides an AnimationPlayer
+PASS: three named TEMP motion clips exist
+PASS: stationary character plays Idle
+PASS: W movement plays Walk
+PASS: limb pose changes over time
+PASS: Shift movement plays Run
+PASS: sprint moves faster than walking
+PASS: pause freezes the motion clip
+PASS: release movement returns to Idle
+PASS: motion clips preserve player floor contact
+PROXY_ANIMATION_RESULT: 0 failures

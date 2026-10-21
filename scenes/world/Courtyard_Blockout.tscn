@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3]
+[gd_scene load_steps=19 format=3]
 
 [ext_resource type="Script" path="res://scripts/gameplay/game_state.gd" id="1"]
 [ext_resource type="Script" path="res://scripts/ui/hud.gd" id="2"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" path="res://scripts/interactables/clue.gd" id="4"]
 [ext_resource type="PackedScene" path="res://scenes/interactables/Door.tscn" id="5"]
 [ext_resource type="Script" path="res://scripts/interactables/finish_trigger.gd" id="6"]
+[ext_resource type="Script" path="res://scripts/debug/debug_hud.gd" id="7"]
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_ground"]
 size = Vector2(30, 30)
@@ -161,5 +162,15 @@ shape = SubResource("BoxShape3D_finish")
 
 [node name="UI" type="CanvasLayer" parent="."]
 script = ExtResource("2")
+
+[node name="DebugHUD" type="Label" parent="UI"]
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 24.0
+offset_top = -28.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 16
+script = ExtResource("7")
 
 

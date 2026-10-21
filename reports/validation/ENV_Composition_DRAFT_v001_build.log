@@ -1,0 +1,16 @@
+C:\Users\AYOU\Desktop\MountainCourtyard\tools\blender\build_courtyard_draft.py:17: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+00:51:02 | INFO: Data are loaded, start creating Blender stuff
+00:51:02 | INFO: Blender create Mesh node Cube
+00:51:02 | INFO: Blender create Mesh node Cube.018
+00:51:02 | INFO: Blender create Mesh node Cube.046
+00:51:02 | INFO: glTF import finished in 0.04s
+C:\Users\AYOU\Desktop\MountainCourtyard\tools\blender\build_courtyard_draft.py:125: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes = True
+00:17.282  render           | Saved: 'C:\Users\AYOU\Desktop\MountainCourtyard\handoff\reference\environments\ENV_Composition_DRAFT_v001_main.png'
+00:29.078  render           | Saved: 'C:\Users\AYOU\Desktop\MountainCourtyard\handoff\reference\environments\ENV_Composition_DRAFT_v001_entrance.png'
+Info: Saved as "ENV_Courtyard_Composition_DRAFT_v001.blend"
+COURTYARD_DRAFT: rendered proposal only; no game asset exported
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

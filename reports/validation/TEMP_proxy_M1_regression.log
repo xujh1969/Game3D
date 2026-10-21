@@ -1,0 +1,28 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: player settles on floor
+PASS: W moves toward camera forward (-Z)
+PASS: character turning does not rotate camera
+PASS: finish refuses player before door opens
+PASS: door stays locked before three clues
+PASS: wall blocks interaction focus
+CAMERA_PROBE: hit=1.265625 camera=(-0.0, 1.726585, -7.945178) player=(0.0, 0.0, -6.7)
+PASS: camera retracts before closed door
+PASS: closed door physically blocks passage
+PASS: E input collects focused clue
+PASS: collected clue cannot retain interaction focus
+PASS: repeat clue interaction does not increase count
+PASS: three clues unlock door
+PASS: HUD shows three clues
+PASS: door is not marked open before animation completes
+PASS: opening door retains physical collision
+PASS: door opens after animation
+PASS: player physically passes through opened doorway
+PASS: victory is recorded exactly once after opening
+PASS: victory displays restart and exit menu
+PASS: restart clears clues
+PASS: restart restores locked door
+PASS: pause displays menu and stops game
+PASS: resume returns to game
+PASS: courtyard boundary prevents falling out
+M1_RESULT: 0 failures
