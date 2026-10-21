@@ -1,0 +1,27 @@
+C:\Users\AYOU\Desktop\MountainCourtyard\tools\blender\build_courtyard.py:43: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+Info: Saved as "ARCH_Courtyard_v001.blend"
+Warning: No mesh data to join
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+00:58:53 | INFO: Starting glTF 2.0 export
+00:58:53 | INFO: Extracting primitive: Cube.020
+00:58:54 | INFO: Primitives created: 1
+00:58:54 | INFO: Extracting primitive: Pan_And_Cover_Tiles
+00:58:54 | INFO: Primitives created: 1
+00:58:54 | INFO: Extracting primitive: Cube.099
+00:58:54 | INFO: Primitives created: 2
+00:58:54 | INFO: Extracting primitive: Cube.066
+00:58:54 | INFO: Primitives created: 1
+00:58:54 | INFO: Extracting primitive: Cube.249
+00:58:54 | INFO: Primitives created: 3
+00:58:54 | INFO: Extracting primitive: Cube
+00:58:54 | INFO: Primitives created: 1
+00:58:54 | INFO: Extracting primitive: Cube.161
+00:58:54 | INFO: Primitives created: 1
+00:58:54 | INFO: Finished glTF 2.0 export in 0.3791811466217041 s
+
+COURTYARD_BUILD: C:\Users\AYOU\Desktop\MountainCourtyard\assets\game\ARCH_Courtyard_v001_game.glb
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

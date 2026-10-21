@@ -1,15 +1,15 @@
 # REQUESTS
 
-更新：2026-10-22。青岚与木门视觉方向已获用户认可；庭院主视角v002及Blender尺度草案已取得输出。当前审核见`handoff/approvals/COURTYARD_COMPOSITION_DRAFT_v001.md`。不用重新生成已有角色/木门图。
+更新：2026-10-22。青岚与木门视觉方向已获用户认可；庭院概念提交后用户指示继续，已接入建筑v002和岩石首版。方向记录见`handoff/approvals/COURTYARD_DIRECTION_CONTINUE_2026-10-22.md`，实际交付见`reports/validation/COURTYARD_DELIVERY_v002.md`。不用重新生成已有参考与岩石。
 
 ## 图像任务
 - IMAGE_CHAR_REF_001_Qinglan_Turnaround — PASS：2026-10-22用户已认可转面同板 `handoff/reference/generated/CHAR_REF_001_Qinglan_Turnaround_sheet_v001.png`。
 - IMAGE_PROP_REF_001_ArchDoorSong — PASS：2026-10-22用户已认可正/侧/背/局部同板 `handoff/reference/generated/PROP_REF_001_ArchDoorSong_sheet_v001.png`。
-- IMAGE_ENV_REF_001_MainCourtyardHero — WAITING_FOR_USER：入口keyframe01_v002与主视角keyframe02_v002均已生成并查看，另有入口/斜向Blender尺度草案，正式主建筑外形/构图待HUMAN GATE #2批准。v001历史失败保留记录，本次v002已有实际图像输出。
+- IMAGE_ENV_REF_001_MainCourtyardHero — PASS_WITH_LIMITATIONS：两张v002概念与尺度草案提交后，用户回复“继续开发”，沿用方向推进，记录见COURTYARD_DIRECTION_CONTINUE_2026-10-22.md；最终场景外观尚未验收。
 
 ## 后续三维资产（先确认图像，暂不请用户同时生成模型）
 - ASSET_ARCH_003 — PASS_WITH_LIMITATIONS：v003已由Blender制作并接入Godot；独立双门开合、碰撞与通关检查通过。报告 reports/validation/ARCH_003_DELIVERY_v003.md。
-- ASSET_NAT_001 — NOT_STARTED：任务单已备好，待庭院视觉方向统一。
+- ASSET_NAT_001 — PASS_WITH_LIMITATIONS：三种CC0扫描岩石已整理并接入；来源、减面数据和真实场景检查见COURTYARD_DELIVERY_v002.md，无需用户另行生成。
 - ASSET_PROP_001 — NOT_STARTED：任务单已备好，待庭院视觉方向统一及物件参考。
 
 生成提示词原文：`handoff/reference/generated/PROMPTS_v001.md`。对应 IMAGE/ASSET 任务单原路径不变；本索引的状态优先于任务单里的初始待办状态。

@@ -1,0 +1,64 @@
+{
+  "source": "C:\\Users\\AYOU\\Desktop\\MountainCourtyard\\assets\\game\\NAT_001_MossRock_002_v001_game.glb",
+  "blender_version": "5.2.2 LTS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "mesh_count": 1,
+  "triangles": 3499,
+  "materials": [
+    "rock_moss_set_01"
+  ],
+  "blender_bounds_xyz": [
+    [
+      -0.731444239616394,
+      0.7322449088096619
+    ],
+    [
+      -0.8998868465423584,
+      0.9009180665016174
+    ],
+    [
+      -0.0009681929950602353,
+      0.695225179195404
+    ]
+  ],
+  "godot_dimensions_xyz_m": [
+    1.463689148426056,
+    0.6961933721904643,
+    1.8008049130439758
+  ],
+  "armatures": [],
+  "actions": [],
+  "images": [
+    {
+      "name": "rock_moss_set_01_diff_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "rock_moss_set_01_nor_gl_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "rock_moss_set_01_rough_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    }
+  ],
+  "missing_files": [],
+  "requires_review": [
+    "Source and license",
+    "Expected real-world dimensions and pivot",
+    "Normals, UV, PBR appearance, extra base geometry",
+    "Rig and animation quality when applicable"
+  ]
+}

@@ -1,6 +1,7 @@
 # ASSET_NAT_001 — 苔藓山石
 
-- 状态：WAITING_FOR_USER
+- 状态：PASS_WITH_LIMITATIONS
+- 2026-10-22：已采用许可核验的Poly Haven Rock Moss Set 01（Kless Gyzen，CC0），整理三种约3500三角面GLB并接入庭院；无需用户重新生成。原任务提示词保留为历史备选，实际交付见`reports/validation/COURTYARD_DELIVERY_v002.md`与`docs/ASSET_LICENSES.md`。
 - 用途：庭院边缘与竹林间可复用自然石块，制作 3 个外形变体可后续安排。
 - 尺寸：主样约 1.2 m 宽、0.8 m 高；目标 2k–8k triangles，1024px PBR 起步。
 - 推荐工具：Blender 或 Tripo/混元；先准备独立岩石参考，不带地台。

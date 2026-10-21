@@ -8,11 +8,15 @@ var primitives: Array[float] = []
 var focused_frames := 0
 var finishing := false
 var world: Node
+var report_name := "Graybox_Profile_v001"
 
 func _initialize() -> void:
 	run.call_deferred()
 
 func run() -> void:
+	for argument in OS.get_cmdline_user_args():
+		if argument.begins_with("--report-name="):
+			report_name = argument.trim_prefix("--report-name=")
 	if DisplayServer.get_name() == "headless":
 		push_error("GPU baseline requires a graphical backend; headless cannot measure it")
 		quit(1)
@@ -51,7 +55,7 @@ func finish() -> void:
 	var report := {
 		"status": "PASS_WITH_LIMITATIONS",
 		"date": "2026-10-22",
-		"scene": "Courtyard_Blockout / static spawn / TEMP articulated proxy + ARCH_003 v003",
+		"scene": "Courtyard_Blockout / static spawn / " + ("ARCH_Courtyard_v002 + NAT_001 v001 + " if world.has_node("Architecture") else "") + "TEMP articulated proxy + ARCH_003 v003",
 		"device": RenderingServer.get_video_adapter_name(),
 		"renderer": ProjectSettings.get_setting("rendering/renderer/rendering_method"),
 		"viewport": [root.size.x, root.size.y],
@@ -64,7 +68,7 @@ func finish() -> void:
 		"focused_frames": focused_frames,
 		"draw_calls_max": draw_calls.max(),
 		"rendered_primitives_max": primitives.max(),
-		"limitations": "Static development graybox only; process_frame wall-clock intervals after warmup. Minimum is reciprocal of the single slowest frame. Includes development HUD and desktop overhead. Not final art performance, not a 30fps acceptance result."
+		"limitations": "Static development scene only; process_frame wall-clock intervals after warmup. Minimum is reciprocal of the single slowest frame. Includes development HUD and desktop overhead. Not final art performance, not a 30fps acceptance result."
 	}
 	var hud: Label = world.get_node("UI/DebugHUD")
 	var key := InputEventKey.new()
@@ -74,9 +78,9 @@ func finish() -> void:
 	hud._unhandled_input(key)
 	report["debug_toggle_checked"] = hud.visible != visible_before
 	hud._unhandled_input(key)
-	var file := FileAccess.open("res://reports/validation/Graybox_Profile_v001.json", FileAccess.WRITE)
+	var file := FileAccess.open("res://reports/validation/" + report_name + ".json", FileAccess.WRITE)
 	file.store_string(JSON.stringify(report, "\t") + "\n")
 	await RenderingServer.frame_post_draw
-	root.get_texture().get_image().save_png("res://reports/screenshots/Graybox_Profile_v001.png")
+	root.get_texture().get_image().save_png("res://reports/screenshots/" + report_name + ".png")
 	print("GRAYBOX_PROFILE: ", JSON.stringify(report))
 	quit()

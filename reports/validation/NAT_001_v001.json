@@ -1,0 +1,41 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "source": "https://polyhaven.com/a/rock_moss_set_01",
+  "license": "CC0",
+  "author": "Kless Gyzen",
+  "variants": [
+    {
+      "file": "NAT_001_MossRock_001_v001_game.glb",
+      "triangles_before": 11000,
+      "triangles_after": 3499,
+      "godot_dimensions_xyz_m": [
+        1.1944303512573242,
+        0.7847781777381897,
+        1.797999382019043
+      ],
+      "materials": 1
+    },
+    {
+      "file": "NAT_001_MossRock_002_v001_game.glb",
+      "triangles_before": 10996,
+      "triangles_after": 3499,
+      "godot_dimensions_xyz_m": [
+        1.4636890888214111,
+        0.6961933970451355,
+        1.800804853439331
+      ],
+      "materials": 1
+    },
+    {
+      "file": "NAT_001_MossRock_003_v001_game.glb",
+      "triangles_before": 5000,
+      "triangles_after": 3500,
+      "godot_dimensions_xyz_m": [
+        1.7996163368225098,
+        0.9382277131080627,
+        1.7752466201782227
+      ],
+      "materials": 1
+    }
+  ]
+}
