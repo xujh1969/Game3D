@@ -1,0 +1,68 @@
+{
+  "source": "C:\\Users\\AYOU\\Desktop\\MountainCourtyard\\assets\\game\\NAT_002_BambooClump_v001_game.glb",
+  "blender_version": "5.2.2 LTS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "mesh_count": 1,
+  "triangles": 12552,
+  "materials": [
+    "Bamboo_Culm_PBR",
+    "Bamboo_Leaf_0",
+    "Bamboo_Leaf_1",
+    "Bamboo_Leaf_2",
+    "Bamboo_Node"
+  ],
+  "blender_bounds_xyz": [
+    [
+      -1.5323741436004639,
+      1.256605863571167
+    ],
+    [
+      -1.1628713607788086,
+      1.0403133630752563
+    ],
+    [
+      -0.00219350284896791,
+      4.8005051612854
+    ]
+  ],
+  "godot_dimensions_xyz_m": [
+    2.788980007171631,
+    4.802698664134368,
+    2.203184723854065
+  ],
+  "armatures": [],
+  "actions": [],
+  "images": [
+    {
+      "name": "Bamboo_Culm_PBR_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Bamboo_Culm_PBR_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Bamboo_Culm_PBR_Roughness",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    }
+  ],
+  "missing_files": [],
+  "requires_review": [
+    "Source and license",
+    "Expected real-world dimensions and pivot",
+    "Normals, UV, PBR appearance, extra base geometry",
+    "Rig and animation quality when applicable"
+  ]
+}

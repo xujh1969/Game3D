@@ -1,0 +1,9 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: world instances bamboo and mountain scenery
+PASS: four clumps provide 24 narrow stem colliders
+PASS: bamboo has rendered surfaces using opaque geometry materials
+PASS: distant mountains do not add playable terrain or collision
+PASS: regular fog enabled without Forward+ volumetrics
+PASS: stem is included in scene physics queries
+ENVIRONMENT_RESULT: 0 failures

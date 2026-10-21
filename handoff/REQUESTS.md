@@ -10,6 +10,7 @@
 ## 后续三维资产（先确认图像，暂不请用户同时生成模型）
 - ASSET_ARCH_003 — PASS_WITH_LIMITATIONS：v003已由Blender制作并接入Godot；独立双门开合、碰撞与通关检查通过。报告 reports/validation/ARCH_003_DELIVERY_v003.md。
 - ASSET_NAT_001 — PASS_WITH_LIMITATIONS：三种CC0扫描岩石已整理并接入；来源、减面数据和真实场景检查见COURTYARD_DELIVERY_v002.md，无需用户另行生成。
+- ASSET_NAT_002 / ENV_MOUNTAINS — PASS_WITH_LIMITATIONS：项目制作的竹丛/远山v002已接入，来源/验证/不足见ENV_LANDSCAPE_DELIVERY_v002.md；无需用户提供同类占位资产。
 - ASSET_PROP_001 — NOT_STARTED：任务单已备好，待庭院视觉方向统一及物件参考。
 
 生成提示词原文：`handoff/reference/generated/PROMPTS_v001.md`。对应 IMAGE/ASSET 任务单原路径不变；本索引的状态优先于任务单里的初始待办状态。

@@ -1,0 +1,23 @@
+C:\Users\AYOU\Desktop\MountainCourtyard\tools\blender\build_landscape.py:19: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes=True
+Info: Saved as "ENV_BambooLandscape_v001.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+02:17:43 | INFO: Starting glTF 2.0 export
+02:17:43 | INFO: Extracting primitive: Bamboo_Clump
+02:17:44 | INFO: Primitives created: 5
+02:17:44 | INFO: Finished glTF 2.0 export in 0.17716288566589355 s
+
+02:17:44 | INFO: Starting glTF 2.0 export
+02:17:44 | INFO: Extracting primitive: Distant_Ridge_1
+02:17:44 | INFO: Primitives created: 1
+02:17:44 | INFO: Extracting primitive: Distant_Ridge_2
+02:17:44 | INFO: Primitives created: 1
+02:17:44 | INFO: Extracting primitive: Distant_Ridge_3
+02:17:44 | INFO: Primitives created: 1
+02:17:44 | INFO: Finished glTF 2.0 export in 0.13785195350646973 s
+
+LANDSCAPE_BUILD: bamboo and background ridges exported
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

@@ -1,0 +1,114 @@
+{
+  "source": "C:\\Users\\AYOU\\Desktop\\MountainCourtyard\\assets\\game\\ENV_DistantMountains_v001_game.glb",
+  "blender_version": "5.2.2 LTS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "mesh_count": 3,
+  "triangles": 12960,
+  "materials": [
+    "Mountain_Rock_0",
+    "Mountain_Rock_1",
+    "Mountain_Rock_2"
+  ],
+  "blender_bounds_xyz": [
+    [
+      -155.0,
+      155.0
+    ],
+    [
+      34.0,
+      194.0
+    ],
+    [
+      -3.0,
+      57.11188888549805
+    ]
+  ],
+  "godot_dimensions_xyz_m": [
+    310.0,
+    60.11188888549805,
+    160.0
+  ],
+  "armatures": [],
+  "actions": [],
+  "images": [
+    {
+      "name": "Mountain_Rock_0_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Mountain_Rock_0_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Mountain_Rock_0_Roughness",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Mountain_Rock_1_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Mountain_Rock_1_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Mountain_Rock_1_Roughness",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Mountain_Rock_2_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Mountain_Rock_2_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Mountain_Rock_2_Roughness",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    }
+  ],
+  "missing_files": [],
+  "requires_review": [
+    "Source and license",
+    "Expected real-world dimensions and pivot",
+    "Normals, UV, PBR appearance, extra base geometry",
+    "Rig and animation quality when applicable"
+  ]
+}

@@ -21,6 +21,13 @@
 - `tools/blender/prepare_rocks.py`选前三个原网格，统一最长水平尺寸约1.8m、底部原点；BLEND保留减面前网格。运行GLB每个约3500三角面，贴图内嵌，无外部平台生成声明。
 - Powered by Poly Haven — https://polyhaven.com 。公共API仅用于离线素材准备，游戏运行不联网；原模型/贴图按CC0使用，不把API服务器代码许可证套用到资产。
 
-## TEMP管线立方体说明
+## NAT_002竹丛 / ENV_DistantMountains v002
+
+- 模型、纹理及参数材质均由项目脚本`tools/blender/build_landscape.py`制作，无外部模型或扫描输入。依据项目既有庭院概念方向。
+- 竹秆与山体使用项目生成的512px BaseColor/Roughness/Normal；源图位于`assets/source/materials/BambooLandscape_v002/`；竹叶为不透明参数材质，未使用外部照片或透明卡片。
+- 源文件`assets/source/ENV_BambooLandscape_v002.blend`包含完整几何与打包贴图；v001试制源保留。运行输出`NAT_002_BambooClump_v002_game.glb`和`ENV_DistantMountains_v002_game.glb`。
+- 山体是不可进入的背景艺术网格，不是地理扫描，也没有声称真实地貌复原。
+
+## TEMP管线立方体来源
 
 `tests/create_asset_fixture.py` 本项目生成，仅用于技术验证，不是正式艺术资产。

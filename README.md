@@ -1,6 +1,6 @@
 # MountainCourtyard / 山中古院
 
-Godot 4.7.2，Windows 单机第三人称宋风山居探索解谜。当前30×30m可玩样板已接入首版三开间建筑、灰瓦、格子窗、石台基/石径和三种岩石，双门使用ARCH_003 v003。青岚几何代理与金色线索仍为TEMP，代理包含Idle/Walk/Run。
+Godot 4.7.2，Windows 单机第三人称宋风山居探索解谜。当前30×30m可玩样板已接入首版三开间建筑、灰瓦、格子窗、石台基/石径、三种岩石、四组竹丛和远山背景/深度雾，双门使用ARCH_003 v003。青岚几何代理与金色线索仍为TEMP，代理包含Idle/Walk/Run。
 
 ## 启动和操作
 
@@ -16,7 +16,9 @@ Godot 4.7.2，Windows 单机第三人称宋风山居探索解谜。当前30×30m
 
 实际 Godot 物理场景检查通过，headless 和本机 Mobile 图形后端的无传送自动输入路线均通过（0→3→开门→步行到终点）。日志、截图与验证边界见 `reports/validation/M1_ACCEPTANCE_2026-10-22.md`。
 
-完整真人键鼠通关、菜单按钮实点和长期镜头体验仍待验收。角色动作是TEMP几何摆动，尚无正式模型/骨骼/服装。本轮建筑/岩石组合场景通过台阶/碰撞检查、24项回归和Mobile自动通关；实机720p静止采样10秒平均144.03FPS。详见`reports/validation/COURTYARD_DELIVERY_v002.md`；最终竹林/远山/照明性能尚未测量。
+完整真人键鼠通关、菜单按钮实点和长期镜头体验仍待验收。角色动作是TEMP几何摆动，尚无正式模型/骨骼/服装。建筑/岩石阶段的台阶/碰撞及历史基线见`reports/validation/COURTYARD_DELIVERY_v002.md`。
+
+最新竹丛/远山阶段通过6项环境检查、24项回归和Mobile完整自动通关；实机720p静止10秒平均144.02FPS。详情与视觉限制见`reports/validation/ENV_LANDSCAPE_DELIVERY_v002.md`，最终材质/照明及长期稳定性仍待验收。
 
 ## 视觉方向审核
 

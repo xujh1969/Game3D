@@ -1,0 +1,9 @@
+02:19:57 | INFO: Data are loaded, start creating Blender stuff
+02:19:57 | INFO: Blender create Mesh node Distant_Ridge_1
+02:19:57 | INFO: Blender create Mesh node Distant_Ridge_2
+02:19:57 | INFO: Blender create Mesh node Distant_Ridge_3
+02:19:57 | INFO: glTF import finished in 0.07s
+ASSET_VALIDATION: PASS_WITH_LIMITATIONS
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

@@ -1,0 +1,8 @@
+Extensions: reading cache failed (Ran out of input), creating...
+02:22:39 | INFO: Data are loaded, start creating Blender stuff
+02:22:39 | INFO: Blender create Mesh node Bamboo_Clump
+02:22:39 | INFO: glTF import finished in 0.06s
+ASSET_VALIDATION: PASS_WITH_LIMITATIONS
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

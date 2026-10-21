@@ -2,6 +2,8 @@
 
 - `scenes/world/Courtyard_Blockout.tscn`：世界、碰撞边界、墙段/门、三项线索、终点、HUD。
 - 当前世界保留入口名，实例化`CourtyardArchitecture.tscn`与`CourtyardNature.tscn`。前者使用ARCH_Courtyard_v002静态GLB和显式简化碰撞，后者为三种扫描岩石及简化盒体碰撞。原HallWallLeft/Right由实际立面与两侧横墙替代。
+- `EnvironmentScenery.tscn`独立包含4组竹丛与3层远山；24根竹秆用窄柱碰撞，叶片无碰撞，远山无碰撞且全部位于可玩场界之外。生成脚本分别为`build_landscape.py`与`write_landscape_scene.py`。
+- WorldEnvironment启用Mobile普通深度雾，密度.0035，高度贡献关闭；不使用体积雾。现有相机/输入/线索接口不变。
 - 建筑石台基顶面Y=.3；双门根与终点随台基升高.3m。踏步采用宽3.8m的凸斜坡碰撞，避免为现有控制器增加跨阶系统；屋面凸形碰撞参与SpringArm遮挡。木门保持独立交互节点，未烘入静态建筑。
 - `scenes/character/Qinglan_TEMP.tscn`：CharacterBody3D根节点、TEMP标签、SpringArm3D和Camera3D；Proxy实例为`QinglanProxy_TEMP.tscn`，包含几何身体、四肢支点和AnimationPlayer。
 - `scripts/player/proxy_animation.gd`：运行时创建Idle/Walk/Run循环，按实际平面速度和奔跑输入选择，0.12秒混合；只改几何子节点，不移动物理根节点。无正式骨骼、脚底IK或服装。
