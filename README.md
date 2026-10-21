@@ -1,6 +1,6 @@
 # MountainCourtyard / 山中古院
 
-Godot 4.7.2，Windows 单机第三人称宋风山居探索解谜。当前是30×30m可玩灰盒，青岚胶囊、金色线索标记和墙段均为 TEMP。正式写实美术尚未进入游戏。
+Godot 4.7.2，Windows 单机第三人称宋风山居探索解谜。当前是30×30m可玩灰盒。双扇木门已使用按批准参考制作的ARCH_003 v003模型；青岚胶囊、金色线索标记和墙段仍为TEMP。
 
 ## 启动和操作
 
@@ -15,7 +15,7 @@ Godot 4.7.2，Windows 单机第三人称宋风山居探索解谜。当前是30×
 
 实际 Godot 物理场景检查通过，headless 和本机 Mobile 图形后端的无传送自动输入路线均通过（0→3→开门→步行到终点）。日志、截图与验证边界见 `reports/validation/M1_ACCEPTANCE_2026-10-22.md`。
 
-完整真人键鼠通关、菜单按钮实点和长期镜头体验仍待验收。角色没有正式模型或动画，正式资产为零。未做持续 FPS 测量，不能宣称最终画质或720p 30fps达标。
+完整真人键鼠通关、菜单按钮实点和长期镜头体验仍待验收。角色没有正式模型或动画，已接入首件非TEMP木门资产。未做持续 FPS 测量，不能宣称最终画质或720p 30fps达标。
 
 ## 视觉方向审核
 
@@ -30,3 +30,5 @@ Godot --path . res://scenes/world/AssetTest.tscn -- --asset=res://assets/game/FI
 ```
 
 Blender 检查/导出工具用法见 `docs/ASSET_PIPELINE.md`。资产清单和性能日志位于 `project_admin/`；管理文件夹带 `.gdignore`，不会被 Godot 当作翻译表或运行资产导入。Git LFS 保存GLB、BLEND、FBX和图像，克隆后需要安装Git LFS并拉取对应文件。
+
+木门制作与实测报告：reports/validation/ARCH_003_DELIVERY_v003.md；材质来源与许可：docs/ASSET_LICENSES.md。

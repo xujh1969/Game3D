@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3]
+[gd_scene load_steps=6 format=3]
 
 [ext_resource type="Script" path="res://scripts/debug/asset_test.gd" id="1"]
 
@@ -11,6 +11,11 @@ roughness = 1.0
 
 [sub_resource type="BoxMesh" id="Scale"]
 size = Vector3(0.05, 1, 0.05)
+
+[sub_resource type="Environment" id="ReviewEnvironment"]
+ambient_light_source = 3
+ambient_light_color = Color(0.65, 0.7, 0.75, 1)
+ambient_light_energy = 0.35
 
 [node name="AssetTest" type="Node3D"]
 script = ExtResource("1")
@@ -38,7 +43,12 @@ position = Vector3(3, 2.4, 4)
 rotation_degrees = Vector3(-20, 36.87, 0)
 current = true
 
-[node name="Label3D" type="Label3D" parent="."]
-position = Vector3(0, 2.5, 0)
-font_size = 32
-billboard = 1
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("ReviewEnvironment")
+
+[node name="Overlay" type="CanvasLayer" parent="."]
+
+[node name="Label" type="Label" parent="Overlay"]
+offset_left = 20.0
+offset_top = 20.0
+theme_override_font_sizes/font_size = 20

@@ -1,2 +1,3 @@
 asset_id,category,source,license,status,game_file,reference,dimensions,triangles,textures,review
 TEMP_PIPELINE,test_fixture,repo_generated,project_generated,PASS_WITH_LIMITATIONS,assets/temporary/TEMP_Pipeline_Cube_v001.glb,reports/screenshots/AssetTest_TEMP_Cube.png,1x1x1m,12,none,Pipeline fixture only; not formal art
+ARCH_003,architecture,Blender project geometry + PolyHaven FineGrainedWood,CC0 texture; project geometry,PASS_WITH_LIMITATIONS,assets/game/ARCH_003_DoorSong_v003_game.glb,handoff/reference/generated/PROP_REF_001_ArchDoorSong_sheet_v001.png,2.24x2.66x0.186m,7740,BaseColor+Roughness+Normal 1024px; bronze parameters,reports/validation/ARCH_003_DELIVERY_v003.md

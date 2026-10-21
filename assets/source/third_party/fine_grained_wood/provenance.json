@@ -1,0 +1,32 @@
+[
+  {
+    "map": "Diffuse",
+    "file": "fine_grained_wood_col_1k.png",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/fine_grained_wood/fine_grained_wood_col_1k.png",
+    "md5": "ae1bae182e4b3fb6f97a6014c5dd3667",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/fine_grained_wood",
+    "author": "Rob Tuytel",
+    "date": "2026-10-22"
+  },
+  {
+    "map": "Rough",
+    "file": "fine_grained_wood_rough_1k.png",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/fine_grained_wood/fine_grained_wood_rough_1k.png",
+    "md5": "c1b63d1d9092c6bcd524c2ae690cca83",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/fine_grained_wood",
+    "author": "Rob Tuytel",
+    "date": "2026-10-22"
+  },
+  {
+    "map": "nor_gl",
+    "file": "fine_grained_wood_nor_gl_1k.png",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/fine_grained_wood/fine_grained_wood_nor_gl_1k.png",
+    "md5": "35c4f86b7fbd91eba54a4d6e88fb16d7",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/fine_grained_wood",
+    "author": "Rob Tuytel",
+    "date": "2026-10-22"
+  }
+]

@@ -35,12 +35,14 @@ func _update_focus() -> void:
 	for node in get_tree().get_nodes_in_group("interactable"):
 		if not node is Node3D:
 			continue
-		var distance := global_position.distance_to(node.global_position)
-		var toward: Vector3 = (node.global_position - global_position).normalized()
+		var point: Node3D = node.get_node_or_null("InteractionPoint")
+		var target: Vector3 = point.global_position if point != null else node.global_position
+		var distance := global_position.distance_to(target)
+		var toward: Vector3 = (target - global_position).normalized()
 		if distance < best_distance and player_forward.dot(toward) > 0.2:
-			var query := PhysicsRayQueryParameters3D.create(global_position + Vector3.UP * 1.2, node.global_position, 1, [get_rid()])
+			var query := PhysicsRayQueryParameters3D.create(global_position + Vector3.UP * 1.2, target, 1, [get_rid()])
 			var hit := get_world_3d().direct_space_state.intersect_ray(query)
-			if not hit.is_empty() and hit.collider != node:
+			if not hit.is_empty() and hit.collider != node and not node.is_ancestor_of(hit.collider):
 				continue
 			best_distance = distance
 			focus = node

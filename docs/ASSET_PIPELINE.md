@@ -21,10 +21,10 @@ tools/blender/optimize_export.py -- INPUT.glb NEW_OUTPUT.glb [RATIO]
 Godot --path . res://scenes/world/AssetTest.tscn -- --asset=res://assets/game/FILE.glb
 ```
 
-固定相机、主/辅光、地面和一米参照杆。模型保留导入尺度，不自动居中或缩放。默认显示 `assets/temporary/TEMP_Pipeline_Cube_v001.glb`，只是管线测试立方体。`--capture` 仅用于默认立方体的截图检查。
+固定相机、主/辅光、地面和一米参照杆。模型保留导入尺度，不自动居中或缩放。默认显示 `assets/temporary/TEMP_Pipeline_Cube_v001.glb`，只是管线测试立方体。`--capture`保存当前模型的独立命名审查截图；文字采用屏幕叠层，资产场景提供中性环境补光。
 
-已用该一米立方体完成 Blender 导出→检查→再次导出→Godot 导入及 Mobile 渲染；12 triangles，尺寸 [1,1,1] m，缺失文件 0。报告 `reports/validation/TEMP_cube_import.json`，图像 `reports/screenshots/AssetTest_TEMP_Cube.png`。没有正式角色、纹理资产或减面结果通过验收。
+已用该一米立方体完成 Blender 导出→检查→再次导出→Godot 导入及 Mobile 渲染；12 triangles，尺寸 [1,1,1] m，缺失文件 0。报告 `reports/validation/TEMP_cube_import.json`，图像 `reports/screenshots/AssetTest_TEMP_Cube.png`。后续ARCH_003 v003已用同一管线完成纹理GLB检查、AssetTest和游戏集成，报告见reports/validation/ARCH_003_DELIVERY_v003.md。正式角色与自动减面仍未验收。
 
 ## 素材审核
 
-先批准 `handoff/reference/generated/` 的图像方向，再创建正式模型。记录来源与许可，核对尺寸/Y-up/原点/网格/法线/UV/PBR；按模型特征调整 LOD、贴图和材质。清单 `project_admin/ASSET_MANIFEST.csv`；性能日志 `project_admin/PERFORMANCE_LOG.csv`。当前正式资产为零。
+先批准 `handoff/reference/generated/` 的图像方向，再创建正式模型。记录来源与许可，核对尺寸/Y-up/原点/网格/法线/UV/PBR；按模型特征调整 LOD、贴图和材质。清单 `project_admin/ASSET_MANIFEST.csv`；性能日志 `project_admin/PERFORMANCE_LOG.csv`。当前已有木门v003作为非TEMP资产；其他正式资产尚未生产。

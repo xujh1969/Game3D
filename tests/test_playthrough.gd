@@ -70,6 +70,10 @@ func run() -> void:
 	var passed: bool = not failed and state.clues.size() == 3 and state.won and world.get_node("Door").is_open
 	print("PLAYTHROUGH_RESULT: ", "PASS" if passed else "FAIL", " position=", player.position)
 	if DisplayServer.get_name() != "headless":
+		var capture_name := "M1_Playthrough_Victory_TEMP"
+		for argument in OS.get_cmdline_user_args():
+			if argument.begins_with("--capture-name="):
+				capture_name = argument.trim_prefix("--capture-name=")
 		await RenderingServer.frame_post_draw
-		root.get_texture().get_image().save_png("res://reports/screenshots/M1_Playthrough_Victory_TEMP.png")
+		root.get_texture().get_image().save_png("res://reports/screenshots/" + capture_name + ".png")
 	quit(0 if passed else 1)

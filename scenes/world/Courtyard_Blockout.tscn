@@ -1,10 +1,10 @@
-[gd_scene load_steps=20 format=3]
+[gd_scene load_steps=18 format=3]
 
 [ext_resource type="Script" path="res://scripts/gameplay/game_state.gd" id="1"]
 [ext_resource type="Script" path="res://scripts/ui/hud.gd" id="2"]
 [ext_resource type="PackedScene" path="res://scenes/character/Qinglan_TEMP.tscn" id="3"]
 [ext_resource type="Script" path="res://scripts/interactables/clue.gd" id="4"]
-[ext_resource type="Script" path="res://scripts/interactables/door_controller.gd" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/interactables/Door.tscn" id="5"]
 [ext_resource type="Script" path="res://scripts/interactables/finish_trigger.gd" id="6"]
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_ground"]
@@ -15,12 +15,6 @@ size = Vector3(30, 0.5, 30)
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_clue"]
 radius = 1.5
-
-[sub_resource type="BoxMesh" id="BoxMesh_door"]
-size = Vector3(2, 2.5, 0.15)
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_door"]
-size = Vector3(2, 2.5, 0.15)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_finish"]
 size = Vector3(5, 2, 2)
@@ -155,18 +149,8 @@ material_override = SubResource("ClueMaterial")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="ClueIncense"]
 shape = SubResource("SphereShape3D_clue")
 
-[node name="Door" type="StaticBody3D" parent="."]
-position = Vector3(-1, 1.25, -8)
-script = ExtResource("5")
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="Door"]
-position = Vector3(1, 0, 0)
-mesh = SubResource("BoxMesh_door")
-material_override = SubResource("DoorMaterial")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Door"]
-position = Vector3(1, 0, 0)
-shape = SubResource("BoxShape3D_door")
+[node name="Door" parent="." instance=ExtResource("5")]
+position = Vector3(0, 0, -8)
 
 [node name="Finish" type="Area3D" parent="."]
 position = Vector3(0, 1, -13)

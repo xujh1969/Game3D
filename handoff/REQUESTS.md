@@ -8,7 +8,7 @@
 - IMAGE_ENV_REF_001_MainCourtyardHero — BLOCKED_TOOL：图像调用长时间未返回，本轮已停止等待；没有获得庭院图文件。提示词已保留，后续重试；已有角色与门视觉方向已批准。
 
 ## 后续三维资产（先确认图像，暂不请用户同时生成模型）
-- ASSET_ARCH_003 — NOT_STARTED：任务单已备好，木门图已批准，下一步按图用Blender制作独立门扇及门轴；本状态未声称已建模。
+- ASSET_ARCH_003 — PASS_WITH_LIMITATIONS：v003已由Blender制作并接入Godot；独立双门开合、碰撞与通关检查通过。报告 reports/validation/ARCH_003_DELIVERY_v003.md。
 - ASSET_NAT_001 — NOT_STARTED：任务单已备好，待庭院视觉方向统一。
 - ASSET_PROP_001 — NOT_STARTED：任务单已备好，待庭院视觉方向统一及物件参考。
 

@@ -1,10 +1,12 @@
 # ASSET_ARCH_003 — 宋风双扇木门
 
-- 状态：WAITING_FOR_USER
-- 用途：主殿入口可开门模型；门扇必须可独立旋转。
-- 尺寸：整体约 2.0 m 宽、2.5 m 高、0.10 m 厚。
-- 推荐工具：先用 `IMAGE_PROP_REF_001_ArchDoorSong` 三视图，再交 Tripo/混元生成；不合格时 Blender 模块化重建。
-- 参考：`handoff/reference/props/PROP_REF_001_ArchDoorSong_front_v001.png`（并提供 side/back）
-- 3D 提示词：Standalone realistic Song-inspired Chinese timber double door, exactly two separate hinged leaves with clear hinge-side pivots, restrained lattice and credible joinery, aged dark brown wood and subtle bronze fittings, complete front and back geometry, real dimensions 2.0 x 2.5 x 0.10 meters, PBR textures, no wall, frame environment, floor, pedestal, baked lighting, or cast shadows.
-- 输出：`handoff/incoming/ARCH_003_DoorSong_v001_source.glb`（首选）；无法导出 GLB 时 `.fbx`。
-- 验收：双扇可拆、门轴原点可整理、比例正确、材质/法线完整、许可来源明确。
+- 状态：PASS_WITH_LIMITATIONS。
+- 图像依据：用户已批准 `handoff/reference/generated/PROP_REF_001_ArchDoorSong_sheet_v001.png`，批准记录见 `handoff/approvals/USER_APPROVAL_2026-10-22_Qinglan_Door_v001.md`。
+- 制作方式：本项目Blender参数化几何，非外部AI模型；木材地图来自已核验CC0的Poly Haven，来源与校验值已保存。
+- 运行文件：`assets/game/ARCH_003_DoorSong_v003_game.glb`。
+- 源文件：`assets/source/ARCH_003_DoorSong_v003.blend`，先前试制稿保留。
+- 测量：框体2.24×2.66×0.186m；叶片总宽约2m、高2.5m。7,740 triangles，2材质，3张1024²内嵌PBR贴图，缺失贴图0。
+- 交互：独立左右门轴，Godot两组碰撞随门扇向内反向打开；框体固定。集齐三线索才开门，动画完毕才允许终点胜利。
+- 验收：GLB结构、Blender导入、AssetTest、Mobile双门检查、M1回归与无传送通关路线均通过。真人键鼠体验及最终照明未验收。
+- 交付报告：`reports/validation/ARCH_003_DELIVERY_v003.md`；来源：`docs/ASSET_LICENSES.md`。
+- 不再需要用户为本木门生成或上传额外模型。

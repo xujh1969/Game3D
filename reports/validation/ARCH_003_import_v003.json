@@ -1,0 +1,65 @@
+{
+  "source": "C:\\Users\\AYOU\\Desktop\\MountainCourtyard\\assets\\game\\ARCH_003_DoorSong_v003_game.glb",
+  "blender_version": "5.2.2 LTS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "mesh_count": 3,
+  "triangles": 7740,
+  "materials": [
+    "ARCH_003_Aged_Timber_PBR",
+    "ARCH_003_Muted_Bronze"
+  ],
+  "blender_bounds_xyz": [
+    [
+      -1.1200000047683716,
+      1.119999885559082
+    ],
+    [
+      -0.09300000220537186,
+      0.09300000220537186
+    ],
+    [
+      0.0,
+      2.6599998474121094
+    ]
+  ],
+  "godot_dimensions_xyz_m": [
+    2.2399998903274536,
+    2.6599998474121094,
+    0.1860000044107437
+  ],
+  "armatures": [],
+  "actions": [],
+  "images": [
+    {
+      "name": "fine_grained_wood_col_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "fine_grained_wood_nor_gl_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "fine_grained_wood_rough_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    }
+  ],
+  "missing_files": [],
+  "requires_review": [
+    "Source and license",
+    "Expected real-world dimensions and pivot",
+    "Normals, UV, PBR appearance, extra base geometry",
+    "Rig and animation quality when applicable"
+  ]
+}

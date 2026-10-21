@@ -13,9 +13,10 @@ func _ready() -> void:
 		push_error("Expected an imported GLB scene: " + path)
 		return
 	$Asset.add_child(packed.instantiate())
-	$Label3D.text = "Asset review · 1m reference\n" + path.get_file()
+	$Overlay/Label.text = "Asset review · 1m reference\n" + path.get_file()
 	if "--capture" in OS.get_cmdline_user_args():
 		await get_tree().process_frame
 		await RenderingServer.frame_post_draw
-		get_viewport().get_texture().get_image().save_png("res://reports/screenshots/AssetTest_TEMP_Cube.png")
+		var capture_name := "AssetTest_TEMP_Cube" if path.get_file().begins_with("TEMP_") else "AssetTest_" + path.get_file().get_basename()
+		get_viewport().get_texture().get_image().save_png("res://reports/screenshots/" + capture_name + ".png")
 		get_tree().quit()

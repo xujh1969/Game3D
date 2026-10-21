@@ -59,7 +59,7 @@ func _run() -> void:
 	arm.rotation.y = PI
 	await frames(5)
 	print("CAMERA_PROBE: hit=", arm.get_hit_length(), " camera=", camera.global_position, " player=", player.global_position)
-	check(arm.get_hit_length() < 2.0 and camera.global_position.z > -7.925, "camera retracts before closed door")
+	check(arm.get_hit_length() < 2.0 and camera.global_position.z > -7.95, "camera retracts before closed door")
 	arm.rotation.y = 0
 	player.position = Vector3(0, 0, -6)
 	player.velocity = Vector3.ZERO
@@ -90,7 +90,7 @@ func _run() -> void:
 	door.interact(player)
 	await frames(1)
 	check(not door.is_open, "door is not marked open before animation completes")
-	check(not door.get_node("CollisionShape3D").disabled, "opening door retains physical collision")
+	check(not door.get_node("LeftLeaf/CollisionShape3D").disabled and not door.get_node("RightLeaf/CollisionShape3D").disabled, "opening door retains physical collision")
 	await frames(60)
 	check(door.is_open, "door opens after animation")
 	player.position = Vector3(0, 0, -6)
