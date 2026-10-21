@@ -1,0 +1,37 @@
+{
+  "source": "C:\\Users\\AYOU\\Desktop\\MountainCourtyard\\assets\\temporary\\TEMP_Pipeline_Cube_v001.glb",
+  "blender_version": "5.2.2 LTS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "mesh_count": 1,
+  "triangles": 12,
+  "materials": [],
+  "blender_bounds_xyz": [
+    [
+      -0.5,
+      0.5
+    ],
+    [
+      -0.5,
+      0.5
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "godot_dimensions_xyz_m": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "armatures": [],
+  "actions": [],
+  "images": [],
+  "missing_files": [],
+  "requires_review": [
+    "Source and license",
+    "Expected real-world dimensions and pivot",
+    "Normals, UV, PBR appearance, extra base geometry",
+    "Rig and animation quality when applicable"
+  ]
+}

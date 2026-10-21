@@ -58,6 +58,7 @@ script = ExtResource("1")
 position = Vector3(0, -0.25, 0)
 
 [node name="Mesh" type="MeshInstance3D" parent="Ground"]
+position = Vector3(0, 0.25, 0)
 mesh = SubResource("PlaneMesh_ground")
 
 [node name="Collision" type="CollisionShape3D" parent="Ground"]
@@ -155,14 +156,16 @@ material_override = SubResource("ClueMaterial")
 shape = SubResource("SphereShape3D_clue")
 
 [node name="Door" type="StaticBody3D" parent="."]
-position = Vector3(0, 1.25, -8)
+position = Vector3(-1, 1.25, -8)
 script = ExtResource("5")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Door"]
+position = Vector3(1, 0, 0)
 mesh = SubResource("BoxMesh_door")
 material_override = SubResource("DoorMaterial")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Door"]
+position = Vector3(1, 0, 0)
 shape = SubResource("BoxShape3D_door")
 
 [node name="Finish" type="Area3D" parent="."]

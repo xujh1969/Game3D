@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/debug/asset_test.gd" id="1"]
+
+[sub_resource type="PlaneMesh" id="Floor"]
+size = Vector2(10, 10)
+
+[sub_resource type="StandardMaterial3D" id="FloorMat"]
+albedo_color = Color(0.28, 0.3, 0.32, 1)
+roughness = 1.0
+
+[sub_resource type="BoxMesh" id="Scale"]
+size = Vector3(0.05, 1, 0.05)
+
+[node name="AssetTest" type="Node3D"]
+script = ExtResource("1")
+
+[node name="Asset" type="Node3D" parent="."]
+
+[node name="Floor" type="MeshInstance3D" parent="."]
+mesh = SubResource("Floor")
+material_override = SubResource("FloorMat")
+
+[node name="OneMeterReference" type="MeshInstance3D" parent="."]
+position = Vector3(-1.5, 0.5, 0)
+mesh = SubResource("Scale")
+
+[node name="KeyLight" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-45, -30, 0)
+light_energy = 1.0
+
+[node name="FillLight" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-25, 140, 0)
+light_energy = 0.4
+
+[node name="Camera3D" type="Camera3D" parent="."]
+position = Vector3(3, 2.4, 4)
+rotation_degrees = Vector3(-20, 36.87, 0)
+current = true
+
+[node name="Label3D" type="Label3D" parent="."]
+position = Vector3(0, 2.5, 0)
+font_size = 32
+billboard = 1

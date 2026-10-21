@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene load_steps=6 format=3]
 
 [ext_resource type="Script" path="res://scripts/player/player_controller.gd" id="1"]
 [ext_resource type="Script" path="res://scripts/player/third_person_camera.gd" id="2"]
@@ -31,6 +31,14 @@ material_override = SubResource("StandardMaterial3D_temp")
 position = Vector3(0, 1.5, 0)
 spring_length = 4.0
 script = ExtResource("2")
+margin = 0.2
+
+[node name="TEMPLabel" type="Label3D" parent="."]
+position = Vector3(0, 2.1, 0)
+text = "青岚 · TEMP"
+font_size = 36
+pixel_size = 0.006
+billboard = 1
 
 [node name="Camera3D" type="Camera3D" parent="SpringArm3D"]
 current = true

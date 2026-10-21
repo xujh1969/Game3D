@@ -9,3 +9,6 @@
 - 文件：`CHAR_REF_001_Qinglan_Turnaround_front_v001.png`、`..._side_v001.png`、`..._back_v001.png`、`..._perspective_v001.png`
 - 验收：四视图是同一角色；服装层次可读；头脚均完整；正背侧轮廓无遮挡。
 - 操作：用任意图像工具生成并检查一致性，保存 PNG/JPG 到上述目录。完成后回复“素材已放好，继续”。
+
+## 2026-10-22 更新
+已由内置图像工具生成四视图同板：handoff/reference/generated/CHAR_REF_001_Qinglan_Turnaround_sheet_v001.png。当前只需审核外观，无需用户重新生成；如需后续独立视图，在批准方向后另行导出/生成。详见 handoff/approvals/ART_DIRECTION_v001.md。

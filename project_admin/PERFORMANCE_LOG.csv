@@ -1,1 +1,2 @@
 timestamp,device,renderer,resolution,quality,scene,avg_fps,min_fps,method,notes
+2026-10-22,AMD Radeon(TM) Graphics,Forward Mobile Vulkan 1.3.260,1280x720,graybox,Courtyard_Blockout,,,GPU startup and automated route,FPS_NOT_MEASURED

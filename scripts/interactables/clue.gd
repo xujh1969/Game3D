@@ -13,6 +13,7 @@ func interact(_player: Node3D) -> void:
 	var state := get_parent().get_node("GameState")
 	if state.collect_clue(clue_id):
 		collected = true
+		remove_from_group("interactable")
 		visible = false
 		set_deferred("monitoring", false)
 

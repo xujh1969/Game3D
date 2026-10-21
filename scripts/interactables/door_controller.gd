@@ -1,6 +1,8 @@
 extends StaticBody3D
 
 var unlocked := false
+var is_open := false
+var is_opening := false
 
 func _ready() -> void:
 	add_to_group("interactable")
@@ -15,14 +17,17 @@ func interact(_player: Node3D) -> void:
 	if not unlocked:
 		get_parent().get_node("UI").show_message("门被锁住了，还需要收集线索。")
 		return
-	if is_open:
+	if is_open or is_opening:
 		return
-	is_open = true
+	is_opening = true
+	remove_from_group("interactable")
 	var tween := create_tween()
+	tween.set_process_mode(Tween.TWEEN_PROCESS_PHYSICS)
 	tween.tween_property(self, "rotation:y", rotation.y + PI * 0.5, 0.8)
-	$CollisionShape3D.set_deferred("disabled", true)
-
-var is_open := false
+	tween.finished.connect(func():
+		is_open = true
+		is_opening = false
+	)
 
 func get_prompt() -> String:
 	return "E 打开木门" if unlocked else "E 查看木门（线索不足）"

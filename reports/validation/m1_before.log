@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: player settles on floor
+FAIL: W moves toward camera forward (-Z)
+FAIL: character turning does not rotate camera
+FAIL: finish refuses player before door opens
+PASS: door stays locked before three clues
+FAIL: collected clue cannot retain interaction focus
+PASS: repeat clue interaction does not increase count
+PASS: three clues unlock door
+PASS: HUD shows three clues
+PASS: door opens after animation
+FAIL: victory is recorded exactly once after opening
+PASS: restart clears clues
+PASS: restart restores locked door
+M1_RESULT: 5 failures

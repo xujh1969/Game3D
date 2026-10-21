@@ -4,6 +4,8 @@ extends SpringArm3D
 var pitch := -0.18
 
 func _ready() -> void:
+	add_excluded_object(get_parent().get_rid())
+	rotation.x = pitch
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 
 func _unhandled_input(event: InputEvent) -> void:
@@ -11,9 +13,3 @@ func _unhandled_input(event: InputEvent) -> void:
 		rotation.y -= event.relative.x * sensitivity
 		pitch = clampf(pitch - event.relative.y * sensitivity, -0.8, 0.35)
 		rotation.x = pitch
-	if event.is_action_pressed("pause"):
-		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
-
-func _process(_delta: float) -> void:
-	if Input.is_action_just_pressed("ui_cancel"):
-		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE

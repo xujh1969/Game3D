@@ -1,26 +1,28 @@
 # MountainCourtyard 开发状态
 
-更新时间：2026-10-21（Asia/Shanghai）
+更新：2026-10-22（Asia/Shanghai）。
 
-## 环境与基线
-- Godot：4.7.2 stable（绝对路径调用）；Blender：5.2.2 LTS；Python 3.11.4；Git 2.54.0.windows.1。
-- 项目已配置并跟踪 GitHub `origin/main`。
-
-## 里程碑
-
-| 里程碑 | 状态 | 实际情况与验证 |
+| 阶段 | 状态 | 当前结果 |
 |---|---|---|
-| M0 环境检测和工程基础 | PASS_WITH_LIMITATIONS | Godot 工程、目录、基础文档、manifest 和 GitHub 同步基线已建立。CSV 仍被 Godot 识别为翻译表并发出无翻译警告，不阻断场景加载。|
-| M1 第三人称可玩灰盒 | IN_PROGRESS | 30×30 地面及四周碰撞边界、主殿墙段/门洞、青岚 TEMP 胶囊、CharacterBody3D WASD/Shift 移动、鼠标 SpringArm 相机、三项可见测试标记、面向焦点的 E 交互、线索计数、锁门反馈、三线索解锁、开门动画、终点提示、Esc 菜单（继续/重开/退出）已实现。真实图形键鼠流程、相机遮挡/手感、完整开门过门和重开体验尚未验收。|
-| M2 艺术规范与资产准备 | IN_PROGRESS | 艺术方向、关卡设计、技术架构、资产管线、验收文档及三份图像/三份模型任务单就绪。尚未收到图像/正式资产；AssetTest 和 Blender 自动检查工具待做。|
+| M0 | PASS_WITH_LIMITATIONS | Godot 4.7.2、Blender 5.2.2 LTS、Python/Git可用；GitHub main 同步；Git LFS仓库级启用。Godot Mobile在本机AMD Radeon集显/Vulkan1.3.260实际运行。管理目录使用.gdignore消除CSV误导入。工程以脚本构建的灰盒为主，部分场景组织将在美术阶段整理。|
+| M1 | PASS_WITH_LIMITATIONS | 修复移动方向、角色与相机反馈、线索焦点、隔墙交互、门轴/碰撞、通关幂等/菜单；实际引擎回归检查通过；headless与Mobile无传送输入路线均完成0→3→开门→通关。完整真人操作、按钮实点和镜头体验未验收；角色动画仍缺。|
+| M2 | IN_PROGRESS | AssetTest、Blender检查/不覆盖版本导出工具已用TEMP立方体实测；正式资产为零。角色/门概念图已生成待审；庭院图生成中。|
+| M3–M7 | NOT_STARTED | 未开始正式模型集成、正式建筑/角色、最终性能与发布。|
 
-## 验证记录
-- `Godot --headless --path . --editor --quit`：退出码 0，脚本扫描无解析错误。
-- `Godot --headless --path . --script res://tests/test_game_state.gd`：退出码 0；通过“重复收集不计数”和“三线索后仅触发一次解锁”断言。
-- `Godot --headless --path . --quit`：退出码 0；主场景 headless 加载检查通过。
-- 未运行图形窗口的键鼠流程；FPS_NOT_MEASURED，未在 Radeon 实机测量。
+## 证据
 
-## 下一步
-- 完成并验收实际图形运行：玩家移动/跳跃落地、焦点与交互提示、线索收集、锁门/开门/通门、通关、暂停/继续/重开、边界与镜头遮挡。
-- 继续 M2 的 AssetTest 和 Blender 检查/导出工具。
-- 用户参考图任务见 `handoff/REQUESTS.md`；收到后按图像/资产验收流程继续。
+- 详细M1记录：`reports/validation/M1_ACCEPTANCE_2026-10-22.md`。
+- 回归：`m1_runtime.log`；图形回归：`m1_mobile_runtime.log`。
+- 无传送路线：`m1_playthrough_headless.log`、`m1_playthrough_mobile_fixed.log`；退出码均0，PLAYTHROUGH_RESULT=PASS。
+- 首轮失败日志保留：`m1_before.log`、`m1_door_before.log`、`m1_playthrough_mobile.log`。
+- GPU真实画面：`reports/screenshots/M1_*.png`；非美术效果图。
+- Blender报告：`reports/validation/TEMP_cube_import.json`，12 triangles、[1,1,1]m、缺失文件0；导出同版保护，不代表正式资产验收。
+- AssetTest实拍帧：`reports/screenshots/AssetTest_TEMP_Cube.png`。
+- 最终导入日志：`reports/validation/final_import.log`；资源扫描退出0。
+- Computer Use被用户物理Esc停止；已停止后续界面自动操作。未把自动输入路线当作真人验收。
+
+## 当前门槛
+
+M2正式资产/人物生产前需确认参考图方向。审核文件 `handoff/approvals/ART_DIRECTION_v001.md`，索引 `handoff/REQUESTS.md`。通过门槛后才继续正式模型制作/导入。
+
+FPS_NOT_MEASURED：GPU后端可运行，不等于已经达到最终720p 30fps。未测最终画质、导出包或长时间稳定性。

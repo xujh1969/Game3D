@@ -17,6 +17,7 @@ func collect_clue(id: String) -> bool:
 	return true
 
 func restart() -> void:
+	get_tree().paused = false
 	clues.clear()
 	won = false
 	get_tree().reload_current_scene()

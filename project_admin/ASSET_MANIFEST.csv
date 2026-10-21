@@ -1,1 +1,2 @@
 asset_id,category,source,license,status,game_file,reference,dimensions,triangles,textures,review
+TEMP_PIPELINE,test_fixture,repo_generated,project_generated,PASS_WITH_LIMITATIONS,assets/temporary/TEMP_Pipeline_Cube_v001.glb,reports/screenshots/AssetTest_TEMP_Cube.png,1x1x1m,12,none,Pipeline fixture only; not formal art
