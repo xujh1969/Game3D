@@ -8,3 +8,6 @@
 
 ## 当前批准状态
 尚无用户参考图，正式角色、主建筑与材质方向未通过艺术审核。灰盒 TEMP 几何不得标为正式资产。
+
+## 2026-10-22 参考初稿
+青岚转面图与木门三视图/局部图已由内置image_gen生成，位于handoff/reference/generated/；均未批准。审核记录见handoff/approvals/ART_DIRECTION_v001.md。庭院图本轮调用未返回，无图像交付。
