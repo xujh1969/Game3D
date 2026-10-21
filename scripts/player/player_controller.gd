@@ -7,6 +7,8 @@ var focus: Node3D
 var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
 
 func _physics_process(delta: float) -> void:
+	if get_tree().paused:
+		return
 	if not is_on_floor():
 		velocity.y -= gravity * delta
 	var input := Input.get_vector("move_left", "move_right", "move_forward", "move_back")
@@ -27,10 +29,17 @@ func _physics_process(delta: float) -> void:
 func _update_focus() -> void:
 	focus = null
 	var best_distance := 2.5
+	var player_forward := -global_basis.z
 	for node in get_tree().get_nodes_in_group("interactable"):
 		if not node is Node3D:
 			continue
 		var distance := global_position.distance_to(node.global_position)
-		if distance < best_distance:
+		var toward: Vector3 = (node.global_position - global_position).normalized()
+		if distance < best_distance and player_forward.dot(toward) > 0.2:
 			best_distance = distance
 			focus = node
+	var hud := get_parent().get_node("UI")
+	if is_instance_valid(focus):
+		hud.set_interaction(focus.get_prompt())
+	else:
+		hud.set_interaction("")

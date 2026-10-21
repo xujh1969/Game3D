@@ -2,6 +2,8 @@ extends CanvasLayer
 
 var label: Label
 var message: Label
+var prompt: Label
+var pause_panel: PanelContainer
 
 func _ready() -> void:
 	label = Label.new()
@@ -12,6 +14,16 @@ func _ready() -> void:
 	message.position = Vector2(24, 58)
 	message.add_theme_font_size_override("font_size", 20)
 	add_child(message)
+	prompt = Label.new()
+	prompt.anchor_left = 0.5
+	prompt.anchor_top = 0.78
+	prompt.anchor_right = 0.5
+	prompt.anchor_bottom = 0.78
+	prompt.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	prompt.add_theme_font_size_override("font_size", 22)
+	add_child(prompt)
+	_build_pause_panel()
+	process_mode = Node.PROCESS_MODE_ALWAYS
 	var state := get_parent().get_node("GameState")
 	state.clue_collected.connect(_on_clue_collected)
 	state.game_won.connect(_on_game_won)
@@ -26,7 +38,62 @@ func _update_count() -> void:
 func _on_game_won() -> void:
 	message.text = "你已抵达内院。按 Enter 重新开始。"
 	set_process_input(true)
+	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+
+func set_interaction(text: String) -> void:
+	prompt.text = text
+
+func show_message(text: String) -> void:
+	message.text = text
+	get_tree().create_timer(2.5).timeout.connect(func():
+		if message.text == text:
+			message.text = ""
+	)
+
+func _build_pause_panel() -> void:
+	pause_panel = PanelContainer.new()
+	pause_panel.anchor_left = 0.5
+	pause_panel.anchor_top = 0.5
+	pause_panel.anchor_right = 0.5
+	pause_panel.anchor_bottom = 0.5
+	pause_panel.offset_left = -150
+	pause_panel.offset_top = -110
+	pause_panel.offset_right = 150
+	pause_panel.offset_bottom = 110
+	pause_panel.visible = false
+	add_child(pause_panel)
+	var box := VBoxContainer.new()
+	box.add_theme_constant_override("separation", 12)
+	pause_panel.add_child(box)
+	var title := Label.new()
+	title.text = "暂停"
+	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	box.add_child(title)
+	var resume := Button.new()
+	resume.text = "继续游戏"
+	resume.pressed.connect(_toggle_pause)
+	box.add_child(resume)
+	var restart := Button.new()
+	restart.text = "重新开始"
+	restart.pressed.connect(func():
+		get_tree().paused = false
+		get_parent().get_node("GameState").restart()
+	)
+	box.add_child(restart)
+	var quit := Button.new()
+	quit.text = "退出游戏"
+	quit.pressed.connect(func(): get_tree().quit())
+	box.add_child(quit)
 
 func _input(event: InputEvent) -> void:
+	if event.is_action_pressed("pause") and not message.text.begins_with("你已抵达"):
+		_toggle_pause()
+		get_viewport().set_input_as_handled()
 	if event.is_action_pressed("ui_accept") and message.text.begins_with("你已抵达"):
 		get_parent().get_node("GameState").restart()
+
+func _toggle_pause() -> void:
+	var paused := not get_tree().paused
+	get_tree().paused = paused
+	pause_panel.visible = paused
+	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE if paused else Input.MOUSE_MODE_CAPTURED

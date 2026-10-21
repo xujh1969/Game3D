@@ -15,3 +15,6 @@ func interact(_player: Node3D) -> void:
 		collected = true
 		visible = false
 		set_deferred("monitoring", false)
+
+func get_prompt() -> String:
+	return "E 读取：" + title

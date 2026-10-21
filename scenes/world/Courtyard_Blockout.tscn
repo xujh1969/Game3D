@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3]
+[gd_scene load_steps=20 format=3]
 
 [ext_resource type="Script" path="res://scripts/gameplay/game_state.gd" id="1"]
 [ext_resource type="Script" path="res://scripts/ui/hud.gd" id="2"]
@@ -25,6 +25,30 @@ size = Vector3(2, 2.5, 0.15)
 [sub_resource type="BoxShape3D" id="BoxShape3D_finish"]
 size = Vector3(5, 2, 2)
 
+[sub_resource type="BoxShape3D" id="BoundaryLong"]
+size = Vector3(30, 2, 0.5)
+
+[sub_resource type="BoxShape3D" id="BoundaryShort"]
+size = Vector3(0.5, 2, 30)
+
+[sub_resource type="SphereMesh" id="ClueMesh"]
+radius = 0.28
+height = 0.56
+
+[sub_resource type="StandardMaterial3D" id="ClueMaterial"]
+albedo_color = Color(0.74, 0.57, 0.27, 1)
+roughness = 0.8
+
+[sub_resource type="StandardMaterial3D" id="DoorMaterial"]
+albedo_color = Color(0.22, 0.15, 0.1, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="HallWallMesh"]
+size = Vector3(13.8, 3, 0.6)
+
+[sub_resource type="BoxShape3D" id="HallWallShape"]
+size = Vector3(13.8, 3, 0.6)
+
 [node name="CourtyardBlockout" type="Node3D"]
 
 [node name="GameState" type="Node" parent="."]
@@ -39,6 +63,55 @@ mesh = SubResource("PlaneMesh_ground")
 [node name="Collision" type="CollisionShape3D" parent="Ground"]
 shape = SubResource("BoxShape3D_ground")
 
+[node name="MorningLight" type="DirectionalLight3D" parent="."]
+rotation = Vector3(-0.8, -0.5, 0)
+light_color = Color(1, 0.88, 0.72, 1)
+light_energy = 1.2
+
+[node name="HallWallLeft" type="StaticBody3D" parent="."]
+position = Vector3(-8.1, 1.5, -8)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="HallWallLeft"]
+mesh = SubResource("HallWallMesh")
+material_override = SubResource("DoorMaterial")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="HallWallLeft"]
+shape = SubResource("HallWallShape")
+
+[node name="HallWallRight" type="StaticBody3D" parent="."]
+position = Vector3(8.1, 1.5, -8)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="HallWallRight"]
+mesh = SubResource("HallWallMesh")
+material_override = SubResource("DoorMaterial")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="HallWallRight"]
+shape = SubResource("HallWallShape")
+
+[node name="BoundaryNorth" type="StaticBody3D" parent="."]
+position = Vector3(0, 1, -15.25)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BoundaryNorth"]
+shape = SubResource("BoundaryLong")
+
+[node name="BoundarySouth" type="StaticBody3D" parent="."]
+position = Vector3(0, 1, 15.25)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BoundarySouth"]
+shape = SubResource("BoundaryLong")
+
+[node name="BoundaryEast" type="StaticBody3D" parent="."]
+position = Vector3(15.25, 1, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BoundaryEast"]
+shape = SubResource("BoundaryShort")
+
+[node name="BoundaryWest" type="StaticBody3D" parent="."]
+position = Vector3(-15.25, 1, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BoundaryWest"]
+shape = SubResource("BoundaryShort")
+
 [node name="Player" parent="." instance=ExtResource("3")]
 position = Vector3(0, 0.1, 10)
 
@@ -47,6 +120,10 @@ position = Vector3(-4, 0.5, 5)
 script = ExtResource("4")
 clue_id = "CLUE_001"
 title = "卷轴"
+
+[node name="Marker" type="MeshInstance3D" parent="ClueScroll"]
+mesh = SubResource("ClueMesh")
+material_override = SubResource("ClueMaterial")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="ClueScroll"]
 shape = SubResource("SphereShape3D_clue")
@@ -57,6 +134,10 @@ script = ExtResource("4")
 clue_id = "CLUE_002"
 title = "石碑铭文"
 
+[node name="Marker" type="MeshInstance3D" parent="ClueTablet"]
+mesh = SubResource("ClueMesh")
+material_override = SubResource("ClueMaterial")
+
 [node name="CollisionShape3D" type="CollisionShape3D" parent="ClueTablet"]
 shape = SubResource("SphereShape3D_clue")
 
@@ -65,6 +146,10 @@ position = Vector3(-5, 0.5, -4)
 script = ExtResource("4")
 clue_id = "CLUE_003"
 title = "香炉机关"
+
+[node name="Marker" type="MeshInstance3D" parent="ClueIncense"]
+mesh = SubResource("ClueMesh")
+material_override = SubResource("ClueMaterial")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="ClueIncense"]
 shape = SubResource("SphereShape3D_clue")
@@ -75,6 +160,7 @@ script = ExtResource("5")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Door"]
 mesh = SubResource("BoxMesh_door")
+material_override = SubResource("DoorMaterial")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Door"]
 shape = SubResource("BoxShape3D_door")
@@ -88,4 +174,5 @@ shape = SubResource("BoxShape3D_finish")
 
 [node name="UI" type="CanvasLayer" parent="."]
 script = ExtResource("2")
+
 
