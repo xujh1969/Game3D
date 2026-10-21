@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dgmnhmfw61u6g"
+
+[deps]
+
+source_file="res://project_admin/PERFORMANCE_LOG.csv"
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true
