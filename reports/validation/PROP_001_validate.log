@@ -1,0 +1,10 @@
+09:44:12 | INFO: Data are loaded, start creating Blender stuff
+09:44:12 | INFO: Blender create Mesh node Bowl_With_Interior
+09:44:13 | INFO: Blender create Mesh node Foot_1
+09:44:13 | INFO: Blender create Mesh node Foot_2
+09:44:13 | INFO: Blender create Mesh node Foot_3
+09:44:13 | INFO: glTF import finished in 0.02s
+ASSET_VALIDATION: PASS_WITH_LIMITATIONS
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

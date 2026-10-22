@@ -56,7 +56,7 @@ func finish() -> void:
 		"status": "PASS_WITH_LIMITATIONS",
 		"date": "2026-10-22",
 		"scene": "Courtyard_Blockout / static spawn / " + ("ENV_BambooLandscape_v002 + " if world.has_node("EnvironmentScenery") else "") + ("ARCH_Courtyard_v002 + NAT_001 v001 + " if world.has_node("Architecture") else "") + "TEMP articulated proxy + ARCH_003 v003",
-		"clue_visuals": "PROP_002 v002 scroll and stone tablet; incense remains TEMP" if world.has_node("ScrollStand") else "TEMP markers",
+		"clue_visuals": "PROP_002 v002 scroll and stone tablet; " + ("PROP_001 v002 incense" if world.has_node("ClueIncense/Visual") else "TEMP incense") if world.has_node("ScrollStand") else "TEMP markers",
 		"device": RenderingServer.get_video_adapter_name(),
 		"renderer": ProjectSettings.get_setting("rendering/renderer/rendering_method"),
 		"viewport": [root.size.x, root.size.y],

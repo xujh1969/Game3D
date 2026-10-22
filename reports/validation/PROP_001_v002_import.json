@@ -1,0 +1,64 @@
+{
+  "source": "C:\\Users\\AYOU\\Desktop\\MountainCourtyard\\assets\\game\\PROP_001_IncenseBurner_v002_game.glb",
+  "blender_version": "5.2.2 LTS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "mesh_count": 4,
+  "triangles": 3672,
+  "materials": [
+    "Aged_Bronze_Patina_PBR"
+  ],
+  "blender_bounds_xyz": [
+    [
+      -0.22499999403953552,
+      0.22499999403953552
+    ],
+    [
+      -0.22499999403953552,
+      0.22499999403953552
+    ],
+    [
+      0.0,
+      0.3499999940395355
+    ]
+  ],
+  "godot_dimensions_xyz_m": [
+    0.44999998807907104,
+    0.3499999940395355,
+    0.44999998807907104
+  ],
+  "armatures": [],
+  "actions": [],
+  "images": [
+    {
+      "name": "Incense_BaseColor",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "Incense_Metallic-Incense_Roughness",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "Incense_Normal",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    }
+  ],
+  "missing_files": [],
+  "requires_review": [
+    "Source and license",
+    "Expected real-world dimensions and pivot",
+    "Normals, UV, PBR appearance, extra base geometry",
+    "Rig and animation quality when applicable"
+  ]
+}

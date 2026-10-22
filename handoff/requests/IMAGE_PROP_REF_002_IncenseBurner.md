@@ -1,6 +1,6 @@
 # IMAGE_PROP_REF_002 — 香炉统一外观参考
 
-状态：WAITING_FOR_USER。用途：PROP_001青铜香炉建模依据，沿用灰瓦旧木山居，先统一外观再制作模型。实际图像已生成、保存和查看，审核材料`handoff/approvals/INCENSE_REFERENCE_v001.md`。
+状态：PASS。2026-10-22用户明确认可香炉方向；图像与批准记录保留，后续已制作PROP_001 v002模型。此图像任务无需重复审核。
 
 数量：1张三视图同板，正/侧/背保持一致，允许补一个小3/4视图；浅灰背景、完整无截断、不带文字或水印。内置image_gen生成，实际文件返回后存`handoff/reference/generated/PROP_REF_002_IncenseBurner_sheet_v001.png`。
 

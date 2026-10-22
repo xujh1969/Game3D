@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": {
+    "three_feet": true,
+    "Bowl_With_Interior_closed": true,
+    "Bowl_With_Interior_outward": true,
+    "Bowl_With_Interior_uv": true,
+    "Foot_1_closed": true,
+    "Foot_1_outward": true,
+    "Foot_1_uv": true,
+    "Foot_2_closed": true,
+    "Foot_2_outward": true,
+    "Foot_2_uv": true,
+    "Foot_3_closed": true,
+    "Foot_3_outward": true,
+    "Foot_3_uv": true,
+    "open_inner_cavity": true,
+    "rim_above_inner_floor": true,
+    "feet_below_inner_floor": true,
+    "feet_touch_ground": true,
+    "diameter_45cm": true,
+    "height_35cm": true
+  }
+}

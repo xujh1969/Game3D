@@ -1,6 +1,6 @@
 # 香炉外观审核 v001
 
-2026-10-22，WAITING_FOR_USER。依据MASTER_PLAN.md图像任务协议，先确认统一视觉参考，再制作PROP_001正式模型。当前香炉游戏位置仍为TEMP金色标记。
+2026-10-22，PASS。用户已明确回复“香炉方向认可，继续”，记录见USER_APPROVAL_Incense_2026-10-22.md。现已制作并接入PROP_001 v002，模型交付与限制见reports/validation/PROP_001_DELIVERY_v002.md；本文件保留原设计说明。
 
 ![香炉参考](../reference/generated/PROP_REF_002_IncenseBurner_sheet_v001.png)
 

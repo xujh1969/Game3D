@@ -5,15 +5,23 @@
 | 阶段 | 状态 | 当前结果 |
 |---|---|---|
 | M0 | PASS_WITH_LIMITATIONS | Godot4.7.2、Blender5.2.2 LTS和Python/Git可用；Mobile在AMD Radeon集显/Vulkan1.3.260实测运行；GitHub main与Git LFS同步。管理/源资产/报告目录排除Godot资源扫描。|
-| M1 | PASS_WITH_LIMITATIONS | TEMP几何代理增加Idle/Walk/Run，headless/Mobile各10项检查通过；24项M1回归与本轮headless完整路线通过，前轮Mobile完整路线已通过。开发F3性能HUD可用。真人体验与长期稳定性未验收。|
-| M2 | IN_PROGRESS | 青岚/木门及庭院方向沿用；香炉同板三视图v001已生成并查看，等待INCENSE_REFERENCE_v001.md外观确认，模型未制作。|
-| M3 | IN_PROGRESS | 木门/岩石与PROP_002卷轴/低木案/石碑v002已接入，PASS_WITH_LIMITATIONS；香炉仍TEMP。9项道具检查、24项回归与Mobile完整输入通关通过。|
+| M1 | PASS_WITH_LIMITATIONS | TEMP几何代理Idle/Walk/Run已验证；最新24项headless回归与Mobile无传送完整路线通过，开发F3性能HUD可用。真人体验与长期稳定性未验收。|
+| M2 | PASS_WITH_LIMITATIONS | 初期方向/任务单/资产检查管线齐备；青岚/门/庭院方向沿用，香炉参考已明确批准。最终美术与正式角色仍需生产/验收。|
+| M3 | PASS_WITH_LIMITATIONS | 首批木门、三种岩石、青铜香炉及卷轴/石碑已接入；香炉v002经19项几何、6项运行检查，24项M1及Mobile完整通关通过。材质质量限制保留。|
 | M4 | IN_PROGRESS | 建筑/岩石首版保持可玩；新增竹丛/三层远山v002，6项环境检查、24项回归及Mobile完整输入通关通过。v001源保留，v002修正远山分面。山体轮廓和近景材质未达最终目标。|
 | M5 | NOT_STARTED | 正式青岚模型/骨骼/动画与许可尚未完成，现为TEMP几何动作。|
-| M6 | IN_PROGRESS | Mobile深度雾与有限动态太阳可用；当前道具阶段实机720p静止10秒平均143.95FPS，最终烘焙/音效/设置/稳定性尚未完成。|
+| M6 | IN_PROGRESS | 当前三线索模型场景实机720p静止10秒平均144.02FPS，Mobile深度雾与有限动态太阳可用；最终烘焙/音效/设置/稳定性尚未完成。|
 | M7 | NOT_STARTED | Windows独立发布包及实机发布验收尚未完成。|
 
 ## 本轮交付与证据
+
+- 用户明确批准香炉方向，记录`handoff/approvals/USER_APPROVAL_Incense_2026-10-22.md`。现已制作PROP_001香炉v002，模型非TEMP；角色仍TEMP。
+- `reports/validation/PROP_001_DELIVERY_v002.md`：.45×.35×.45m，3672三角面/4网格/1材质/3张内嵌1k图。源v001/v002与原始程序PBR图保留，重新导入缺图0。
+- 几何19项、香炉运行6项、先前道具9项与M1回归24项通过，Mobile完整无传送输入通关通过。足顶穿插由实际近景发现，v001间隙检查失败、v002修复通过；原始记录保留。
+- 实际Godot近景/标准灯光与Blender离线Studio图均已查看，准确区分来源。独立只读审查无Critical/Important。
+- 静止基线`PROP_001_Profile_v002.json`：10.012626秒平均144.018FPS、最低瞬时117.426FPS、最多80draw calls；不代表最终画面性能。
+
+## 之前的卷轴与石碑阶段（历史记录）
 
 - `reports/validation/PROP_002_DELIVERY_v002.md`：卷轴2392面/木案972面/石碑812面，源BLEND与内嵌PBR GLB保留，重新导入缺图0。碑身法线v001有向体积检查失败、v002通过，两版源与日志保留。
 - 卷轴拾取后隐藏但木案保留；石碑读取后保留实体且退出焦点组。9项道具检查、24项M1回归与Mobile无传送输入通关通过，均退出0。实际卷轴/石碑近景已查看。
@@ -53,6 +61,6 @@
 
 ## 下一步
 
-先确认新香炉参考，再制作PROP_001并替换最后一个金色标记；继续提高山体/近景材质与照明。青岚正式模型/骨骼及许可按M5生产，现仍TEMP。已认可的角色/木门和沿用的庭院方向无需重复索取。
+继续精修山体/近景材质与照明，推进青岚正式模型/骨骼及许可的M5生产；角色现仍TEMP。三个金色线索标记已全部替换，不重复索取已批准参考。最终视觉与真人体验另行验收。
 
 FPS_NOT_MEASURED仅用于最终美术场景：灰盒、建筑/岩石及竹丛/远山阶段均已有真实GPU静止基线，最终庭院/照明负载、长期稳定性和Windows发布包尚未验收。

@@ -12,6 +12,7 @@
 - `scripts/gameplay/game_state.gd`：世界内状态节点，保存线索集合及解锁/胜利信号；重开解除暂停并重载当前场景。目前未设为 autoload，单场景闭环使用世界内节点。
 - `scripts/interactables/clue.gd`：唯一拾取后退出交互组。
 - clue增加`hide_on_collect`，默认true；石碑设false，读取后保留可见实体，仍移出交互组并关闭monitoring。卷轴InteractionPoint位于纸面，其木案是独立StaticBody，避免拾取后留下不可见碰撞。石碑Body为Area子节点，焦点射线可识别其归属。
+- 香炉同样设hide_on_collect=false；Visual下移至地面，子Body为半径.22m/高.35m的简化圆柱，InteractionPoint位于器身前侧。最后一个金色球网格/材质资源已删除；三项线索的clue_id及XZ位置未变。
 - `scripts/interactables/door_controller.gd`：Door.tscn的Node3D根控制器，固定框体与左右StaticBody3D门扇。GLB中的LeafLeft/LeafRight在ready时挂到对应物理门轴；物理tween同步反向旋转±90°，保留碰撞，结束才标为打开。
 - `scripts/interactables/finish_trigger.gd`：实际玩家/三线索/门已开且未胜利时触发一次；HUD 暂停并显示重开/退出。
 - `scripts/ui/hud.gd`：计数、交互提示、暂时反馈、暂停/胜利菜单；always processing 允许暂停时响应按钮。

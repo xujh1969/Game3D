@@ -7,3 +7,5 @@
 竹丛/远山阶段实际证据：`reports/validation/ENV_LANDSCAPE_DELIVERY_v002.md`。6项环境检查、24项回归与Mobile通关通过；已查看三张实际场景审查图，最终自然景观质量仍待精修。
 
 卷轴/石碑阶段实际证据：`reports/validation/PROP_002_DELIVERY_v002.md`。9项道具检查、24项回归和Mobile完整输入通关通过，保留法线RED/GREEN检查与当前实机静止基线；香炉仅有待审图像。
+
+香炉阶段最新证据：`reports/validation/PROP_001_DELIVERY_v002.md`。参考已明确批准，v002实际模型经19项几何、6项运行、24项回归与Mobile通关通过，三个线索均已替换；最终外观未宣称验收完成。

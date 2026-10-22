@@ -13,6 +13,11 @@
 [ext_resource type="PackedScene" path="res://assets/game/PROP_002_Scroll_v002_game.glb" id="11"]
 [ext_resource type="PackedScene" path="res://assets/game/PROP_002_ScrollStand_v002_game.glb" id="12"]
 [ext_resource type="PackedScene" path="res://assets/game/PROP_002_StoneTablet_v002_game.glb" id="13"]
+[ext_resource type="PackedScene" path="res://assets/game/PROP_001_IncenseBurner_v002_game.glb" id="14"]
+
+[sub_resource type="CylinderShape3D" id="IncenseShape"]
+radius = 0.22
+height = 0.35
 
 [sub_resource type="BoxShape3D" id="StandShape"]
 size = Vector3(0.95, 0.7, 0.62)
@@ -60,14 +65,6 @@ size = Vector3(30, 2, 0.5)
 
 [sub_resource type="BoxShape3D" id="BoundaryShort"]
 size = Vector3(0.5, 2, 30)
-
-[sub_resource type="SphereMesh" id="ClueMesh"]
-radius = 0.28
-height = 0.56
-
-[sub_resource type="StandardMaterial3D" id="ClueMaterial"]
-albedo_color = Color(0.74, 0.57, 0.27, 1)
-roughness = 0.8
 
 [node name="CourtyardBlockout" type="Node3D"]
 
@@ -198,10 +195,20 @@ position = Vector3(-5, 0.5, -4)
 script = ExtResource("4")
 clue_id = "CLUE_003"
 title = "香炉机关"
+hide_on_collect = false
 
-[node name="Marker" type="MeshInstance3D" parent="ClueIncense"]
-mesh = SubResource("ClueMesh")
-material_override = SubResource("ClueMaterial")
+[node name="Visual" parent="ClueIncense" instance=ExtResource("14")]
+position = Vector3(0, -0.5, 0)
+rotation = Vector3(0, 1.0471976, 0)
+
+[node name="InteractionPoint" type="Marker3D" parent="ClueIncense"]
+position = Vector3(0, -0.3, 0.22)
+
+[node name="Body" type="StaticBody3D" parent="ClueIncense"]
+position = Vector3(0, -0.325, 0)
+
+[node name="Collision" type="CollisionShape3D" parent="ClueIncense/Body"]
+shape = SubResource("IncenseShape")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="ClueIncense"]
 shape = SubResource("SphereShape3D_clue")

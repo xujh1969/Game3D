@@ -1,0 +1,12 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: scroll and tablet instance actual GLB visuals
+PASS: scroll stand has independent visible support
+PASS: stone tablet has physical body
+PASS: reading stone tablet retains its physical visual
+PASS: read tablet leaves interaction focus group
+PASS: repeat tablet read does not increase count
+PASS: scroll pickup hides scroll and records second unique clue
+PASS: pickup keeps wooden stand visible
+PASS: visible stand retains matching physical collision
+CLUE_PROPS_RESULT: 0 failures

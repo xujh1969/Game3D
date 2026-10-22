@@ -1,0 +1,11 @@
+00:02.578  blend            | Read blend: "C:\Users\AYOU\Desktop\MountainCourtyard\assets\source\PROP_001_IncenseBurner_v001.blend"
+Traceback (most recent call last):
+INCENSE_GEOMETRY: {"status": "FAILED", "checks": {"three_feet": true, "Bowl_With_Interior_closed": true, "Bowl_With_Interior_outward": true, "Bowl_With_Interior_uv": true, "Foot_1_closed": true, "Foot_1_outward": true, "Foot_1_uv": true, "Foot_2_closed": true, "Foot_2_outward": true, "Foot_2_uv": true, "Foot_3_closed": true, "Foot_3_outward": true, "Foot_3_uv": true, "open_inner_cavity": true, "rim_above_inner_floor": true, "feet_below_inner_floor": false, "feet_touch_ground": true, "diameter_45cm": true, "height_35cm": true}}
+  File "C:\Users\AYOU\Desktop\MountainCourtyard\tests\blender_check_incense.py", line 34, in <module>
+    raise RuntimeError("Incense geometry check failed")
+RuntimeError: Incense geometry check failed
+
+Error: script failed, file: 'tests/blender_check_incense.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

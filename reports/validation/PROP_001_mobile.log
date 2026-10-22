@@ -1,0 +1,10 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+Vulkan 1.3.260 - Forward Mobile - Using Device #0: AMD - AMD Radeon(TM) Graphics
+
+PASS: incense instances actual asset and physical body
+PASS: approach can focus incense through its own physical body
+PASS: activated incense stays visible
+PASS: activated incense leaves focus group
+PASS: incense clue records once
+PASS: visible incense retains physical collision
+INCENSE_RESULT: 0 failures

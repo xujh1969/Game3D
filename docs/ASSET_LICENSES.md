@@ -35,6 +35,12 @@
 - 场景贴面文字“山居记”“听竹 / 观石”为项目原创，通过Godot默认文字系统呈现，未宣称历史铭文或几何雕刻。
 - 香炉`PROP_REF_002_IncenseBurner_sheet_v001.png`由内置image_gen生成，仅供外观审核；不是外部扫描/已批准3D模型。
 
-## TEMP管线立方体原始说明
+## PROP_001青铜香炉 v002
+
+- 设计方向来自用户明确批准的项目image_gen参考；几何与铜锈BaseColor/Roughness/Metallic/Normal由`tools/blender/build_incense.py`制作，无外部模型/贴图输入。
+- 源`assets/source/PROP_001_IncenseBurner_v002.blend`；原始1k PNG在`assets/source/materials/Incense_v002/`。运行GLB内嵌BaseColor、合并Metallic/Roughness、Normal三张图。
+- 保留v001试制源，v002修正足顶内腔穿插并提高粗糙度。程序材质不是实物扫描，不宣称考古复建或最终照片级表面。
+
+## TEMP管线立方体说明
 
 `tests/create_asset_fixture.py` 本项目生成，仅用于技术验证，不是正式艺术资产。
