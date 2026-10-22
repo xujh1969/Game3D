@@ -43,7 +43,7 @@ def main():
         nodes.append(f'[node name="{label}" type="CollisionShape3D" parent="Collision"]\nshape = SubResource("{label}")\n')
     content = f'''[gd_scene load_steps={len(resources)+2} format=3]
 
-[ext_resource type="PackedScene" path="res://assets/game/ARCH_Courtyard_v002_game.glb" id="1"]
+[ext_resource type="PackedScene" path="res://assets/game/ARCH_Courtyard_v003_game.glb" id="1"]
 
 ''' + "\n".join(resources) + '''
 [node name="Architecture" type="Node3D"]

@@ -1,0 +1,28 @@
+00:06.687  blend            | Read blend: "C:\Users\AYOU\Desktop\MountainCourtyard\assets\source\ARCH_Courtyard_v002.blend"
+C:\Users\AYOU\Desktop\MountainCourtyard\tools\blender\upgrade_courtyard_surfaces.py:19: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes=True
+Info: Saved as "ARCH_Courtyard_v003.blend"
+Warning: No mesh data to join
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+11:28:59 | INFO: Starting glTF 2.0 export
+11:28:59 | INFO: Extracting primitive: Cube.020
+11:29:01 | INFO: Primitives created: 1
+11:29:01 | INFO: Extracting primitive: Pan_And_Cover_Tiles
+11:29:01 | INFO: Primitives created: 1
+11:29:01 | INFO: Extracting primitive: Cube.099
+11:29:02 | INFO: Primitives created: 2
+11:29:02 | INFO: Extracting primitive: Cube.066
+11:29:02 | INFO: Primitives created: 1
+11:29:02 | INFO: Extracting primitive: Cube.249
+11:29:02 | INFO: Primitives created: 3
+11:29:02 | INFO: Extracting primitive: Cube
+11:29:02 | INFO: Primitives created: 1
+11:29:02 | INFO: Extracting primitive: Cube.161
+11:29:02 | INFO: Primitives created: 1
+11:29:02 | INFO: Finished glTF 2.0 export in 3.172276496887207 s
+
+SURFACE_UPGRADE: 20 objects; unchanged geometry
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

@@ -1,0 +1,13 @@
+11:35:06 | INFO: Data are loaded, start creating Blender stuff
+11:35:06 | INFO: Blender create Mesh node Cube.020
+11:35:06 | INFO: Blender create Mesh node Pan_And_Cover_Tiles
+11:35:07 | INFO: Blender create Mesh node Cube.099
+11:35:07 | INFO: Blender create Mesh node Cube.066
+11:35:07 | INFO: Blender create Mesh node Cube.249
+11:35:07 | INFO: Blender create Mesh node Cube
+11:35:07 | INFO: Blender create Mesh node Cube.161
+11:35:08 | INFO: glTF import finished in 2.09s
+ASSET_VALIDATION: PASS_WITH_LIMITATIONS
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

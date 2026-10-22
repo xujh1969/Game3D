@@ -1,0 +1,164 @@
+{
+  "source": "C:\\Users\\AYOU\\Desktop\\MountainCourtyard\\assets\\game\\ARCH_Courtyard_v003_game.glb",
+  "blender_version": "5.2.2 LTS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "mesh_count": 7,
+  "triangles": 61752,
+  "materials": [
+    "ARCH_003_Aged_Timber_PBR",
+    "Courtyard_Fired_Gray_Tile",
+    "Courtyard_Gray_Stone",
+    "PH_brown_mud_02_PBR",
+    "PH_plastered_wall_02_PBR"
+  ],
+  "blender_bounds_xyz": [
+    [
+      -15.234999656677246,
+      15.235000610351562
+    ],
+    [
+      -15.234999656677246,
+      15.234999656677246
+    ],
+    [
+      -0.07999999821186066,
+      5.150000095367432
+    ]
+  ],
+  "godot_dimensions_xyz_m": [
+    30.47000026702881,
+    5.230000093579292,
+    30.469999313354492
+  ],
+  "armatures": [],
+  "actions": [],
+  "images": [
+    {
+      "name": "brown_mud_02_diff_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "brown_mud_02_nor_gl_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "brown_mud_02_rough_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "Courtyard_Fired_Gray_Tile_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Courtyard_Fired_Gray_Tile_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Courtyard_Fired_Gray_Tile_Roughness",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Courtyard_Gray_Stone_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Courtyard_Gray_Stone_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Courtyard_Gray_Stone_Roughness",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "fine_grained_wood_col_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "fine_grained_wood_nor_gl_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "fine_grained_wood_rough_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "plastered_wall_02_diff_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "plastered_wall_02_nor_gl_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "plastered_wall_02_rough_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    }
+  ],
+  "missing_files": [],
+  "requires_review": [
+    "Source and license",
+    "Expected real-world dimensions and pivot",
+    "Normals, UV, PBR appearance, extra base geometry",
+    "Rig and animation quality when applicable"
+  ]
+}

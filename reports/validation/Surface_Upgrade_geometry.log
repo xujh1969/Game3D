@@ -1,0 +1,6 @@
+00:08.860  blend            | Read blend: "C:\Users\AYOU\Desktop\MountainCourtyard\assets\source\ARCH_Courtyard_v002.blend"
+00:09.313  blend            | Read blend: "C:\Users\AYOU\Desktop\MountainCourtyard\assets\source\ARCH_Courtyard_v003.blend"
+SURFACE_GEOMETRY: {"status": "PASS", "mesh_objects": 315, "checks": {"identical_object_geometry_and_transforms": true, "photographic_ground": true, "photographic_plaster": true}}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

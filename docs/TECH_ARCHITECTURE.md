@@ -1,7 +1,7 @@
 # 技术架构
 
 - `scenes/world/Courtyard_Blockout.tscn`：世界、碰撞边界、墙段/门、三项线索、终点、HUD。
-- 当前世界保留入口名，实例化`CourtyardArchitecture.tscn`与`CourtyardNature.tscn`。前者使用ARCH_Courtyard_v002静态GLB和显式简化碰撞，后者为三种扫描岩石及简化盒体碰撞。原HallWallLeft/Right由实际立面与两侧横墙替代。
+- 当前世界保留入口名，实例化`CourtyardArchitecture.tscn`与`CourtyardNature.tscn`。前者使用ARCH_Courtyard_v003静态GLB和显式简化碰撞，后者为三种扫描岩石及简化盒体碰撞。v003仅升级地面/灰泥PBR与实体尺度UV，315构件几何/变换与v002一致；碰撞未改。原HallWallLeft/Right由实际立面与两侧横墙替代。
 - `EnvironmentScenery.tscn`独立包含4组竹丛与3层远山；24根竹秆用窄柱碰撞，叶片无碰撞，远山无碰撞且全部位于可玩场界之外。生成脚本分别为`build_landscape.py`与`write_landscape_scene.py`。
 - WorldEnvironment启用Mobile普通深度雾，密度.0035，高度贡献关闭；不使用体积雾。现有相机/输入/线索接口不变。
 - 建筑石台基顶面Y=.3；双门根与终点随台基升高.3m。踏步采用宽3.8m的凸斜坡碰撞，避免为现有控制器增加跨阶系统；屋面凸形碰撞参与SpringArm遮挡。木门保持独立交互节点，未烘入静态建筑。
@@ -18,6 +18,7 @@
 - `scripts/ui/hud.gd`：计数、交互提示、暂时反馈、暂停/胜利菜单；always processing 允许暂停时响应按钮。
 - `scenes/world/AssetTest.tscn`：模型尺度和材质审查，入口脚本 `scripts/debug/asset_test.gd`。
 - `scripts/debug/debug_hud.gd`：开发版显示真实FPS、draw calls与渲染primitive计数；F3切换。release默认隐藏。primitive计数不等同于源模型三角形预算。
-- `tools/godot/profile_graybox.gd`：图形后端静止出生点测量，预热2秒、采样10秒，输出原始JSON和截图；`-- --report-name=Courtyard_Rocks_Profile_v001`保留不同阶段记录，不覆盖原灰盒基线；不是最终场景性能验收。
+- `tools/godot/profile_graybox.gd`：图形后端静止出生点测量，预热2秒、采样10秒，输出原始JSON和截图；`-- --report-name=NAME`保留不同阶段记录。新增p95/p99和>33.33ms慢帧采样时间；`--previous-surfaces`仅在进程内用v002旧视觉做对照，碰撞不变。v003首两轮约218–221ms长帧尚未解释，后续新旧对照无复现，不宣称修复或最终性能验收。
+- 正式青岚输入交接为`handoff/requests/ASSET_CHAR_001.md`；当前未收到源GLB/FBX与许可，控制器仍使用TEMP代理。
 
 测试入口：`tests/test_game_state.gd`（计数信号）、`tests/test_m1_runtime.gd`（实际场景行为）、`tests/test_playthrough.gd`（无传送输入路线）。详情与边界见 `reports/validation/M1_ACCEPTANCE_2026-10-22.md`。

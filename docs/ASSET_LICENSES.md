@@ -41,6 +41,14 @@
 - 源`assets/source/PROP_001_IncenseBurner_v002.blend`；原始1k PNG在`assets/source/materials/Incense_v002/`。运行GLB内嵌BaseColor、合并Metallic/Roughness、Normal三张图。
 - 保留v001试制源，v002修正足顶内腔穿插并提高粗糙度。程序材质不是实物扫描，不宣称考古复建或最终照片级表面。
 
+## ARCH_Courtyard_v003 地面与灰泥
+
+- 从v002可编辑源仅替换地面/灰泥材质与UV；315个网格对象的几何和变换全部保持一致，旧源保留。报告`reports/validation/SURFACE_UPGRADE_v003.md`。
+- 地面：[Poly Haven Brown Mud 02](https://polyhaven.com/a/brown_mud_02)，作者Rob Tuytel；灰泥：[Plastered Wall 02](https://polyhaven.com/a/plastered_wall_02)，作者Charlotte Baglioni。资产页均标注CC0，[站点许可](https://polyhaven.com/license)允许商业使用/再分发。
+- 两套Diffuse/Roughness/OpenGL Normal各3张1k PNG，原图/公共API元数据/URL/MD5保存在`assets/source/third_party/brown_mud_02/`和`plastered_wall_02/`，下载脚本`fetch_surface_textures.py`实际核验六张MD5。仅离线准备使用公共API，运行不联网。
+- 源`assets/source/ARCH_Courtyard_v003.blend`打包贴图；运行GLB内嵌，沿用原木材、石材、瓦材来源。不是照片级场景完成声明。
+- 青岚CHAR_REF_002是从已认可图像生成的单人技术姿态参考，图像工具输出及提示词保留；正式3D角色来源/许可尚未收到，不能据此认定角色模型授权完成。
+
 ## TEMP管线立方体说明
 
 `tests/create_asset_fixture.py` 本项目生成，仅用于技术验证，不是正式艺术资产。

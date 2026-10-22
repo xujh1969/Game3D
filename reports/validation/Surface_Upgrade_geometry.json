@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "mesh_objects": 315,
+  "checks": {
+    "identical_object_geometry_and_transforms": true,
+    "photographic_ground": true,
+    "photographic_plaster": true
+  }
+}

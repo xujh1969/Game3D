@@ -1,0 +1,38 @@
+[
+  {
+    "channel": "Diffuse",
+    "file": "plastered_wall_02_diff_1k.png",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/plastered_wall_02/plastered_wall_02_diff_1k.png",
+    "md5": "4a4bad7eb2cef12586cb3f5cc02fbf11",
+    "source": "https://polyhaven.com/a/plastered_wall_02",
+    "license": "CC0",
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "date": "2026-10-22"
+  },
+  {
+    "channel": "Rough",
+    "file": "plastered_wall_02_rough_1k.png",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/plastered_wall_02/plastered_wall_02_rough_1k.png",
+    "md5": "7238eea0b893709813bc61d46b8f9e19",
+    "source": "https://polyhaven.com/a/plastered_wall_02",
+    "license": "CC0",
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "date": "2026-10-22"
+  },
+  {
+    "channel": "nor_gl",
+    "file": "plastered_wall_02_nor_gl_1k.png",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/plastered_wall_02/plastered_wall_02_nor_gl_1k.png",
+    "md5": "b9fd8b540a1a765d61324b019d856fca",
+    "source": "https://polyhaven.com/a/plastered_wall_02",
+    "license": "CC0",
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "date": "2026-10-22"
+  }
+]

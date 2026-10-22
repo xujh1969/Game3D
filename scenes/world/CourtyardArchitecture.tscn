@@ -1,6 +1,6 @@
 [gd_scene load_steps=23 format=3]
 
-[ext_resource type="PackedScene" path="res://assets/game/ARCH_Courtyard_v002_game.glb" id="1"]
+[ext_resource type="PackedScene" path="res://assets/game/ARCH_Courtyard_v003_game.glb" id="1"]
 
 [sub_resource type="BoxShape3D" id="Platform"]
 size = Vector3(12, 0.3, 8)

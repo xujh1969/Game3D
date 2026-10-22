@@ -18,9 +18,11 @@ Godot 4.7.2，Windows 单机第三人称宋风山居探索解谜。当前30×30m
 
 完整真人键鼠通关、菜单按钮实点和长期镜头体验仍待验收。角色动作是TEMP几何摆动，尚无正式模型/骨骼/服装。建筑/岩石阶段的台阶/碰撞及历史基线见`reports/validation/COURTYARD_DELIVERY_v002.md`。
 
-最新竹丛/远山阶段通过6项环境检查、24项回归和Mobile完整自动通关；实机720p静止10秒平均144.02FPS。详情与视觉限制见`reports/validation/ENV_LANDSCAPE_DELIVERY_v002.md`，最终材质/照明及长期稳定性仍待验收。
+竹丛/远山历史阶段见`reports/validation/ENV_LANDSCAPE_DELIVERY_v002.md`。当前建筑v003接入有来源/校验记录的1k地面与灰泥PBR；315构件几何不变，8项空间/24项回归及Mobile完整通关通过，见`reports/validation/SURFACE_UPGRADE_v003.md`。性能前两轮出现约218–221ms长帧，后续新旧对照均约144FPS且无长帧；根因仍待调查，未完成稳定性验收。
 
-卷轴/石碑阶段记录见`reports/validation/PROP_002_DELIVERY_v002.md`。最新香炉v002已接入，19项几何、6项香炉、24项回归及Mobile通关通过；实机720p静止约144.02FPS，见`reports/validation/PROP_001_DELIVERY_v002.md`。三个金色占位物均已替换，材质与场景仍待精修。
+卷轴/石碑阶段记录见`reports/validation/PROP_002_DELIVERY_v002.md`。香炉v002已接入，19项几何、6项香炉、24项回归及Mobile通关通过；历史性能见`reports/validation/PROP_001_DELIVERY_v002.md`。三个金色占位物均已替换，材质与场景仍待精修。
+
+正式青岚模型尚待提供，单人A姿技术参考已备齐。按MASTER_PLAN素材交接门，请依[角色任务单](handoff/requests/ASSET_CHAR_001.md)提供原始GLB与许可；允许先交未绑定模型。角色设计沿用已认可版本。
 
 ## 视觉方向审核
 

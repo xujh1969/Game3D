@@ -9,6 +9,7 @@ var focused_frames := 0
 var finishing := false
 var world: Node
 var report_name := "Graybox_Profile_v001"
+var architecture_version := "v003"
 
 func _initialize() -> void:
 	run.call_deferred()
@@ -17,11 +18,19 @@ func run() -> void:
 	for argument in OS.get_cmdline_user_args():
 		if argument.begins_with("--report-name="):
 			report_name = argument.trim_prefix("--report-name=")
+		elif argument == "--previous-surfaces":
+			architecture_version = "v002"
 	if DisplayServer.get_name() == "headless":
 		push_error("GPU baseline requires a graphical backend; headless cannot measure it")
 		quit(1)
 		return
 	world = load("res://scenes/world/Courtyard_Blockout.tscn").instantiate()
+	if architecture_version == "v002":
+		var architecture := world.get_node("Architecture")
+		architecture.get_node("Visual").free()
+		var visual: Node3D = load("res://assets/game/ARCH_Courtyard_v002_game.glb").instantiate()
+		visual.name = "Visual"
+		architecture.add_child(visual)
 	root.add_child(world)
 	current_scene = world
 	world.get_node("Player/SpringArm3D").set_process_unhandled_input(false)
@@ -52,10 +61,18 @@ func finish() -> void:
 	var measured_seconds := 0.0
 	for interval in intervals:
 		measured_seconds += interval
+	var sorted_intervals := intervals.duplicate()
+	sorted_intervals.sort()
+	var slow_frames: Array[Dictionary] = []
+	var sample_time := 0.0
+	for interval in intervals:
+		sample_time += interval
+		if interval > 1.0 / 30.0:
+			slow_frames.append({"sample_seconds": sample_time, "frame_ms": interval * 1000.0})
 	var report := {
 		"status": "PASS_WITH_LIMITATIONS",
 		"date": "2026-10-22",
-		"scene": "Courtyard_Blockout / static spawn / " + ("ENV_BambooLandscape_v002 + " if world.has_node("EnvironmentScenery") else "") + ("ARCH_Courtyard_v002 + NAT_001 v001 + " if world.has_node("Architecture") else "") + "TEMP articulated proxy + ARCH_003 v003",
+		"scene": "Courtyard_Blockout / static spawn / " + ("ENV_BambooLandscape_v002 + " if world.has_node("EnvironmentScenery") else "") + ("ARCH_Courtyard_" + architecture_version + " + NAT_001 v001 + " if world.has_node("Architecture") else "") + "TEMP articulated proxy + ARCH_003 v003",
 		"clue_visuals": "PROP_002 v002 scroll and stone tablet; " + ("PROP_001 v002 incense" if world.has_node("ClueIncense/Visual") else "TEMP incense") if world.has_node("ScrollStand") else "TEMP markers",
 		"device": RenderingServer.get_video_adapter_name(),
 		"renderer": ProjectSettings.get_setting("rendering/renderer/rendering_method"),
@@ -66,6 +83,9 @@ func finish() -> void:
 		"average_fps": intervals.size() / measured_seconds,
 		"minimum_instantaneous_fps": 1.0 / intervals.max(),
 		"maximum_frame_ms": intervals.max() * 1000.0,
+		"p95_frame_ms": sorted_intervals[ceili(sorted_intervals.size() * 0.95) - 1] * 1000.0,
+		"p99_frame_ms": sorted_intervals[ceili(sorted_intervals.size() * 0.99) - 1] * 1000.0,
+		"frames_over_33_33_ms": slow_frames,
 		"focused_frames": focused_frames,
 		"draw_calls_max": draw_calls.max(),
 		"rendered_primitives_max": primitives.max(),
