@@ -1,0 +1,11 @@
+{
+	"failures": 0,
+	"limitations": "Independent static review only; no rig/animations or production approval",
+	"size_m": [
+		0.758483529090881,
+		1.69989013671875,
+		0.353950589895248
+	],
+	"status": "PASS_WITH_LIMITATIONS",
+	"triangles": 30000
+}

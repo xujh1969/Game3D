@@ -1,0 +1,7 @@
+00:02.797  blend            | Read blend: "C:\Users\AYOU\Desktop\MountainCourtyard\assets\source\CHAR_001_Qinglan_v001.blend"
+C:\Users\AYOU\Desktop\MountainCourtyard\tools\blender\render_qinglan_source.py:24: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True
+00:08.797  render           | Saved: 'C:\Users\AYOU\Desktop\MountainCourtyard\reports\screenshots\CHAR_001_Source_v001_Face_Studio.png'
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

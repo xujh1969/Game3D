@@ -1,0 +1,64 @@
+{
+  "source": "C:\\Users\\AYOU\\Desktop\\MountainCourtyard\\assets\\review\\CHAR_001_Qinglan_v002_review.glb",
+  "blender_version": "5.2.2 LTS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "mesh_count": 1,
+  "triangles": 30000,
+  "materials": [
+    "Material.001"
+  ],
+  "blender_bounds_xyz": [
+    [
+      -0.37952253222465515,
+      0.3789609670639038
+    ],
+    [
+      -0.17725364863872528,
+      0.17669694125652313
+    ],
+    [
+      0.00013657673844136298,
+      1.7000267505645752
+    ]
+  ],
+  "godot_dimensions_xyz_m": [
+    0.758483499288559,
+    1.6998901738261338,
+    0.3539505898952484
+  ],
+  "armatures": [],
+  "actions": [],
+  "images": [
+    {
+      "name": "texture_pbr_20250901",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture_pbr_20250901_normal",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    }
+  ],
+  "missing_files": [],
+  "requires_review": [
+    "Source and license",
+    "Expected real-world dimensions and pivot",
+    "Normals, UV, PBR appearance, extra base geometry",
+    "Rig and animation quality when applicable"
+  ]
+}

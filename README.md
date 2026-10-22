@@ -2,6 +2,8 @@
 
 Godot 4.7.2，Windows 单机第三人称宋风山居探索解谜。当前30×30m可玩样板含首版建筑、双门、石径、岩石、竹丛、远山/深度雾及卷轴/石碑/青铜香炉。青岚仍为TEMP几何代理，包含Idle/Walk/Run。
 
+当前范围为Codex三维技术实验。按用户2026-10-22明确指示，取消此前三维资产版权/来源/商用许可资料提交与审核门槛，不再据此阻断开发。已收到青岚源GLB，另存可编辑源及3万面/2K/约1.70m静态审查版；尚无骨骼动画，世界角色仍TEMP，技术报告见`reports/validation/CHAR_001_INTAKE_v002.md`。
+
 ## 启动和操作
 
 本机双击 `Play.cmd`，或在 Godot 中打开 `project.godot` 后 F6/F5 运行。启动脚本使用已检测的本机 Godot 安装路径；其他机器需修改路径或从编辑器运行。默认 Mobile 后端已在 AMD Radeon(TM) Graphics / Vulkan 1.3.260 实际启动。
@@ -22,7 +24,7 @@ Godot 4.7.2，Windows 单机第三人称宋风山居探索解谜。当前30×30m
 
 卷轴/石碑阶段记录见`reports/validation/PROP_002_DELIVERY_v002.md`。香炉v002已接入，19项几何、6项香炉、24项回归及Mobile通关通过；历史性能见`reports/validation/PROP_001_DELIVERY_v002.md`。三个金色占位物均已替换，材质与场景仍待精修。
 
-正式青岚模型尚待提供，单人A姿技术参考已备齐。按MASTER_PLAN素材交接门，请依[角色任务单](handoff/requests/ASSET_CHAR_001.md)提供原始GLB与许可；允许先交未绑定模型。角色设计沿用已认可版本。
+青岚原始GLB已收到，无需重交或补充许可资料。[角色任务单](handoff/requests/ASSET_CHAR_001.md)已更新为技术处理中；下一步是面部保真、可变形拓扑与骨骼动作实验。角色设计沿用已认可版本。
 
 ## 视觉方向审核
 

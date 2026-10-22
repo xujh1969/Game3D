@@ -1,0 +1,7 @@
+00:03.375  blend            | Read blend: "C:\Users\AYOU\Desktop\MountainCourtyard\assets\source\CHAR_001_Qinglan_v001.blend"
+MESH_DIAG 924398 2418355 1499720 True 1499720
+CLEAR_NORMALS_OP True
+DECIMATE_PROPS ['rna_type', 'name', 'type', 'show_viewport', 'show_render', 'show_in_editmode', 'show_on_cage', 'show_expanded', 'is_active', 'use_pin_to_last', 'is_override_data', 'use_apply_on_spline', 'execution_time', 'persistent_uid', 'decimate_type', 'ratio', 'iterations', 'angle_limit', 'vertex_group', 'invert_vertex_group', 'use_collapse_triangulate', 'use_symmetry', 'symmetry_axis', 'vertex_group_factor', 'use_dissolve_boundaries', 'delimit', 'face_count']
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

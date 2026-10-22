@@ -1,0 +1,16 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "source_sha256": "c4185db4655fd60d8440e67a580f4bffe94bab5c39119a9c50d1533e35c2e95a",
+  "source_triangles": 1499720,
+  "review_triangles": 30000,
+  "height_m": 1.7,
+  "texture_max_px": 2048,
+  "source_blend": "assets\\source\\CHAR_001_Qinglan_v001.blend",
+  "review_glb": "assets/review/CHAR_001_Qinglan_v001_review.glb",
+  "limitations": [
+    "Unrigged; no animations",
+    "Source/license and appearance gate pending",
+    "Global decimation is not deformation-ready retopology; inspect face and hands"
+  ],
+  "path_note": "Moved to assets/review after existing assets/processed/.gdignore prevented Godot import; source untouched"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "before_weld_vertices": 924398,
+  "after_weld_vertices": 749772,
+  "weld_threshold_m": 1e-06,
+  "review_triangles": 30000,
+  "rigged": false,
+  "changes": "Weld coincident imported seam vertices before collapse; regenerate smooth normals",
+  "limitations": "Static review; global decimation is not animation retopology"
+}

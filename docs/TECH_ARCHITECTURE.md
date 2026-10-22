@@ -19,6 +19,6 @@
 - `scenes/world/AssetTest.tscn`：模型尺度和材质审查，入口脚本 `scripts/debug/asset_test.gd`。
 - `scripts/debug/debug_hud.gd`：开发版显示真实FPS、draw calls与渲染primitive计数；F3切换。release默认隐藏。primitive计数不等同于源模型三角形预算。
 - `tools/godot/profile_graybox.gd`：图形后端静止出生点测量，预热2秒、采样10秒，输出原始JSON和截图；`-- --report-name=NAME`保留不同阶段记录。新增p95/p99和>33.33ms慢帧采样时间；`--previous-surfaces`仅在进程内用v002旧视觉做对照，碰撞不变。v003首两轮约218–221ms长帧尚未解释，后续新旧对照无复现，不宣称修复或最终性能验收。
-- 正式青岚输入交接为`handoff/requests/ASSET_CHAR_001.md`；当前未收到源GLB/FBX与许可，控制器仍使用TEMP代理。
+- 青岚输入交接为`handoff/requests/ASSET_CHAR_001.md`；源GLB已收到，保存高精度BLEND与独立`assets/review/CHAR_001_Qinglan_v002_review.glb`静态审查版。assets/processed带.gdignore，不供运行加载；资产审查使用独立AssetTest，不改世界控制器。当前无骨骼/动画，控制器仍使用TEMP代理。用户最新实验范围已取消版权/来源/商用许可门槛。
 
 测试入口：`tests/test_game_state.gd`（计数信号）、`tests/test_m1_runtime.gd`（实际场景行为）、`tests/test_playthrough.gd`（无传送输入路线）。详情与边界见 `reports/validation/M1_ACCEPTANCE_2026-10-22.md`。

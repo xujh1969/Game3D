@@ -1,5 +1,9 @@
 # 资产来源与许可
 
+## 当前实验范围优先说明
+
+用户2026-10-22明确取消三维资产版权、来源及商业使用许可的提交与审核要求，当前仅为Codex三维技术实验。本文原有记录作为历史信息保留，不再作为资产接收、开发或模型接入门槛；不再要求用户补交相关材料。记录见`handoff/approvals/USER_TECH_EXPERIMENT_SCOPE_2026-10-22.md`。
+
 ## ARCH_003_DoorSong_v003
 
 - 设计依据：用户已批准的项目生成木门参考图，批准记录 `handoff/approvals/USER_APPROVAL_2026-10-22_Qinglan_Door_v001.md`。

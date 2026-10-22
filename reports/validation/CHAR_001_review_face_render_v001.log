@@ -1,0 +1,9 @@
+13:06:24 | INFO: Data are loaded, start creating Blender stuff
+13:06:24 | INFO: Blender create Mesh node node_0
+13:06:24 | INFO: glTF import finished in 0.14s
+C:\Users\AYOU\Desktop\MountainCourtyard\tools\blender\render_qinglan_source.py:30: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True
+00:06.921  render           | Saved: 'C:\Users\AYOU\Desktop\MountainCourtyard\reports\screenshots\CHAR_001_Review_v001_Face_Studio.png'
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit
