@@ -28,6 +28,13 @@
 - 源文件`assets/source/ENV_BambooLandscape_v002.blend`包含完整几何与打包贴图；v001试制源保留。运行输出`NAT_002_BambooClump_v002_game.glb`和`ENV_DistantMountains_v002_game.glb`。
 - 山体是不可进入的背景艺术网格，不是地理扫描，也没有声称真实地貌复原。
 
-## TEMP管线立方体来源
+## PROP_002卷轴 / 木案 / 石碑 v002
+
+- 几何为项目脚本`tools/blender/build_clue_props.py`制作，纸/石/布PBR同样为项目生成；木材复用前述Poly Haven Fine Grained Wood CC0源图。
+- 源`PROP_002_ClueSet_v002.blend`与`assets/source/materials/ClueProps_v002/`保留；v001法线试制源保留。三个运行GLB不包含字体文件。
+- 场景贴面文字“山居记”“听竹 / 观石”为项目原创，通过Godot默认文字系统呈现，未宣称历史铭文或几何雕刻。
+- 香炉`PROP_REF_002_IncenseBurner_sheet_v001.png`由内置image_gen生成，仅供外观审核；不是外部扫描/已批准3D模型。
+
+## TEMP管线立方体原始说明
 
 `tests/create_asset_fixture.py` 本项目生成，仅用于技术验证，不是正式艺术资产。

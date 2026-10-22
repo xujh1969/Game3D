@@ -5,3 +5,5 @@
 建筑/岩石阶段实际证据：`reports/validation/COURTYARD_DELIVERY_v002.md`。8项空间检查、24项M1回归、Mobile无传送自动通关与真实GPU静止基线通过；不替代真人完整体验、最终视觉验收或发布包检查。
 
 竹丛/远山阶段实际证据：`reports/validation/ENV_LANDSCAPE_DELIVERY_v002.md`。6项环境检查、24项回归与Mobile通关通过；已查看三张实际场景审查图，最终自然景观质量仍待精修。
+
+卷轴/石碑阶段实际证据：`reports/validation/PROP_002_DELIVERY_v002.md`。9项道具检查、24项回归和Mobile完整输入通关通过，保留法线RED/GREEN检查与当前实机静止基线；香炉仅有待审图像。

@@ -2,6 +2,7 @@ extends Area3D
 
 @export var clue_id := "CLUE_001"
 @export var title := "线索"
+@export var hide_on_collect := true
 var collected := false
 
 func _ready() -> void:
@@ -14,7 +15,7 @@ func interact(_player: Node3D) -> void:
 	if state.collect_clue(clue_id):
 		collected = true
 		remove_from_group("interactable")
-		visible = false
+		visible = not hide_on_collect
 		set_deferred("monitoring", false)
 
 func get_prompt() -> String:

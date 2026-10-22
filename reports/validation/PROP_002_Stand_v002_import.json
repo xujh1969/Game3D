@@ -1,0 +1,64 @@
+{
+  "source": "C:\\Users\\AYOU\\Desktop\\MountainCourtyard\\assets\\game\\PROP_002_ScrollStand_v002_game.glb",
+  "blender_version": "5.2.2 LTS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "mesh_count": 1,
+  "triangles": 972,
+  "materials": [
+    "ARCH_003_Aged_Timber_PBR"
+  ],
+  "blender_bounds_xyz": [
+    [
+      -0.4749999940395355,
+      0.4749999940395355
+    ],
+    [
+      -0.3100000023841858,
+      0.3100000023841858
+    ],
+    [
+      0.0,
+      0.7000000476837158
+    ]
+  ],
+  "godot_dimensions_xyz_m": [
+    0.949999988079071,
+    0.7000000476837158,
+    0.6200000047683716
+  ],
+  "armatures": [],
+  "actions": [],
+  "images": [
+    {
+      "name": "fine_grained_wood_col_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "fine_grained_wood_nor_gl_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "fine_grained_wood_rough_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    }
+  ],
+  "missing_files": [],
+  "requires_review": [
+    "Source and license",
+    "Expected real-world dimensions and pivot",
+    "Normals, UV, PBR appearance, extra base geometry",
+    "Rig and animation quality when applicable"
+  ]
+}

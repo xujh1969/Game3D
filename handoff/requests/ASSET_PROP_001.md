@@ -1,6 +1,7 @@
 # ASSET_PROP_001 — 宋风青铜香炉
 
 - 状态：WAITING_FOR_USER
+- 2026-10-22：香炉三视图参考已由项目生成，位于`handoff/reference/generated/PROP_REF_002_IncenseBurner_sheet_v001.png`；当前只需审核`handoff/approvals/INCENSE_REFERENCE_v001.md`，无需用户重新生成图片或同时提交模型。确认后优先由Blender制作可校验几何。
 - 用途：西侧庭院可互动线索道具。
 - 尺寸：直径约 0.45 m、高约 0.35 m；目标 1k–5k triangles，1024px PBR 起步。
 - 推荐工具：先准备独立香炉参考，再用 Tripo/混元生成；交互碰撞体由 Godot 单独提供。

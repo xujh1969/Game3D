@@ -1,0 +1,64 @@
+{
+  "source": "C:\\Users\\AYOU\\Desktop\\MountainCourtyard\\assets\\game\\PROP_002_StoneTablet_v002_game.glb",
+  "blender_version": "5.2.2 LTS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "mesh_count": 1,
+  "triangles": 812,
+  "materials": [
+    "Tablet_Weathered_Stone"
+  ],
+  "blender_bounds_xyz": [
+    [
+      -0.44999998807907104,
+      0.44999998807907104
+    ],
+    [
+      -0.23000000417232513,
+      0.23000000417232513
+    ],
+    [
+      0.0,
+      1.340000033378601
+    ]
+  ],
+  "godot_dimensions_xyz_m": [
+    0.8999999761581421,
+    1.340000033378601,
+    0.46000000834465027
+  ],
+  "armatures": [],
+  "actions": [],
+  "images": [
+    {
+      "name": "Tablet_Weathered_Stone_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Tablet_Weathered_Stone_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Tablet_Weathered_Stone_Roughness",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    }
+  ],
+  "missing_files": [],
+  "requires_review": [
+    "Source and license",
+    "Expected real-world dimensions and pivot",
+    "Normals, UV, PBR appearance, extra base geometry",
+    "Rig and animation quality when applicable"
+  ]
+}

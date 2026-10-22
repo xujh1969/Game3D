@@ -1,0 +1,114 @@
+{
+  "source": "C:\\Users\\AYOU\\Desktop\\MountainCourtyard\\assets\\game\\PROP_002_Scroll_v001_game.glb",
+  "blender_version": "5.2.2 LTS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "mesh_count": 1,
+  "triangles": 2392,
+  "materials": [
+    "ARCH_003_Aged_Timber_PBR",
+    "Scroll_Fiber_Paper",
+    "Scroll_Linen_End"
+  ],
+  "blender_bounds_xyz": [
+    [
+      -0.31599998474121094,
+      0.3160000145435333
+    ],
+    [
+      -0.23250000178813934,
+      0.23250000178813934
+    ],
+    [
+      -0.00100000761449337,
+      0.05100000649690628
+    ]
+  ],
+  "godot_dimensions_xyz_m": [
+    0.6319999992847443,
+    0.05200001411139965,
+    0.4650000035762787
+  ],
+  "armatures": [],
+  "actions": [],
+  "images": [
+    {
+      "name": "fine_grained_wood_col_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "fine_grained_wood_nor_gl_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "fine_grained_wood_rough_1k",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "Scroll_Fiber_Paper_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Scroll_Fiber_Paper_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Scroll_Fiber_Paper_Roughness",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Scroll_Linen_End_BaseColor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Scroll_Linen_End_Normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Scroll_Linen_End_Roughness",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    }
+  ],
+  "missing_files": [],
+  "requires_review": [
+    "Source and license",
+    "Expected real-world dimensions and pivot",
+    "Normals, UV, PBR appearance, extra base geometry",
+    "Rig and animation quality when applicable"
+  ]
+}
