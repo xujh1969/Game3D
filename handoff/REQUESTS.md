@@ -9,6 +9,7 @@
 - IMAGE_ENV_REF_001_MainCourtyardHero — PASS_WITH_LIMITATIONS：两张v002概念与尺度草案提交后，用户回复“继续开发”，沿用方向推进，记录见COURTYARD_DIRECTION_CONTINUE_2026-10-22.md；最终场景外观尚未验收。
 
 - CHAR_REF_002_Qinglan_ProductionFront — PASS_WITH_LIMITATIONS：从已认可转面图生成并查看单人A姿技术辅助图，提示词保留；非3D交付，不替代原设计、不重复索取认可。
+- CHAR_REF_002_Qinglan_ProductionLeft/Right/Back — PASS_WITH_LIMITATIONS：补充三张独立方向图，已查看；Back v002修正首稿肩带方向。四图索引`handoff/reference/generated/QINGLAN_PRODUCTION_VIEWS.md`；生产不使用旧同板背面的矛盾包侧或Back_DRAFT_v001。AI局部细节仍非精确几何投影。
 
 ## 后续三维资产
 - ASSET_CHAR_001 — WAITING_FOR_USER：按MASTER_PLAN M5/HUMAN GATE #1交接正式角色源；步骤见`handoff/requests/ASSET_CHAR_001.md`。请放入`handoff/incoming/CHAR_001_Qinglan_v001_source.glb`及`CHAR_001_LICENSE.md`；FBX+贴图可替代，允许先交未绑定A姿，收到后再检查/安排绑定。不购买或升级套餐。

@@ -13,8 +13,9 @@
 ## 可直接使用的参考
 
 - 单人正面生产姿态：`handoff/reference/generated/CHAR_REF_002_Qinglan_ProductionFront_v001.png`。已按原设计生成、保存并查看；手臂与身体分开，便于建模。
-- 已认可设计主依据：`handoff/reference/generated/CHAR_REF_001_Qinglan_Turnaround_sheet_v001.png`，提供侧面/背面/服装与包袱一致性。
-- 新图是技术姿态辅助，不替代原设计，也不是已完成的3D模型。若单图输入，只上传单人正面图，避免将四视图同板误生成为四个人；支持附加视图时再补充原转面图。
+- 新增独立左侧/右侧/背面参考：同目录`CHAR_REF_002_Qinglan_ProductionLeft_v001.png`、`CHAR_REF_002_Qinglan_ProductionRight_v001.png`、`CHAR_REF_002_Qinglan_ProductionBack_v002.png`。对应方向与可点选文件见`handoff/reference/generated/QINGLAN_PRODUCTION_VIEWS.md`。
+- 已认可设计主依据：`handoff/reference/generated/CHAR_REF_001_Qinglan_Turnaround_sheet_v001.png`。旧同板包侧存在不一致，生产以正面和新增独立图为准：行囊在人物自身左胯，肩带从右肩到左胯；不要使用Back_DRAFT_v001。
+- 新图是技术姿态辅助，不替代原设计，也不是已完成的3D模型。若单图输入，只上传Front；若工具支持多视图，分别指定Front/Left/Right/Back v002四张，不把同板当单人输入。独立AI图存在局部衣褶/轮廓差异，不宣称精确几何一致。
 
 ## 推荐操作
 
