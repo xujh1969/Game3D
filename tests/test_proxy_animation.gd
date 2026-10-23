@@ -25,6 +25,11 @@ func capture(name: String, player: Node3D, camera: Camera3D) -> void:
 
 func run() -> void:
 	var world: Node = load("res://scenes/world/Courtyard_Blockout.tscn").instantiate()
+	var spawn: Transform3D = world.get_node("Player").transform
+	world.get_node("Player").free()
+	var temporary: Node3D = load("res://scenes/character/Qinglan_TEMP.tscn").instantiate()
+	temporary.transform = spawn
+	world.add_child(temporary)
 	root.add_child(world)
 	current_scene = world
 	var player: CharacterBody3D = world.get_node("Player")

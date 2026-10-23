@@ -1,8 +1,8 @@
 # MountainCourtyard / 山中古院
 
-Godot 4.7.2，Windows 单机第三人称宋风山居探索解谜。当前30×30m可玩样板含首版建筑、双门、石径、岩石、竹丛、远山/深度雾及卷轴/石碑/青铜香炉。青岚仍为TEMP几何代理，包含Idle/Walk/Run。
+Godot 4.7.2，Windows 单机第三人称宋风山居探索解谜。当前30×30m可玩样板含首版建筑、双门、石径、岩石、竹丛、远山/深度雾及卷轴/石碑/青铜香炉。青岚已使用用户提供的新骨骼模型与Idle/Walk/Run。
 
-当前范围为Codex三维技术实验。按用户2026-10-22明确指示，取消此前三维资产版权/来源/商用许可资料提交与审核门槛，不再据此阻断开发。已收到青岚源GLB，另存可编辑源及3万面/2K/约1.70m静态审查版；尚无骨骼动画，世界角色仍TEMP，技术报告见`reports/validation/CHAR_001_INTAKE_v002.md`。
+当前范围为Codex三维技术实验。按用户2026-10-22明确指示，取消此前三维资产版权/来源/商用许可资料提交与审核门槛，不再据此阻断开发。青岚v006已接入可玩庭院：用户新GLB的41根骨骼及Idle，合并Walking.fbx与Fast Run.fbx为Walk/Run；12899三角面、3张2K恢复贴图，约1.70m。21项动作检查、24项玩法回归和Mobile无传送完整通关通过。交付报告见`reports/validation/CHAR_001_PLAYABLE_v006.md`。
 
 ## 启动和操作
 
@@ -18,13 +18,13 @@ Godot 4.7.2，Windows 单机第三人称宋风山居探索解谜。当前30×30m
 
 实际 Godot 物理场景检查通过，headless 和本机 Mobile 图形后端的无传送自动输入路线均通过（0→3→开门→步行到终点）。日志、截图与验证边界见 `reports/validation/M1_ACCEPTANCE_2026-10-22.md`。
 
-完整真人键鼠通关、菜单按钮实点和长期镜头体验仍待验收。角色动作是TEMP几何摆动，尚无正式模型/骨骼/服装。建筑/岩石阶段的台阶/碰撞及历史基线见`reports/validation/COURTYARD_DELIVERY_v002.md`。
+完整真人键鼠通关、菜单按钮实点和长期镜头体验仍待验收。角色已使用用户骨骼动作；贴图投射局部、衣摆穿插与斜坡脚底贴合仍待精修。建筑/岩石阶段的台阶/碰撞及历史基线见`reports/validation/COURTYARD_DELIVERY_v002.md`。
 
 竹丛/远山历史阶段见`reports/validation/ENV_LANDSCAPE_DELIVERY_v002.md`。当前建筑v003接入有来源/校验记录的1k地面与灰泥PBR；315构件几何不变，8项空间/24项回归及Mobile完整通关通过，见`reports/validation/SURFACE_UPGRADE_v003.md`。性能前两轮出现约218–221ms长帧，后续新旧对照均约144FPS且无长帧；根因仍待调查，未完成稳定性验收。
 
 卷轴/石碑阶段记录见`reports/validation/PROP_002_DELIVERY_v002.md`。香炉v002已接入，19项几何、6项香炉、24项回归及Mobile通关通过；历史性能见`reports/validation/PROP_001_DELIVERY_v002.md`。三个金色占位物均已替换，材质与场景仍待精修。
 
-青岚原始GLB已收到，无需重交或补充许可资料。[角色任务单](handoff/requests/ASSET_CHAR_001.md)已更新为技术处理中；下一步是面部保真、可变形拓扑与骨骼动作实验。角色设计沿用已认可版本。
+青岚新模型与两个FBX均已接入，无需重复导出。步行1.0m/s，Shift奔跑4.9m/s，动作切换混合0.18秒；打开`Play.cmd`即可体验。角色设计沿用已认可版本。
 
 ## 视觉方向审核
 

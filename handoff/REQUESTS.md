@@ -1,6 +1,6 @@
 # REQUESTS
 
-更新：2026-10-22。青岚与木门视觉方向已获用户认可；庭院概念提交后用户指示继续，已接入建筑v002和岩石首版。方向记录见`handoff/approvals/COURTYARD_DIRECTION_CONTINUE_2026-10-22.md`，实际交付见`reports/validation/COURTYARD_DELIVERY_v002.md`。不用重新生成已有参考与岩石。
+更新：2026-10-23。青岚与木门视觉方向已获用户认可；庭院概念提交后用户指示继续，已接入建筑v002和岩石首版。方向记录见`handoff/approvals/COURTYARD_DIRECTION_CONTINUE_2026-10-22.md`，实际交付见`reports/validation/COURTYARD_DELIVERY_v002.md`。不用重新生成已有参考与岩石。
 
 ## 图像任务
 - IMAGE_PROP_REF_002_IncenseBurner — PASS：用户明确回复“香炉方向认可，继续”；批准记录USER_APPROVAL_Incense_2026-10-22.md，已有图像无需重复生成/审核。
@@ -12,7 +12,7 @@
 - CHAR_REF_002_Qinglan_ProductionLeft/Right/Back — PASS_WITH_LIMITATIONS：补充三张独立方向图，已查看；Back v002修正首稿肩带方向。四图索引`handoff/reference/generated/QINGLAN_PRODUCTION_VIEWS.md`；生产不使用旧同板背面的矛盾包侧或Back_DRAFT_v001。AI局部细节仍非精确几何投影。
 
 ## 后续三维资产
-- ASSET_CHAR_001 — IN_PROGRESS：指定原始GLB已收到，1499720三角面/3张4K图，无骨骼动画。规范身高并制作30000三角面/2K静态审查v002，8项Godot检查通过，近景面部仍有减面痕迹，详见CHAR_001_INTAKE_v002.md；无需重交。按用户最新技术实验范围，取消版权/来源/商用许可资料与审核要求，不再等待此类输入。
+- ASSET_CHAR_001 — IN_PROGRESS：青岚v006已接入可玩庭院：用户新GLB的41根骨骼及Idle，合并Walking.fbx与Fast Run.fbx为Walk/Run；12899三角面、3张2K恢复贴图，约1.70m。21项动作检查、24项玩法回归和Mobile无传送完整通关通过。无需补交相同模型、动作或许可资料。交付与限制见CHAR_001_PLAYABLE_v006.md；最终视觉/自然程度待体验。
 - ASSET_ARCH_003 — PASS_WITH_LIMITATIONS：v003已由Blender制作并接入Godot；独立双门开合、碰撞与通关检查通过。报告 reports/validation/ARCH_003_DELIVERY_v003.md。
 - ASSET_NAT_001 — PASS_WITH_LIMITATIONS：三种CC0扫描岩石已整理并接入；来源、减面数据和真实场景检查见COURTYARD_DELIVERY_v002.md，无需用户另行生成。
 - ASSET_NAT_002 / ENV_MOUNTAINS — PASS_WITH_LIMITATIONS：项目制作的竹丛/远山v002已接入，来源/验证/不足见ENV_LANDSCAPE_DELIVERY_v002.md；无需用户提供同类占位资产。

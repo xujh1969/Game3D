@@ -1,0 +1,15 @@
+00:02.297  blend            | Read blend: "C:\Users\AYOU\Desktop\MountainCourtyard\assets\source\CHAR_001_Qinglan_v002_review.blend"
+Info: 10896 vertex weights limited
+Info: Saved as "CHAR_001_Qinglan_v004_rigged.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+14:38:29 | INFO: Starting glTF 2.0 export
+14:38:29 | INFO: Extracting primitive: node_0
+14:38:29 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+14:38:29 | INFO: Primitives created: 1
+14:38:32 | INFO: Finished glTF 2.0 export in 2.791619062423706 s
+
+QINGLAN_MOTION: {"status": "PASS_WITH_LIMITATIONS", "bones": 40, "clips": {"Idle": 12.0, "Idle_Look": 8.0, "Idle_Shift": 7.0, "Walk": 0.95, "Run": 0.65}, "vertices": 14912, "unweighted_vertices": 0, "max_influences": 4, "method": "Baked analytic two-segment limbs; stance/swing ankle targets; auxiliary skin bones", "limitations": "Experimental procedural animation; no terrain-aware foot IK, mocap, finger articulation or cloth simulation"}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

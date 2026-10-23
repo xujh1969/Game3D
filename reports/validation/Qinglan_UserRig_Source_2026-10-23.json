@@ -1,0 +1,44 @@
+{
+  "source": "C:\\Users\\AYOU\\Desktop\\MountainCourtyard\\handoff\\incoming\\CHAR_001_Qinglan_v001_source.glb",
+  "blender_version": "5.2.2 LTS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "mesh_count": 1,
+  "triangles": 12899,
+  "ignored_armature_widgets": [
+    "Icosphere"
+  ],
+  "materials": [],
+  "blender_bounds_xyz": [
+    [
+      -0.2502205967903137,
+      0.27506697177886963
+    ],
+    [
+      -0.23639780282974243,
+      0.13207431137561798
+    ],
+    [
+      -0.01389608159661293,
+      1.4695827960968018
+    ]
+  ],
+  "godot_dimensions_xyz_m": [
+    0.5252875685691833,
+    1.4834788776934147,
+    0.3684721142053604
+  ],
+  "armatures": [
+    "Armature"
+  ],
+  "actions": [
+    "mixamo.com"
+  ],
+  "images": [],
+  "missing_files": [],
+  "requires_review": [
+    "Source and license",
+    "Expected real-world dimensions and pivot",
+    "Normals, UV, PBR appearance, extra base geometry",
+    "Rig and animation quality when applicable"
+  ]
+}

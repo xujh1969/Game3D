@@ -37,7 +37,7 @@ func _run() -> void:
 	Input.action_press("move_forward")
 	await frames(20)
 	Input.action_release("move_forward")
-	check(player.position.z < start.z - 0.5, "W moves toward camera forward (-Z)")
+	check(player.position.z < start.z - player.walk_speed * 0.25, "W moves toward camera forward (-Z) at configured walk speed")
 	player.rotation.y = 0
 	player.get_node("SpringArm3D").rotation.y = 0
 	var camera: Camera3D = player.get_node("SpringArm3D/Camera3D")
@@ -96,7 +96,7 @@ func _run() -> void:
 	player.position = Vector3(0, 0, -6)
 	player.velocity = Vector3.ZERO
 	Input.action_press("move_forward")
-	await frames(110)
+	await frames(ceili(3.0 / player.walk_speed * 60.0))
 	Input.action_release("move_forward")
 	check(player.position.z < -8.5, "player physically passes through opened doorway")
 	world.get_node("Finish")._on_body_entered(player)

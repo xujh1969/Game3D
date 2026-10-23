@@ -12,7 +12,9 @@ def main():
         raise ValueError("Expected an existing GLB")
     bpy.ops.wm.read_factory_settings(use_empty=True)
     bpy.ops.import_scene.gltf(filepath=str(source.resolve()))
-    meshes = [obj for obj in bpy.context.scene.objects if obj.type == "MESH"]
+    widgets = {pose.custom_shape for obj in bpy.context.scene.objects if obj.type == "ARMATURE"
+               for pose in obj.pose.bones if pose.custom_shape is not None}
+    meshes = [obj for obj in bpy.context.scene.objects if obj.type == "MESH" and obj not in widgets]
     points = [obj.matrix_world @ Vector(point) for obj in meshes for point in obj.bound_box]
     bounds = [[min(p[i] for p in points), max(p[i] for p in points)] for i in range(3)] if points else []
     triangles = 0
@@ -33,6 +35,7 @@ def main():
         "blender_version": bpy.app.version_string,
         "status": "PASS_WITH_LIMITATIONS" if meshes and not missing else "FAILED",
         "mesh_count": len(meshes), "triangles": triangles,
+        "ignored_armature_widgets": [obj.name for obj in widgets],
         "materials": [material.name for material in bpy.data.materials],
         "blender_bounds_xyz": bounds,
         "godot_dimensions_xyz_m": [bounds[0][1] - bounds[0][0], bounds[2][1] - bounds[2][0], bounds[1][1] - bounds[1][0]] if bounds else [],

@@ -1,0 +1,13 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "bones": 22,
+  "vertices": 14912,
+  "unweighted_vertices": 0,
+  "clips": [
+    "Idle",
+    "Walk",
+    "Run"
+  ],
+  "max_influences": 4,
+  "limitations": "Automatic heat weights; procedural experimental cycles; no foot IK or cloth simulation"
+}

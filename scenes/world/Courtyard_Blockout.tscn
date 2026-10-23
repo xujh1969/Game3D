@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/gameplay/game_state.gd" id="1"]
 [ext_resource type="Script" path="res://scripts/ui/hud.gd" id="2"]
-[ext_resource type="PackedScene" path="res://scenes/character/Qinglan_TEMP.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/character/Qinglan.tscn" id="3"]
 [ext_resource type="Script" path="res://scripts/interactables/clue.gd" id="4"]
 [ext_resource type="PackedScene" path="res://scenes/interactables/Door.tscn" id="5"]
 [ext_resource type="Script" path="res://scripts/interactables/finish_trigger.gd" id="6"]

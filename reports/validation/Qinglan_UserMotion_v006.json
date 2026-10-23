@@ -1,0 +1,27 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "bones": 41,
+  "clips": {
+    "Idle": 1.9,
+    "Walk": 1.4,
+    "Run": 0.5333333333333333
+  },
+  "rest_matrix_errors": {
+    "Walk": 3.987550735473633e-05,
+    "Run": 3.987550735473633e-05
+  },
+  "original_idle_height_m": 1.4833911014720798,
+  "uniform_scale": 1.1460227840877317,
+  "original_root_travel_m": {
+    "Idle": 0.012071826229441756,
+    "Walk": 1.182377810707869,
+    "Run": 2.2791073286385846
+  },
+  "surface": "Recovered by selected-to-active color/roughness/normal baking from retained v002 surface",
+  "input_hashes": {
+    "CHAR_001_Qinglan_v001_source.glb": "a8722a68ac067cecc247d76efc47d94476490f284283f46182b8f52d5050be2b",
+    "Walking.fbx": "874bd1234bb8514c74a9018e2c31c6b12c4bf8692fbeafda9bd27e5a53ebb37d",
+    "Fast Run.fbx": "444cda051618f15d7de620a9eba05024446c7eadc1d25a0253d1822f0fabf47c"
+  },
+  "limitations": "User skeleton and weights retained; no procedural gait. Surface projection needs visual review; no terrain foot IK."
+}

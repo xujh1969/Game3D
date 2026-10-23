@@ -1,0 +1,70 @@
+{
+  "source": "C:\\Users\\AYOU\\Desktop\\MountainCourtyard\\assets\\game\\CHAR_001_Qinglan_v003_game.glb",
+  "blender_version": "5.2.2 LTS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "mesh_count": 2,
+  "triangles": 30080,
+  "materials": [
+    "Material.001"
+  ],
+  "blender_bounds_xyz": [
+    [
+      -0.9510578513145447,
+      0.9510578513145447
+    ],
+    [
+      -0.9999999403953552,
+      0.9999999403953552
+    ],
+    [
+      -1.0,
+      1.7000339031219482
+    ]
+  ],
+  "godot_dimensions_xyz_m": [
+    1.9021157026290894,
+    2.7000339031219482,
+    1.9999998807907104
+  ],
+  "armatures": [
+    "Qinglan_Rig"
+  ],
+  "actions": [
+    "Idle",
+    "Run",
+    "Walk"
+  ],
+  "images": [
+    {
+      "name": "texture_pbr_20250901",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "texture_pbr_20250901_normal",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    }
+  ],
+  "missing_files": [],
+  "requires_review": [
+    "Source and license",
+    "Expected real-world dimensions and pivot",
+    "Normals, UV, PBR appearance, extra base geometry",
+    "Rig and animation quality when applicable"
+  ]
+}

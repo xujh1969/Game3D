@@ -1,0 +1,25 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: world player uses the Qinglan skeletal model
+PASS: world no longer displays the geometric TEMP label
+PASS: experimental humanoid skeleton is present
+PASS: refined rig includes spine neck twist and garment auxiliaries
+PASS: three imported bone animation clips exist
+PASS: standing includes look and weight-shift variants
+FAIL: knees ankles elbows and wrists stay connected throughout five clips
+PASS: knees flex visibly in walk and run
+PASS: elbow flex changes through walking cycle
+PASS: standing look variant turns the head
+PASS: standing breathing moves the chest
+PASS: Qinglan mesh uses skin bindings
+PASS: stationary Qinglan plays Idle
+PASS: character physics rests on courtyard ground
+PASS: W movement plays skeletal Walk
+PASS: leg bone pose changes over sampled interval
+PASS: Shift movement plays skeletal Run
+PASS: existing sprint remains faster than walk
+PASS: pause freezes skeletal animation
+PASS: release movement returns to Idle
+PASS: animation does not move the physics capsule off ground
+PASS: model facing is corrected to controller minus Z
+QINGLAN_PLAYABLE_RESULT: 1 failures

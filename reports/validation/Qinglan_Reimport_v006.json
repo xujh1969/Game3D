@@ -1,0 +1,73 @@
+{
+  "source": "C:\\Users\\AYOU\\Desktop\\MountainCourtyard\\assets\\game\\CHAR_001_Qinglan_v006_game.glb",
+  "blender_version": "5.2.2 LTS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "mesh_count": 1,
+  "triangles": 12899,
+  "ignored_armature_widgets": [
+    "Icosphere"
+  ],
+  "materials": [
+    "Qinglan_Recovered_Surface"
+  ],
+  "blender_bounds_xyz": [
+    [
+      -0.2866930663585663,
+      0.315284788608551
+    ],
+    [
+      -0.2708294987678528,
+      0.15145136415958405
+    ],
+    [
+      2.3710570076218573e-06,
+      1.700102686882019
+    ]
+  ],
+  "godot_dimensions_xyz_m": [
+    0.6019778549671173,
+    1.7001003158250114,
+    0.42228086292743683
+  ],
+  "armatures": [
+    "Armature"
+  ],
+  "actions": [
+    "Idle",
+    "Run",
+    "Walk"
+  ],
+  "images": [
+    {
+      "name": "Qinglan_UserRig_BaseColor",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "Qinglan_UserRig_Normal",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    },
+    {
+      "name": "Qinglan_UserRig_Roughness",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    }
+  ],
+  "missing_files": [],
+  "requires_review": [
+    "Source and license",
+    "Expected real-world dimensions and pivot",
+    "Normals, UV, PBR appearance, extra base geometry",
+    "Rig and animation quality when applicable"
+  ]
+}
