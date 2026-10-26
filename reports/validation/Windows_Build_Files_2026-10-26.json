@@ -1,0 +1,22 @@
+[
+  {
+    "file": "builds/Windows/MountainCourtyard.exe",
+    "bytes": 109268480,
+    "sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562"
+  },
+  {
+    "file": "builds/Windows/MountainCourtyard.pck",
+    "bytes": 50252332,
+    "sha256": "27dea4cbdf9f07023146fc11d7d383712d037f070f3ea6eac52074a1d79d8402"
+  },
+  {
+    "file": "builds/Windows/README.md",
+    "bytes": 1557,
+    "sha256": "11526d35e67cf1f0e6a63f0d2f5d4163b9466ae4979879f516259b44c830bd50"
+  },
+  {
+    "file": "builds/MountainCourtyard_Windows_dev_2026-10-26.zip",
+    "bytes": 87834783,
+    "sha256": "68f181e2b9e27a4b3972ed20370e911de85efc7f9586b4bf53a46988dd2a3a19"
+  }
+]

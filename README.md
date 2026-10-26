@@ -4,6 +4,12 @@ Godot 4.7.2，Windows 单机第三人称宋风山居探索解谜。当前30×30m
 
 当前范围为Codex三维技术实验。按用户2026-10-22明确指示，取消此前三维资产版权/来源/商用许可资料提交与审核门槛，不再据此阻断开发。青岚v006已接入可玩庭院：用户新GLB的41根骨骼及Idle，合并Walking.fbx与Fast Run.fbx为Walk/Run；12899三角面、3张2K恢复贴图，约1.70m。21项动作检查、24项玩法回归和Mobile无传送完整通关通过。交付报告见`reports/validation/CHAR_001_PLAYABLE_v006.md`。
 
+## Windows 开发包（2026-10-26）
+
+本机已导出`builds/Windows/MountainCourtyard.exe`，双击运行，保持同目录PCK文件一起保存。便携包为`builds/MountainCourtyard_Windows_dev_2026-10-26.zip`，解压后运行；无需安装Godot。重新打包运行`BuildWindows.cmd`，详见`docs/WINDOWS_BUILD.md`。构建文件仅在本机builds目录，未上传Git。
+
+独立Release EXE已在本机Mobile图形后端启动并实际截图，导出的同一PCK通过24项玩法回归及完整输入路线；后两者由编辑器加载PCK执行，不是独立EXE真人键鼠通关。报告：`reports/validation/WINDOWS_DEV_BUILD_2026-10-26.md`。
+
 ## 启动和操作
 
 本机双击 `Play.cmd`，或在 Godot 中打开 `project.godot` 后 F6/F5 运行。启动脚本使用已检测的本机 Godot 安装路径；其他机器需修改路径或从编辑器运行。默认 Mobile 后端已在 AMD Radeon(TM) Graphics / Vulkan 1.3.260 实际启动。

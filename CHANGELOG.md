@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-26
+
+- 安装Godot4.7.2的Windows x64模板，添加Windows导出预设与BuildWindows.cmd。仅打包主场景及依赖，排除源文件、历史角色、报告与测试。
+- 导出本机独立EXE/PCK和便携ZIP；Release在Radeon Mobile启动/渲染退出0。编辑器加载同一PCK，24项玩法及完整路线通过；保存包内清单与SHA256，真人原生包完整操作待验收。
+- 保存后续阶段路线和Windows打包/体验说明。
+
 ## 2026-10-23
 
 - 接入用户41骨骼青岚、Idle、Walking.fbx与Fast Run.fbx；保留原始蒙皮，移除水平根位移，恢复缺失UV/PBR，另存v006。

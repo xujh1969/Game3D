@@ -1,0 +1,264 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 项目初始化 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 正在扫描文件结构……[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 正在加载全局类名……[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | 正在校验 GDExtension……[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 正在创建自动加载脚本……[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 正在初始化插件……[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 正在启动文件扫描……[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started 正在注册全局类…… (5 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  16% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  33% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  50% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  66% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started 正在扫描动作…… (11 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | ReleaseBoot00000000.png[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | ReleaseBoot00000001.png[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | ReleaseBoot00000002.png[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | ReleaseBoot00000003.png[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | ReleaseBoot00000004.png[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | ReleaseBoot00000005.png[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | ReleaseBoot00000006.png[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | ReleaseBoot00000007.png[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | ReleaseBoot00000008.png[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | ReleaseBoot00000009.png[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | ReleaseBoot.wav[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started 正在导入或重新导入资产 (11 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | 正在准备重新导入文件……[39m[0m
+[   8% ] [90m[1mreimport[22m | 正在准备重新导入文件……[39m[0m
+[  16% ] [90m[1mreimport[22m | 正在准备重新导入文件……[39m[0m
+[  25% ] [90m[1mreimport[22m | 正在准备重新导入文件……[39m[0m
+[  33% ] [90m[1mreimport[22m | 正在准备重新导入文件……[39m[0m
+[  41% ] [90m[1mreimport[22m | 正在准备重新导入文件……[39m[0m
+[  50% ] [90m[1mreimport[22m | 正在准备重新导入文件……[39m[0m
+[  58% ] [90m[1mreimport[22m | 正在准备重新导入文件……[39m[0m
+[  66% ] [90m[1mreimport[22m | 正在准备重新导入文件……[39m[0m
+[  75% ] [90m[1mreimport[22m | 正在准备重新导入文件……[39m[0m
+[  83% ] [90m[1mreimport[22m | 正在准备重新导入文件……[39m[0m
+[   0% ] [90m[1mreimport[22m | 正在执行重新导入的前置操作……[39m[0m
+[   0% ] [90m[1mreimport[22m | ReleaseBoot00000000.png[39m[0m
+[   8% ] [90m[1mreimport[22m | ReleaseBoot00000001.png[39m[0m
+[  16% ] [90m[1mreimport[22m | ReleaseBoot00000002.png[39m[0m
+[  25% ] [90m[1mreimport[22m | ReleaseBoot00000003.png[39m[0m
+[  33% ] [90m[1mreimport[22m | ReleaseBoot00000004.png[39m[0m
+[  41% ] [90m[1mreimport[22m | ReleaseBoot00000005.png[39m[0m
+[  50% ] [90m[1mreimport[22m | ReleaseBoot00000006.png[39m[0m
+[  58% ] [90m[1mreimport[22m | ReleaseBoot00000007.png[39m[0m
+[  66% ] [90m[1mreimport[22m | ReleaseBoot00000008.png[39m[0m
+[  75% ] [90m[1mreimport[22m | ReleaseBoot00000009.png[39m[0m
+[  83% ] [90m[1mreimport[22m | ReleaseBoot.wav[39m[0m
+[  91% ] [90m[1mreimport[22m | 正在结束资产导入……[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started 正在导入或重新导入资产 (11 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | 正在执行重新导入的后置操作……[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started 正在加载编辑器 (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | 正在加载编辑器布局……[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | 正在加载停靠面板……[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 项目初始化 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 正在扫描文件结构……[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 正在加载全局类名……[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | 正在校验 GDExtension……[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 正在创建自动加载脚本……[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 正在初始化插件……[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 正在启动文件扫描……[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1msavepack[22m | Started 打包中 (102 steps)[39m[0m
+[   1% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-535193ee4fa6db3078670f2956613b76-Courtyard_Blockout.scn[39m[0m
+[   2% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/gameplay/game_state.gdc[39m[0m
+[   3% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/ui/hud.gdc[39m[0m
+[   4% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-60453d0e3b219a1c372458397f7b108b-Qinglan.scn[39m[0m
+[   5% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/player/player_controller.gdc[39m[0m
+[   6% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/player/third_person_camera.gdc[39m[0m
+[   7% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-83d4b7ff17c8a9b52266c78690ccaf2a-QinglanVisual.scn[39m[0m
+[   8% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/player/qinglan_animation.gdc[39m[0m
+[  10% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/CHAR_001_Qinglan_v006_game.glb-2c4086c494db62785ef55887f670b5b4.scn[39m[0m
+[  10% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/CHAR_001_Qinglan_v006_game.glb.import[39m[0m
+[  11% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/CHAR_001_Qinglan_v006_game_Qinglan_UserRig_BaseColor.png-cf77751eb5dff23e40598b01747722f3.ctex[39m[0m
+[  11% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/CHAR_001_Qinglan_v006_game_Qinglan_UserRig_BaseColor.png.import[39m[0m
+[  12% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/CHAR_001_Qinglan_v006_game_Qinglan_UserRig_Roughness.png-be2f1410c6a678886f99b8c078b03f8b.ctex[39m[0m
+[  12% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/CHAR_001_Qinglan_v006_game_Qinglan_UserRig_Roughness.png.import[39m[0m
+[  13% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/CHAR_001_Qinglan_v006_game_Qinglan_UserRig_Normal.png-207c1f9d0fb7f0ae25dc90229f285257.ctex[39m[0m
+[  13% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/CHAR_001_Qinglan_v006_game_Qinglan_UserRig_Normal.png.import[39m[0m
+[  14% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/interactables/clue.gdc[39m[0m
+[  15% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-8beecda1690efeb437c0266ca2ec2cc8-Door.scn[39m[0m
+[  16% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/interactables/door_controller.gdc[39m[0m
+[  18% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_003_DoorSong_v003_game.glb-9942c0f94489fbcaacb90dbe404f21b1.scn[39m[0m
+[  18% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_003_DoorSong_v003_game.glb.import[39m[0m
+[  19% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_003_DoorSong_v003_game_fine_grained_wood_col_1k.png-53ac8909f57269d5b3405161c465ad72.ctex[39m[0m
+[  19% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_003_DoorSong_v003_game_fine_grained_wood_col_1k.png.import[39m[0m
+[  20% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_003_DoorSong_v003_game_fine_grained_wood_rough_1k.png-1ce2306bdec683393f85bea0d6e2ae55.ctex[39m[0m
+[  20% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_003_DoorSong_v003_game_fine_grained_wood_rough_1k.png.import[39m[0m
+[  21% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_003_DoorSong_v003_game_fine_grained_wood_nor_gl_1k.png-1cf890ecf125ad5b99104ed2d319390b.ctex[39m[0m
+[  21% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_003_DoorSong_v003_game_fine_grained_wood_nor_gl_1k.png.import[39m[0m
+[  22% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/interactables/finish_trigger.gdc[39m[0m
+[  23% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/debug/debug_hud.gdc[39m[0m
+[  24% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-23564e0458b43cb9bf1b41a2ead1cfe7-CourtyardArchitecture.scn[39m[0m
+[  26% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_Courtyard_v003_game.glb-3e88fbfc86ab7e31e1acca0219a2caec.scn[39m[0m
+[  26% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_Courtyard_v003_game.glb.import[39m[0m
+[  27% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_Courtyard_v003_game_fine_grained_wood_col_1k.png-f9f4441dc43d743f7c5e25d9a934b0c6.ctex[39m[0m
+[  27% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_Courtyard_v003_game_fine_grained_wood_col_1k.png.import[39m[0m
+[  28% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_Courtyard_v003_game_fine_grained_wood_rough_1k.png-0734c78886ee3746196ec87067d68338.ctex[39m[0m
+[  28% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_Courtyard_v003_game_fine_grained_wood_rough_1k.png.import[39m[0m
+[  29% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_Courtyard_v003_game_fine_grained_wood_nor_gl_1k.png-f5c4a8a03a09b14d4ad62c971498c2ea.ctex[39m[0m
+[  29% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_Courtyard_v003_game_fine_grained_wood_nor_gl_1k.png.import[39m[0m
+[  30% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_Courtyard_v003_game_Courtyard_Fired_Gray_Tile_BaseColor.png-ccad3eb404fbd39b0e6750117ab8a7e0.ctex[39m[0m
+[  30% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_Courtyard_v003_game_Courtyard_Fired_Gray_Tile_BaseColor.png.import[39m[0m
+[  31% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_Courtyard_v003_game_Courtyard_Fired_Gray_Tile_Roughness.png-548201c65ad757f36cbf6a1c185de6b3.ctex[39m[0m
+[  31% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_Courtyard_v003_game_Courtyard_Fired_Gray_Tile_Roughness.png.import[39m[0m
+[  32% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_Courtyard_v003_game_Courtyard_Fired_Gray_Tile_Normal.png-c9adc866803568ecb400759882d36909.ctex[39m[0m
+[  32% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_Courtyard_v003_game_Courtyard_Fired_Gray_Tile_Normal.png.import[39m[0m
+[  33% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_Courtyard_v003_game_plastered_wall_02_diff_1k.png-8d96b1209235fccd1fe3d3c074a068cf.ctex[39m[0m
+[  33% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_Courtyard_v003_game_plastered_wall_02_diff_1k.png.import[39m[0m
+[  34% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_Courtyard_v003_game_plastered_wall_02_rough_1k.png-fb96b9e739f30bfe5df5601c8d05290d.ctex[39m[0m
+[  34% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_Courtyard_v003_game_plastered_wall_02_rough_1k.png.import[39m[0m
+[  35% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_Courtyard_v003_game_plastered_wall_02_nor_gl_1k.png-2a2ca53321f1c99a28eba470e1150885.ctex[39m[0m
+[  35% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_Courtyard_v003_game_plastered_wall_02_nor_gl_1k.png.import[39m[0m
+[  36% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_Courtyard_v003_game_Courtyard_Gray_Stone_BaseColor.png-3cb647b910c473a608e5526ed3787304.ctex[39m[0m
+[  36% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_Courtyard_v003_game_Courtyard_Gray_Stone_BaseColor.png.import[39m[0m
+[  37% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_Courtyard_v003_game_Courtyard_Gray_Stone_Roughness.png-382721e3d8b89bf04dd75cb483ed605c.ctex[39m[0m
+[  37% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_Courtyard_v003_game_Courtyard_Gray_Stone_Roughness.png.import[39m[0m
+[  38% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_Courtyard_v003_game_Courtyard_Gray_Stone_Normal.png-3d02767f4c6a2c54e1c376ed65f1bfac.ctex[39m[0m
+[  38% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_Courtyard_v003_game_Courtyard_Gray_Stone_Normal.png.import[39m[0m
+[  39% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_Courtyard_v003_game_brown_mud_02_diff_1k.png-e21068d45954dc01a69ab693f883937f.ctex[39m[0m
+[  39% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_Courtyard_v003_game_brown_mud_02_diff_1k.png.import[39m[0m
+[  40% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_Courtyard_v003_game_brown_mud_02_rough_1k.png-6a05ff94747afc00780729c33580b1b5.ctex[39m[0m
+[  40% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_Courtyard_v003_game_brown_mud_02_rough_1k.png.import[39m[0m
+[  42% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ARCH_Courtyard_v003_game_brown_mud_02_nor_gl_1k.png-aec34f189474a0523dac06c333d405c3.ctex[39m[0m
+[  42% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ARCH_Courtyard_v003_game_brown_mud_02_nor_gl_1k.png.import[39m[0m
+[  43% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-7c3e0c6e09494409b431df04b36b152b-CourtyardNature.scn[39m[0m
+[  44% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NAT_001_MossRock_001_v001_game.glb-328a3c15893c7a3da51b1fde27329501.scn[39m[0m
+[  44% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/NAT_001_MossRock_001_v001_game.glb.import[39m[0m
+[  45% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NAT_001_MossRock_001_v001_game_rock_moss_set_01_diff_1k.jpg-9684707c8702a58fd98445bd8dd5c5da.ctex[39m[0m
+[  45% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/NAT_001_MossRock_001_v001_game_rock_moss_set_01_diff_1k.jpg.import[39m[0m
+[  46% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NAT_001_MossRock_001_v001_game_rock_moss_set_01_rough_1k.jpg-56b3e66d62fedde4d4f2d32b2f4956e0.ctex[39m[0m
+[  46% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/NAT_001_MossRock_001_v001_game_rock_moss_set_01_rough_1k.jpg.import[39m[0m
+[  47% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NAT_001_MossRock_001_v001_game_rock_moss_set_01_nor_gl_1k.jpg-606eb62b7f1e4f717f7a9acf29e7f7cc.ctex[39m[0m
+[  47% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/NAT_001_MossRock_001_v001_game_rock_moss_set_01_nor_gl_1k.jpg.import[39m[0m
+[  48% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NAT_001_MossRock_002_v001_game.glb-56b855da6a78ac6749e6d5f1ad6d2019.scn[39m[0m
+[  48% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/NAT_001_MossRock_002_v001_game.glb.import[39m[0m
+[  50% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NAT_001_MossRock_002_v001_game_rock_moss_set_01_diff_1k.jpg-1418c575352433992ad669207934138b.ctex[39m[0m
+[  50% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/NAT_001_MossRock_002_v001_game_rock_moss_set_01_diff_1k.jpg.import[39m[0m
+[  51% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NAT_001_MossRock_002_v001_game_rock_moss_set_01_rough_1k.jpg-ef0da6d8832602010068dd9f046220d0.ctex[39m[0m
+[  51% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/NAT_001_MossRock_002_v001_game_rock_moss_set_01_rough_1k.jpg.import[39m[0m
+[  52% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NAT_001_MossRock_002_v001_game_rock_moss_set_01_nor_gl_1k.jpg-3a2e4cce1c4d1d09fbd9f31d7848a870.ctex[39m[0m
+[  52% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/NAT_001_MossRock_002_v001_game_rock_moss_set_01_nor_gl_1k.jpg.import[39m[0m
+[  53% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NAT_001_MossRock_003_v001_game.glb-10929a7817bf9fa6650d52a16329fa9c.scn[39m[0m
+[  53% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/NAT_001_MossRock_003_v001_game.glb.import[39m[0m
+[  54% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NAT_001_MossRock_003_v001_game_rock_moss_set_01_diff_1k.jpg-f8228e0c55e43f62ab1aa3fc7743c13f.ctex[39m[0m
+[  54% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/NAT_001_MossRock_003_v001_game_rock_moss_set_01_diff_1k.jpg.import[39m[0m
+[  55% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NAT_001_MossRock_003_v001_game_rock_moss_set_01_rough_1k.jpg-75a9901b2f573096e6d0e59b22027934.ctex[39m[0m
+[  55% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/NAT_001_MossRock_003_v001_game_rock_moss_set_01_rough_1k.jpg.import[39m[0m
+[  56% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NAT_001_MossRock_003_v001_game_rock_moss_set_01_nor_gl_1k.jpg-7965a268c9fff664118a72c0b6f51d44.ctex[39m[0m
+[  56% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/NAT_001_MossRock_003_v001_game_rock_moss_set_01_nor_gl_1k.jpg.import[39m[0m
+[  57% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-e08b395a966a8c81fa4886973e511aa6-EnvironmentScenery.scn[39m[0m
+[  59% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NAT_002_BambooClump_v002_game.glb-9b276cc4d66ddab6ed5b96186795cdf5.scn[39m[0m
+[  59% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/NAT_002_BambooClump_v002_game.glb.import[39m[0m
+[  60% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NAT_002_BambooClump_v002_game_Bamboo_Culm_PBR_BaseColor.png-7dce6938ac441cd722c470528b87671d.ctex[39m[0m
+[  60% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/NAT_002_BambooClump_v002_game_Bamboo_Culm_PBR_BaseColor.png.import[39m[0m
+[  61% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NAT_002_BambooClump_v002_game_Bamboo_Culm_PBR_Roughness.png-e6147e06ef493e71d3ea2154498e8425.ctex[39m[0m
+[  61% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/NAT_002_BambooClump_v002_game_Bamboo_Culm_PBR_Roughness.png.import[39m[0m
+[  62% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/NAT_002_BambooClump_v002_game_Bamboo_Culm_PBR_Normal.png-63b4fc8e3d3071124c3eced11c01c7f6.ctex[39m[0m
+[  62% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/NAT_002_BambooClump_v002_game_Bamboo_Culm_PBR_Normal.png.import[39m[0m
+[  63% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ENV_DistantMountains_v002_game.glb-15ee6fe5592fdb82e7217493d4c6eada.scn[39m[0m
+[  63% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ENV_DistantMountains_v002_game.glb.import[39m[0m
+[  64% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ENV_DistantMountains_v002_game_Mountain_Rock_0_BaseColor.png-834ac361d4a463b636554279f6a1c0a0.ctex[39m[0m
+[  64% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ENV_DistantMountains_v002_game_Mountain_Rock_0_BaseColor.png.import[39m[0m
+[  65% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ENV_DistantMountains_v002_game_Mountain_Rock_0_Roughness.png-97a9420d5edc0b2cfe1d30f833ab63fe.ctex[39m[0m
+[  65% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ENV_DistantMountains_v002_game_Mountain_Rock_0_Roughness.png.import[39m[0m
+[  66% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ENV_DistantMountains_v002_game_Mountain_Rock_0_Normal.png-0883ba7565e81485ae202ca68634d57e.ctex[39m[0m
+[  66% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ENV_DistantMountains_v002_game_Mountain_Rock_0_Normal.png.import[39m[0m
+[  67% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ENV_DistantMountains_v002_game_Mountain_Rock_1_BaseColor.png-345581f218f7953786818a8a20a1167d.ctex[39m[0m
+[  67% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ENV_DistantMountains_v002_game_Mountain_Rock_1_BaseColor.png.import[39m[0m
+[  68% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ENV_DistantMountains_v002_game_Mountain_Rock_1_Roughness.png-df90bdb5c48c7a553343cfa42f725891.ctex[39m[0m
+[  68% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ENV_DistantMountains_v002_game_Mountain_Rock_1_Roughness.png.import[39m[0m
+[  69% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ENV_DistantMountains_v002_game_Mountain_Rock_1_Normal.png-efaa4c938b67638e20731cf9393b7890.ctex[39m[0m
+[  69% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ENV_DistantMountains_v002_game_Mountain_Rock_1_Normal.png.import[39m[0m
+[  70% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ENV_DistantMountains_v002_game_Mountain_Rock_2_BaseColor.png-f53e9a6c8b9a77747b8d46b296fa6293.ctex[39m[0m
+[  70% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ENV_DistantMountains_v002_game_Mountain_Rock_2_BaseColor.png.import[39m[0m
+[  71% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ENV_DistantMountains_v002_game_Mountain_Rock_2_Roughness.png-6d28fcaeb1f697a1e064e6989d5a8dc5.ctex[39m[0m
+[  71% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ENV_DistantMountains_v002_game_Mountain_Rock_2_Roughness.png.import[39m[0m
+[  72% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/ENV_DistantMountains_v002_game_Mountain_Rock_2_Normal.png-24bb6edb0bd04055f302b4bc4e9f206b.ctex[39m[0m
+[  72% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/ENV_DistantMountains_v002_game_Mountain_Rock_2_Normal.png.import[39m[0m
+[  74% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_Scroll_v002_game.glb-a191741179eb2debb9d8553252876f83.scn[39m[0m
+[  74% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_Scroll_v002_game.glb.import[39m[0m
+[  75% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_Scroll_v002_game_Scroll_Linen_End_BaseColor.png-99ef7c44a4e2f8b018a60a6b25d6c2de.ctex[39m[0m
+[  75% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_Scroll_v002_game_Scroll_Linen_End_BaseColor.png.import[39m[0m
+[  76% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_Scroll_v002_game_Scroll_Linen_End_Roughness.png-7a5a6382b381634239bfaec3d4f06f9d.ctex[39m[0m
+[  76% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_Scroll_v002_game_Scroll_Linen_End_Roughness.png.import[39m[0m
+[  77% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_Scroll_v002_game_Scroll_Linen_End_Normal.png-4d1227a2d91bc4003c361745665be935.ctex[39m[0m
+[  77% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_Scroll_v002_game_Scroll_Linen_End_Normal.png.import[39m[0m
+[  78% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_Scroll_v002_game_Scroll_Fiber_Paper_BaseColor.png-a178dd2b1e22a52c757966979ce3ad92.ctex[39m[0m
+[  78% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_Scroll_v002_game_Scroll_Fiber_Paper_BaseColor.png.import[39m[0m
+[  79% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_Scroll_v002_game_Scroll_Fiber_Paper_Roughness.png-9eb34b6fbc9cbb14d2a8f9386851f65d.ctex[39m[0m
+[  79% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_Scroll_v002_game_Scroll_Fiber_Paper_Roughness.png.import[39m[0m
+[  80% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_Scroll_v002_game_Scroll_Fiber_Paper_Normal.png-9506b8bb3a5069995b9f67cb5a18c9f8.ctex[39m[0m
+[  80% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_Scroll_v002_game_Scroll_Fiber_Paper_Normal.png.import[39m[0m
+[  81% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_Scroll_v002_game_fine_grained_wood_col_1k.png-536c8efe70ca052ba5ed8195b0691307.ctex[39m[0m
+[  81% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_Scroll_v002_game_fine_grained_wood_col_1k.png.import[39m[0m
+[  83% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_Scroll_v002_game_fine_grained_wood_rough_1k.png-debd7bbafd948071dada01acecef31d9.ctex[39m[0m
+[  83% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_Scroll_v002_game_fine_grained_wood_rough_1k.png.import[39m[0m
+[  84% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_Scroll_v002_game_fine_grained_wood_nor_gl_1k.png-1babe638f3cc6f393a7bc665f7bd423e.ctex[39m[0m
+[  84% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_Scroll_v002_game_fine_grained_wood_nor_gl_1k.png.import[39m[0m
+[  85% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_ScrollStand_v002_game.glb-a07551098cceb31775a4807877031ce5.scn[39m[0m
+[  85% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_ScrollStand_v002_game.glb.import[39m[0m
+[  86% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_ScrollStand_v002_game_fine_grained_wood_col_1k.png-dc304abda268b0cacffb8d1d779fa342.ctex[39m[0m
+[  86% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_ScrollStand_v002_game_fine_grained_wood_col_1k.png.import[39m[0m
+[  87% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_ScrollStand_v002_game_fine_grained_wood_rough_1k.png-f472d61e8ceece52e03d7696a965037f.ctex[39m[0m
+[  87% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_ScrollStand_v002_game_fine_grained_wood_rough_1k.png.import[39m[0m
+[  88% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_ScrollStand_v002_game_fine_grained_wood_nor_gl_1k.png-e3cb8ad1be144fa7997891d722735c74.ctex[39m[0m
+[  88% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_ScrollStand_v002_game_fine_grained_wood_nor_gl_1k.png.import[39m[0m
+[  89% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_StoneTablet_v002_game.glb-e7fbba8e17837e61ad6231e9ce4e5675.scn[39m[0m
+[  89% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_StoneTablet_v002_game.glb.import[39m[0m
+[  91% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_StoneTablet_v002_game_Tablet_Weathered_Stone_BaseColor.png-6a9a747d93780babd770ef7a1f74096a.ctex[39m[0m
+[  91% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_StoneTablet_v002_game_Tablet_Weathered_Stone_BaseColor.png.import[39m[0m
+[  92% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_StoneTablet_v002_game_Tablet_Weathered_Stone_Roughness.png-87a8d9d28ba5b649edcc544b1220c175.ctex[39m[0m
+[  92% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_StoneTablet_v002_game_Tablet_Weathered_Stone_Roughness.png.import[39m[0m
+[  93% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_002_StoneTablet_v002_game_Tablet_Weathered_Stone_Normal.png-e749ca3d95997cde7527652dcf7a1626.ctex[39m[0m
+[  93% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_002_StoneTablet_v002_game_Tablet_Weathered_Stone_Normal.png.import[39m[0m
+[  94% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_001_IncenseBurner_v002_game.glb-45c45620c4944064536d8e0d4f3e1222.scn[39m[0m
+[  94% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_001_IncenseBurner_v002_game.glb.import[39m[0m
+[  95% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_001_IncenseBurner_v002_game_Incense_BaseColor.png-5cad3619e949fcbb036e3e7c6e840245.ctex[39m[0m
+[  95% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_001_IncenseBurner_v002_game_Incense_BaseColor.png.import[39m[0m
+[  96% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_001_IncenseBurner_v002_game_Incense_Metallic-Incense_Roughness.png-d25f127af3e5a83f70afdaa8145f10ef.ctex[39m[0m
+[  96% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_001_IncenseBurner_v002_game_Incense_Metallic-Incense_Roughness.png.import[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PROP_001_IncenseBurner_v002_game_Incense_Normal.png-045206bd5993ee2969cf4cb085585832.ctex[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://assets/game/PROP_001_IncenseBurner_v002_game_Incense_Normal.png.import[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/world/Courtyard_Blockout.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/gameplay/game_state.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/ui/hud.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/character/Qinglan.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/player/player_controller.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/player/third_person_camera.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/character/QinglanVisual.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/player/qinglan_animation.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/interactables/clue.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/interactables/Door.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/interactables/door_controller.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/interactables/finish_trigger.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scripts/debug/debug_hud.gd.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/world/CourtyardArchitecture.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/world/CourtyardNature.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://scenes/world/EnvironmentScenery.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/global_script_class_cache.cfg[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/uid_cache.bin[39m[0m
+[  97% ] [90m[1msavepack[22m | 正在保存文件：res://project.binary[39m[0m
+[92m[ DONE ][39m [1msavepack[22m
+[0m
+Exported: C:\Users\AYOU\Desktop\MountainCourtyard\builds\Windows\MountainCourtyard.exe
+Keep the EXE, PCK and any exported DLL files together.

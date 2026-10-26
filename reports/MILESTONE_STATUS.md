@@ -1,6 +1,6 @@
 # MountainCourtyard 开发状态
 
-更新：2026-10-23（Asia/Shanghai）。
+更新：2026-10-26（Asia/Shanghai）。
 
 用户范围更新：当前为Codex三维技术实验，取消三维资产版权/来源/商用许可提交和审核门槛，相关历史待办不再适用，记录见USER_TECH_EXPERIMENT_SCOPE_2026-10-22.md。
 
@@ -13,9 +13,16 @@
 | M4 | IN_PROGRESS | 建筑v003地面/灰泥接入CC0照片PBR，315构件几何/变换保持一致，空间8项/回归24项及Mobile完整通关通过。竹丛/远山保持v002；平铺/山形/最终照明仍待精修。|
 | M5 | IN_PROGRESS | 青岚v006已接入可玩庭院：用户新GLB的41根骨骼及Idle，合并Walking.fbx与Fast Run.fbx为Walk/Run；12899三角面、3张2K恢复贴图，约1.70m。21项动作检查、24项玩法回归和Mobile无传送完整通关通过。外观、动作自然程度、地形脚底贴合仍待用户体验与精修。|
 | M6 | IN_PROGRESS | v003前两轮静止平均102.90/126.37FPS，有约218–221ms长帧；后续新旧对照均约144FPS且无>33.33ms帧。根因未知，原始记录保留，稳定性未验收；烘焙/音效/设置尚未完成。|
-| M7 | NOT_STARTED | Windows独立发布包及实机发布验收尚未完成。|
+| M7 | IN_PROGRESS | 已导出Windows x64 Release开发包及便携ZIP；独立EXE在本机Mobile启动/渲染退出0，同一PCK的24项回归及完整路线通过。真人独立包完整操作、长期稳定与最终发布尚未验收。|
 
-## 本轮交付与证据
+## 本轮Windows开发包与证据
+
+- `reports/validation/WINDOWS_DEV_BUILD_2026-10-26.md`：安装匹配Windows模板，添加选定主场景及依赖的导出预设、BuildWindows.cmd和可复现PCK验证脚本。
+- 独立Release EXE实际Radeon Mobile画面已查看，EXE/PCK/ZIP清单与SHA256保留；24项玩法和完整路线由编辑器加载导出的同一PCK执行，明确不等同原生EXE真人通关。
+- 包内清单排除源资产、交接素材、报告、测试及v003-v005旧角色；构建仅保存在本机builds，不上传Git。
+- 下一步按路线精修角色启停、走跑与转向；最终画面/稳定性仍在进行。
+
+## 之前的青岚动作交付与证据
 
 - 青岚v006已接入可玩庭院：用户新GLB的41根骨骼及Idle，合并Walking.fbx与Fast Run.fbx为Walk/Run；12899三角面、3张2K恢复贴图，约1.70m。21项动作检查、24项玩法回归和Mobile无传送完整通关通过。详见`reports/validation/CHAR_001_PLAYABLE_v006.md`。
 - 本机720p Mobile静止10.003995秒平均144.042FPS，最慢9.197ms，p95 8.013ms，无>33.33ms帧；仅短时静止基线，历史偶发长帧未据此宣称解决。

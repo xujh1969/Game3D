@@ -1,0 +1,21 @@
+{
+  "pck_sha256": "27dea4cbdf9f07023146fc11d7d383712d037f070f3ea6eac52074a1d79d8402",
+  "method": "Editor loads exported PCK; these are not native EXE input tests",
+  "results": [
+    {
+      "task": "Windows_Packed_Inventory",
+      "exit_code": 0,
+      "log": "Windows_Packed_Inventory_2026-10-26.log"
+    },
+    {
+      "task": "Windows_Packed_M1",
+      "exit_code": 0,
+      "log": "Windows_Packed_M1_2026-10-26.log"
+    },
+    {
+      "task": "Windows_Packed_Route",
+      "exit_code": 0,
+      "log": "Windows_Packed_Route_2026-10-26.log"
+    }
+  ]
+}
