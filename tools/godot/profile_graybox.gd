@@ -71,7 +71,7 @@ func finish() -> void:
 			slow_frames.append({"sample_seconds": sample_time, "frame_ms": interval * 1000.0})
 	var report := {
 		"status": "PASS_WITH_LIMITATIONS",
-		"date": "2026-10-23",
+		"date": "2026-10-26",
 		"scene": "Courtyard_Blockout / static spawn / " + ("ENV_BambooLandscape_v002 + " if world.has_node("EnvironmentScenery") else "") + ("ARCH_Courtyard_" + architecture_version + " + NAT_001 v001 + " if world.has_node("Architecture") else "") + ("TEMP articulated proxy" if world.get_node("Player").has_node("TEMPLabel") else "Qinglan v006 user Mixamo motions") + " + ARCH_003 v003",
 		"clue_visuals": "PROP_002 v002 scroll and stone tablet; " + ("PROP_001 v002 incense" if world.has_node("ClueIncense/Visual") else "TEMP incense") if world.has_node("ScrollStand") else "TEMP markers",
 		"device": RenderingServer.get_video_adapter_name(),
@@ -91,6 +91,8 @@ func finish() -> void:
 		"rendered_primitives_max": primitives.max(),
 		"limitations": "Static development scene only; process_frame wall-clock intervals after warmup. Minimum is reciprocal of the single slowest frame. Includes development HUD and desktop overhead. Not final art performance, not a 30fps acceptance result."
 	}
+	if world.has_node("Atmosphere"):
+		report["scene"] += " + Courtyard atmosphere v001 / garden v003 / ridges v004"
 	var hud: Label = world.get_node("UI/DebugHUD")
 	var key := InputEventKey.new()
 	key.keycode = KEY_F3

@@ -1,0 +1,22 @@
+{
+	"average_fps": 134.370944052352,
+	"date": "2026-10-26",
+	"device": "AMD Radeon(TM) Graphics",
+	"frames": 5864,
+	"frames_over_33_33_ms": 1,
+	"limitations": "Actual scripted input route on graphical backend; wall-clock frame intervals. No native human input or long stability acceptance.",
+	"look": "v001 / garden v002 / ridges v004",
+	"maximum_frame_ms": 1068.05,
+	"measured_seconds": 43.640387,
+	"minimum_instantaneous_fps": 0.936285754412247,
+	"p95_frame_ms": 9.389,
+	"p99_frame_ms": 11.137,
+	"peak_draw_calls": 82.0,
+	"renderer": "mobile",
+	"route_passed": true,
+	"viewport": [
+		1280,
+		720
+	],
+	"warmup_seconds": 2
+}

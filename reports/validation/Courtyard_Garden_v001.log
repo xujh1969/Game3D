@@ -1,0 +1,3 @@
+EXPORTED ENV_CourtyardGarden_v001_game.glb 3976412 bytes 10 surfaces
+EXPORTED ENV_DistantMountains_v003_game.glb 1548672 bytes 4 surfaces
+GARDEN_BUILD: {"grass_blades": 11064, "fern_plants": 27, "garden_meshes": 4, "ridge_layers": 4, "collision": "none; decorative patches outside the original route", "source": "tools/python/build_courtyard_garden.py; Blender executable unavailable this run"}

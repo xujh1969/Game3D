@@ -4,9 +4,13 @@ Godot 4.7.2，Windows 单机第三人称宋风山居探索解谜。当前30×30m
 
 当前范围为Codex三维技术实验。按用户2026-10-22明确指示，取消此前三维资产版权/来源/商用许可资料提交与审核门槛，不再据此阻断开发。青岚v006已接入可玩庭院：用户新GLB的41根骨骼及Idle，合并Walking.fbx与Fast Run.fbx为Walk/Run；12899三角面、3张2K恢复贴图，约1.70m。21项动作检查、24项玩法回归和Mobile无传送完整通关通过。交付报告见`reports/validation/CHAR_001_PLAYABLE_v006.md`。
 
+## 庭院画面精修首轮（2026-10-26）
+
+已加入地面多尺度混合与潮土分区、石板色差、成组低草/蕨草/灌木、落叶碎石、木凳陶罐、外围竹丛、清晨侧光、四层远山、薄雾与轻微远景虚化；局部浮尘、香烟和泥地脚步扬尘已接入。采用FXAA、低采样景深及60FPS上限。五机位实际前后图、PCK回归与性能边界见`reports/validation/COURTYARD_LOOK_v001.md`。这是画面第一轮改善，建筑细节、烘焙间接光与启动稳定性仍需推进。
+
 ## Windows 开发包（2026-10-26）
 
-本机已导出`builds/Windows/MountainCourtyard.exe`，双击运行，保持同目录PCK文件一起保存。便携包为`builds/MountainCourtyard_Windows_dev_2026-10-26.zip`，解压后运行；无需安装Godot。重新打包运行`BuildWindows.cmd`，详见`docs/WINDOWS_BUILD.md`。构建文件仅在本机builds目录，未上传Git。
+本机已导出`builds/Windows/MountainCourtyard.exe`，双击运行，保持同目录PCK文件一起保存。最新画面便携包为`builds/MountainCourtyard_Look_v001_Windows_2026-10-26.zip`（之前开发包保留），解压后运行；无需安装Godot。重新打包运行`BuildWindows.cmd`，详见`docs/WINDOWS_BUILD.md`。构建文件仅在本机builds目录，未上传Git。
 
 独立Release EXE已在本机Mobile图形后端启动并实际截图，导出的同一PCK通过24项玩法回归及完整输入路线；后两者由编辑器加载PCK执行，不是独立EXE真人键鼠通关。报告：`reports/validation/WINDOWS_DEV_BUILD_2026-10-26.md`。
 

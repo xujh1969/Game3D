@@ -1,0 +1,26 @@
+{
+  "pck_sha256": "de1614c630b704ec1ef9aaf1858c8750898c9a44718403068aa00a57954c480c",
+  "method": "Editor loads exported PCK; these are not native EXE input tests",
+  "results": [
+    {
+      "task": "Courtyard_Look_v001_Packed_Inventory",
+      "exit_code": 0,
+      "log": "Courtyard_Look_v001_Packed_Inventory_2026-10-26.log"
+    },
+    {
+      "task": "Courtyard_Look_v001_Packed_Look",
+      "exit_code": 0,
+      "log": "Courtyard_Look_v001_Packed_Look_2026-10-26.log"
+    },
+    {
+      "task": "Courtyard_Look_v001_Packed_M1",
+      "exit_code": 0,
+      "log": "Courtyard_Look_v001_Packed_M1_2026-10-26.log"
+    },
+    {
+      "task": "Courtyard_Look_v001_Packed_Route",
+      "exit_code": 0,
+      "log": "Courtyard_Look_v001_Packed_Route_2026-10-26.log"
+    }
+  ]
+}

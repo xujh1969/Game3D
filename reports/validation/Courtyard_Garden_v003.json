@@ -1,0 +1,8 @@
+{
+  "grass_blades": 11657,
+  "fern_plants": 27,
+  "garden_meshes": 7,
+  "ridge_layers": 4,
+  "collision": "none; decorative patches outside the original route",
+  "source": "tools/python/build_courtyard_garden.py; Blender executable unavailable this run"
+}

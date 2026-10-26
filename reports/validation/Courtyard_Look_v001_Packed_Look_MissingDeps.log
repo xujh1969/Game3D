@@ -1,0 +1,54 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Preload file "res://assets/game/courtyard_earth_v001.gdshader" does not exist.
+   at: GDScript::reload (res://scripts/environment/courtyard_atmosphere.gd:3)
+   GDScript backtrace (most recent call first):
+       [0] run (C:/Users/AYOU/Desktop/MountainCourtyard/builds/windows_validation/test_courtyard_look.gd:21)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/game/courtyard_stone_v001.gdshader" does not exist.
+   at: GDScript::reload (res://scripts/environment/courtyard_atmosphere.gd:4)
+   GDScript backtrace (most recent call first):
+       [0] run (C:/Users/AYOU/Desktop/MountainCourtyard/builds/windows_validation/test_courtyard_look.gd:21)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/game/courtyard_foliage_v001.gdshader" does not exist.
+   at: GDScript::reload (res://scripts/environment/courtyard_atmosphere.gd:5)
+   GDScript backtrace (most recent call first):
+       [0] run (C:/Users/AYOU/Desktop/MountainCourtyard/builds/windows_validation/test_courtyard_look.gd:21)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/game/courtyard_ridge_v001.gdshader" does not exist.
+   at: GDScript::reload (res://scripts/environment/courtyard_atmosphere.gd:6)
+   GDScript backtrace (most recent call first):
+       [0] run (C:/Users/AYOU/Desktop/MountainCourtyard/builds/windows_validation/test_courtyard_look.gd:21)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/game/ENV_CourtyardGarden_v003_game.glb" does not exist.
+   at: GDScript::reload (res://scripts/environment/courtyard_atmosphere.gd:7)
+   GDScript backtrace (most recent call first):
+       [0] run (C:/Users/AYOU/Desktop/MountainCourtyard/builds/windows_validation/test_courtyard_look.gd:21)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/game/ENV_DistantMountains_v004_game.glb" does not exist.
+   at: GDScript::reload (res://scripts/environment/courtyard_atmosphere.gd:8)
+   GDScript backtrace (most recent call first):
+       [0] run (C:/Users/AYOU/Desktop/MountainCourtyard/builds/windows_validation/test_courtyard_look.gd:21)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "garden" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/environment/courtyard_atmosphere.gd:17)
+   GDScript backtrace (most recent call first):
+       [0] run (C:/Users/AYOU/Desktop/MountainCourtyard/builds/windows_validation/test_courtyard_look.gd:21)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "ridges" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/environment/courtyard_atmosphere.gd:41)
+   GDScript backtrace (most recent call first):
+       [0] run (C:/Users/AYOU/Desktop/MountainCourtyard/builds/windows_validation/test_courtyard_look.gd:21)
+ERROR: Failed to load script "res://scripts/environment/courtyard_atmosphere.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+   GDScript backtrace (most recent call first):
+       [0] run (C:/Users/AYOU/Desktop/MountainCourtyard/builds/windows_validation/test_courtyard_look.gd:21)
+ERROR: The object does not have any 'meta' values with the key 'look_version'.
+   at: get_meta (core/object/object.cpp:1053)
+   GDScript backtrace (most recent call first):
+       [0] run (C:/Users/AYOU/Desktop/MountainCourtyard/builds/windows_validation/test_courtyard_look.gd:29)
+       [1] frames (C:/Users/AYOU/Desktop/MountainCourtyard/builds/windows_validation/test_courtyard_look.gd:18)
+FAIL: atmosphere initialized
+ERROR: Node not found: "Garden" (relative to "/root/CourtyardBlockout/Atmosphere").
+   at: get_node (scene/main/node.cpp:1975)
+   GDScript backtrace (most recent call first):
+       [0] run (C:/Users/AYOU/Desktop/MountainCourtyard/builds/windows_validation/test_courtyard_look.gd:30)
+       [1] frames (C:/Users/AYOU/Desktop/MountainCourtyard/builds/windows_validation/test_courtyard_look.gd:18)
+SCRIPT ERROR: Cannot call method 'find_children' on a null value.
+   at: run (C:/Users/AYOU/Desktop/MountainCourtyard/builds/windows_validation/test_courtyard_look.gd:30)
+   GDScript backtrace (most recent call first):
+       [0] run (C:/Users/AYOU/Desktop/MountainCourtyard/builds/windows_validation/test_courtyard_look.gd:30)
+       [1] frames (C:/Users/AYOU/Desktop/MountainCourtyard/builds/windows_validation/test_courtyard_look.gd:18)

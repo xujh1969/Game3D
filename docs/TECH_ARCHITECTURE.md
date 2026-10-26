@@ -22,3 +22,13 @@
 - 青岚输入交接为`handoff/requests/ASSET_CHAR_001.md`。`merge_user_qinglan_motion.py`比较41骨骼rest矩阵后采样用户FBX；清除Hips水平位移、保留垂直起伏，保留用户蒙皮权重。新GLB缺UV/PBR，已从保留v002源表面投射恢复三张2K图；结果另存v006 BLEND/GLB。`validate_import.py`排除导入器骨骼显示网格。当前无地形脚底IK或布料模拟。许可提交/审核门槛已取消。
 
 测试入口：`tests/test_game_state.gd`（计数信号）、`tests/test_m1_runtime.gd`（实际场景行为）、`tests/test_playthrough.gd`（无传送输入路线）。详情与边界见 `reports/validation/M1_ACCEPTANCE_2026-10-22.md`。
+
+## 庭院视觉首轮 v001
+
+Atmosphere子节点由scripts/environment/courtyard_atmosphere.gd负责运行时地面/石板材质覆盖、garden v003与ridges v004、六组外围竹丛、植被轻摆、清晨光/雾/远景景深和粒子。原建筑v003 GLB与主通道碰撞不改；旧远山保留但隐藏。新木凳/陶罐在通道外有简化碰撞，植被不增加碰撞。
+
+脚步尘只在脚底落地、速度>.6m/s且abs(x)>1.85、z>-5.1的泥地区域发射；当前是静态庭院分区判断，没有通用地表材质射线系统。近处不启用DOF，远景起点46m/过渡65m/强度.055，BOX低采样。FXAA与60FPS上限经实际对照后采用。
+
+原建筑7网格没有UV2，本轮未烘焙GI；PorchBounce是低能量无阴影补光，不等同间接光求解。Mobile不启用体积雾。新资产源为可复现纯Python GLB生成器，未假称生成BLEND或照片纹理。
+
+Windows导出使用resources选择模式，显式列出四Shader与两个新GLB；真实PCK测试曾发现仅选主场景会漏掉本轮脚本预载资源，不能只凭源码preload推断打包完整。

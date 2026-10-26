@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "file": "builds/Windows/MountainCourtyard.exe",
+      "bytes": 109268480,
+      "sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562"
+    },
+    {
+      "file": "builds/Windows/MountainCourtyard.pck",
+      "bytes": 55805080,
+      "sha256": "de1614c630b704ec1ef9aaf1858c8750898c9a44718403068aa00a57954c480c"
+    },
+    {
+      "file": "builds/Windows/README.md",
+      "bytes": 2152,
+      "sha256": "5879965eeb80bc81cbfc16b17e2ff2086b015592f9ef7abb81e76cd5a1503840"
+    },
+    {
+      "file": "builds/MountainCourtyard_Look_v001_Windows_2026-10-26.zip",
+      "bytes": 93339157,
+      "sha256": "73630014f9acdcf5d5aff05c26d3570be3fa78eb13118dcf1526f531b77dac45"
+    }
+  ],
+  "native_boot_exit": 0,
+  "native_boot_workdir": "builds/Windows",
+  "native_boot_method": "Release EXE graphical MovieMaker frame capture; not performance benchmark",
+  "pck_matches_validation": true
+}

@@ -1,0 +1,31 @@
+{
+	"average_fps": 130.948173567413,
+	"clue_visuals": "PROP_002 v002 scroll and stone tablet; PROP_001 v002 incense",
+	"date": "2026-10-26",
+	"debug_toggle_checked": true,
+	"device": "AMD Radeon(TM) Graphics",
+	"draw_calls_max": 82.0,
+	"focused_frames": 1312,
+	"frames": 1312,
+	"frames_over_33_33_ms": [
+		{
+			"frame_ms": 39.919,
+			"sample_seconds": 0.745518
+		}
+	],
+	"limitations": "Static development scene only; process_frame wall-clock intervals after warmup. Minimum is reciprocal of the single slowest frame. Includes development HUD and desktop overhead. Not final art performance, not a 30fps acceptance result.",
+	"maximum_frame_ms": 39.919,
+	"measured_seconds": 10.019231,
+	"minimum_instantaneous_fps": 25.0507277236404,
+	"p95_frame_ms": 10.928,
+	"p99_frame_ms": 17.265,
+	"rendered_primitives_max": 1070076.0,
+	"renderer": "mobile",
+	"scene": "Courtyard_Blockout / static spawn / ENV_BambooLandscape_v002 + ARCH_Courtyard_v003 + NAT_001 v001 + Qinglan v006 user Mixamo motions + ARCH_003 v003 + Courtyard atmosphere v001 / garden v002 / ridges v004",
+	"status": "PASS_WITH_LIMITATIONS",
+	"viewport": [
+		1280,
+		720
+	],
+	"warmup_seconds": 2
+}

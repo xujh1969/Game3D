@@ -21,3 +21,5 @@
 - ARCH_COURTYARD_SURFACES — PASS_WITH_LIMITATIONS：v003仅替换地面/灰泥为CC0 PBR，源315构件几何不变；交付/未解释长帧记录见SURFACE_UPGRADE_v003.md。
 
 生成提示词原文：`handoff/reference/generated/PROMPTS_v001.md`。对应 IMAGE/ASSET 任务单原路径不变；本索引的状态优先于任务单里的初始待办状态。
+
+- COURTYARD_LOOK_v001 — IN_PROGRESS：用户认可的地面/光照/空气感精修首轮已接入。garden v003、ridges v004与微粒效果、18项效果/24项玩法及PCK通关证据见COURTYARD_LOOK_v001.md；暂无新增用户素材待办，最终观感仍待体验。

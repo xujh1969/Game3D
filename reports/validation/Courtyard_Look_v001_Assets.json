@@ -1,0 +1,46 @@
+[
+  {
+    "file": "ENV_CourtyardGarden_v001_game.glb",
+    "bytes": 3976412,
+    "meshes": 4,
+    "materials": 10,
+    "triangles": 107476,
+    "vertices": 111610,
+    "images": 0
+  },
+  {
+    "file": "ENV_CourtyardGarden_v002_game.glb",
+    "bytes": 4334056,
+    "meshes": 7,
+    "materials": 16,
+    "triangles": 117046,
+    "vertices": 121533,
+    "images": 0
+  },
+  {
+    "file": "ENV_DistantMountains_v003_game.glb",
+    "bytes": 1548672,
+    "meshes": 4,
+    "materials": 4,
+    "triangles": 63360,
+    "vertices": 32708,
+    "images": 0
+  },
+  {
+    "file": "ENV_DistantMountains_v004_game.glb",
+    "bytes": 1548668,
+    "meshes": 4,
+    "materials": 4,
+    "triangles": 63360,
+    "vertices": 32708,
+    "images": 0
+  },
+  {
+    "file": "ENV_CourtyardGarden_v003_game.glb",
+    "bytes": 4162412,
+    "meshes": 7,
+    "materials": 16,
+    "triangles": 112874,
+    "images": 0
+  }
+]

@@ -1,0 +1,267 @@
+{
+	"average_fps": 89.0870549932199,
+	"clue_visuals": "PROP_002 v002 scroll and stone tablet; PROP_001 v002 incense",
+	"date": "2026-10-26",
+	"debug_toggle_checked": true,
+	"device": "AMD Radeon(TM) Graphics",
+	"draw_calls_max": 91.0,
+	"focused_frames": 894,
+	"frames": 894,
+	"frames_over_33_33_ms": [
+		{
+			"frame_ms": 37.278,
+			"sample_seconds": 3.41733
+		},
+		{
+			"frame_ms": 37.971,
+			"sample_seconds": 4.039248
+		},
+		{
+			"frame_ms": 42.425,
+			"sample_seconds": 4.081673
+		},
+		{
+			"frame_ms": 36.627,
+			"sample_seconds": 4.1183
+		},
+		{
+			"frame_ms": 40.458,
+			"sample_seconds": 4.158758
+		},
+		{
+			"frame_ms": 42.953,
+			"sample_seconds": 4.201711
+		},
+		{
+			"frame_ms": 47.344,
+			"sample_seconds": 4.249055
+		},
+		{
+			"frame_ms": 34.872,
+			"sample_seconds": 4.283927
+		},
+		{
+			"frame_ms": 52.438,
+			"sample_seconds": 4.336365
+		},
+		{
+			"frame_ms": 56.075,
+			"sample_seconds": 4.421454
+		},
+		{
+			"frame_ms": 47.425,
+			"sample_seconds": 4.468879
+		},
+		{
+			"frame_ms": 49.428,
+			"sample_seconds": 4.547241
+		},
+		{
+			"frame_ms": 217.76,
+			"sample_seconds": 4.765001
+		},
+		{
+			"frame_ms": 37.252,
+			"sample_seconds": 4.802253
+		},
+		{
+			"frame_ms": 48.329,
+			"sample_seconds": 4.850582
+		},
+		{
+			"frame_ms": 36.741,
+			"sample_seconds": 4.887323
+		},
+		{
+			"frame_ms": 35.091,
+			"sample_seconds": 4.922414
+		},
+		{
+			"frame_ms": 33.435,
+			"sample_seconds": 4.955849
+		},
+		{
+			"frame_ms": 43.186,
+			"sample_seconds": 4.999035
+		},
+		{
+			"frame_ms": 44.82,
+			"sample_seconds": 5.043855
+		},
+		{
+			"frame_ms": 34.054,
+			"sample_seconds": 5.077909
+		},
+		{
+			"frame_ms": 48.071,
+			"sample_seconds": 5.12598
+		},
+		{
+			"frame_ms": 34.328,
+			"sample_seconds": 5.160308
+		},
+		{
+			"frame_ms": 43.246,
+			"sample_seconds": 5.203554
+		},
+		{
+			"frame_ms": 39.195,
+			"sample_seconds": 5.242749
+		},
+		{
+			"frame_ms": 37.641,
+			"sample_seconds": 5.28039
+		},
+		{
+			"frame_ms": 47.037,
+			"sample_seconds": 5.327427
+		},
+		{
+			"frame_ms": 36.615,
+			"sample_seconds": 5.364042
+		},
+		{
+			"frame_ms": 49.749,
+			"sample_seconds": 5.413791
+		},
+		{
+			"frame_ms": 39.737,
+			"sample_seconds": 5.484327
+		},
+		{
+			"frame_ms": 42.321,
+			"sample_seconds": 5.526648
+		},
+		{
+			"frame_ms": 39.776,
+			"sample_seconds": 8.657136
+		},
+		{
+			"frame_ms": 46.337,
+			"sample_seconds": 8.703473
+		},
+		{
+			"frame_ms": 38.896,
+			"sample_seconds": 8.742369
+		},
+		{
+			"frame_ms": 43.467,
+			"sample_seconds": 8.785836
+		},
+		{
+			"frame_ms": 34.937,
+			"sample_seconds": 8.820773
+		},
+		{
+			"frame_ms": 45.841,
+			"sample_seconds": 8.866614
+		},
+		{
+			"frame_ms": 37.146,
+			"sample_seconds": 8.90376
+		},
+		{
+			"frame_ms": 44.434,
+			"sample_seconds": 8.948194
+		},
+		{
+			"frame_ms": 37.915,
+			"sample_seconds": 8.986109
+		},
+		{
+			"frame_ms": 42.115,
+			"sample_seconds": 9.028224
+		},
+		{
+			"frame_ms": 43.496,
+			"sample_seconds": 9.07172
+		},
+		{
+			"frame_ms": 36.722,
+			"sample_seconds": 9.108442
+		},
+		{
+			"frame_ms": 45.809,
+			"sample_seconds": 9.154251
+		},
+		{
+			"frame_ms": 209.701,
+			"sample_seconds": 9.363952
+		},
+		{
+			"frame_ms": 44.936,
+			"sample_seconds": 9.46649
+		},
+		{
+			"frame_ms": 35.373,
+			"sample_seconds": 9.501863
+		},
+		{
+			"frame_ms": 42.027,
+			"sample_seconds": 9.54389
+		},
+		{
+			"frame_ms": 43.745,
+			"sample_seconds": 9.587635
+		},
+		{
+			"frame_ms": 36.24,
+			"sample_seconds": 9.623875
+		},
+		{
+			"frame_ms": 45.471,
+			"sample_seconds": 9.669346
+		},
+		{
+			"frame_ms": 35.138,
+			"sample_seconds": 9.704484
+		},
+		{
+			"frame_ms": 45.615,
+			"sample_seconds": 9.750099
+		},
+		{
+			"frame_ms": 39.239,
+			"sample_seconds": 9.789338
+		},
+		{
+			"frame_ms": 42.136,
+			"sample_seconds": 9.831474
+		},
+		{
+			"frame_ms": 39.921,
+			"sample_seconds": 9.871395
+		},
+		{
+			"frame_ms": 43.292,
+			"sample_seconds": 9.914687
+		},
+		{
+			"frame_ms": 36.895,
+			"sample_seconds": 9.95158199999999
+		},
+		{
+			"frame_ms": 43.471,
+			"sample_seconds": 9.995053
+		},
+		{
+			"frame_ms": 40.075,
+			"sample_seconds": 10.035128
+		}
+	],
+	"limitations": "Static development scene only; process_frame wall-clock intervals after warmup. Minimum is reciprocal of the single slowest frame. Includes development HUD and desktop overhead. Not final art performance, not a 30fps acceptance result.",
+	"maximum_frame_ms": 217.76,
+	"measured_seconds": 10.035128,
+	"minimum_instantaneous_fps": 4.59221160911095,
+	"p95_frame_ms": 37.252,
+	"p99_frame_ms": 47.425,
+	"rendered_primitives_max": 1179392.0,
+	"renderer": "mobile",
+	"scene": "Courtyard_Blockout / static spawn / ENV_BambooLandscape_v002 + ARCH_Courtyard_v003 + NAT_001 v001 + Qinglan v006 user Mixamo motions + ARCH_003 v003 + Courtyard atmosphere v001 / garden v003 / ridges v004",
+	"status": "PASS_WITH_LIMITATIONS",
+	"viewport": [
+		1280,
+		720
+	],
+	"warmup_seconds": 2
+}

@@ -1,0 +1,21 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: atmosphere initialized
+PASS: seven authored garden mesh groups
+PASS: vegetation mesh asset adds no imported physics
+PASS: solid bench and jar have simplified collision outside the route
+PASS: four atmospheric background layers
+PASS: old mountain version retained but hidden
+PASS: earth uses nonrepeating world-scale blend
+PASS: paving has per-stone variation
+PASS: depth and height fog enabled
+PASS: no unsupported Mobile volumetric fog
+PASS: far blur keeps playable court in focus
+PASS: PorchDust is bounded and preserves small particle scale
+PASS: BambooDust is bounded and preserves small particle scale
+PASS: IncenseSmoke is bounded and preserves small particle scale
+PASS: stationary player raises no dust
+PASS: walking on soil emits foot dust
+PASS: walking on paving emits no soil dust
+PASS: all three interaction locations preserved
+COURTYARD_LOOK_RESULT: 18 checks; 0 failures

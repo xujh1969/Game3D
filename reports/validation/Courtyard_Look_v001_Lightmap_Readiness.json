@@ -1,0 +1,41 @@
+{
+	"bake_attempted": false,
+	"meshes": [
+		{
+			"gi_mode": 1,
+			"mesh": "ARCH_001_Timber_Geometry",
+			"uv2_vertices": 0
+		},
+		{
+			"gi_mode": 1,
+			"mesh": "ARCH_002_Roof_Geometry",
+			"uv2_vertices": 0
+		},
+		{
+			"gi_mode": 1,
+			"mesh": "ARCH_004_Masonry_Geometry",
+			"uv2_vertices": 0
+		},
+		{
+			"gi_mode": 1,
+			"mesh": "ARCH_004_Windows_Geometry",
+			"uv2_vertices": 0
+		},
+		{
+			"gi_mode": 1,
+			"mesh": "Boundary_Geometry",
+			"uv2_vertices": 0
+		},
+		{
+			"gi_mode": 1,
+			"mesh": "Ground_Geometry",
+			"uv2_vertices": 0
+		},
+		{
+			"gi_mode": 1,
+			"mesh": "Paving_Geometry",
+			"uv2_vertices": 0
+		}
+	],
+	"reason": "Architecture has no UV2; lightmap atlas and editor GPU bake are a separate asset revision. Current porch fill is explicitly an approximation, not baked GI."
+}
